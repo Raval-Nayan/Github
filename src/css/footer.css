@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.footer-box {
+  background-color: #f8f8f8;
+  height: 100%;
+  z-index: 100;
+}
+
+.text-footer {
+  color: #000000;
+  font-weight: 300;
+  font-family: "Sansation Light";
+}
+
+.footer-flex {
+  display: flex;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.footer-p-text {
+  color: #091f57;
+  font-weight: 400;
+  font-size: 25px;
+  margin-left: -70px;
+  text-align: justify;
+  font-family: "Poppins";
+}
+
+.img-india {
+  width: 50%;
+}
+@media (max-width: 900px) {
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p-div {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .img-india {
+    width: 70%;
+  }
+}
+
+@media (max-width: 650px) {
+  .img-india {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .img-india {
+    width: 100%;
+  }
+}

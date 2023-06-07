@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.img-support {
+  width: 50%;
+  margin-left: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+  font-family: "Sansation Light";
+}
+
+.search-icon {
+  position: absolute;
+  /* top: 0px; */
+  right: 0px;
+  top: 0px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.search-input {
+  position: relative;
+}
+
+.dash-back-color {
+  background-color: #e8eeff !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-size: cover;
+}
+
+.sidebar-box {
+  width: 25vw;
+  height: 100vh;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+  margin-right: 20px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  overflow-y: scroll;
+}
+
+.sidebar-box-order {
+  width: 20vw;
+  height: 100vh;
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+  margin-right: 20px;
+  margin-top: 10px;
+  overflow-y: scroll;
+}
+.search-box {
+  width: 100%;
+  /* height: 20vh; */
+  /* border: 5px solid red; */
+  display: flex;
+  align-content: space-between;
+  margin-bottom: 5px;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  /* border: 2px solid green; */
+}
+
+.search {
+  background: #ffffff;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+  border-radius: 14px;
+  width: 70%;
+  height: 40px;
+  border: none;
+}
+
+.btn-dark {
+  background-color: #71c1ad !important;
+  border: none !important;
+}
+
+.btn-info {
+  background-color: #71c1ad !important;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611) !important;
+  border-radius: 14px !important;
+  color: white !important;
+}
+
+.d-h5-text {
+  font-family: "Sansation Light";
+  color: #000000;
+  font-weight: 300;
+}
+
+.btn-primary {
+  background-color: #3b968a !important;
+  opacity: 0.5 !important;
+  color: black !important;
+}
+
+.btn-danger {
+  background-color: white !important;
+  color: #7d8592 !important;
+  border: none !important;
+}
+
+.imagess {
+  height: 50px;
+  width: 50px;
+}
+
+.uls-style {
+  list-style: none;
+}
+
+ol,
+ul {
+  padding-left: 0rem !important;
+}
+.grid--box {
+  margin-top: -10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  background-color: white;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+  border-radius: 24px;
+  width: 90%;
+  height: 380px;
+}
+
+.boxs--style {
+  background-color: rgba(225, 255, 251, 0.75);
+  box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
+  border-radius: 24px;
+  width: 85%;
+  height: 70%;
+  margin: 10px 10px;
+}
+
+.text-section {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #091f57;
+}
+::placeholder {
+  font-family: "Nunito Sans";
+  color: #7d8592;
+}
+
+@media (min-width: 1400px) {
+  .container-fluid {
+    width: 1200px !important;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .grid--box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  .dash-back-color {
+    background-color: white !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .grid--box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+  }
+  .search-box {
+    width: 100%;
+    /* height: 20vh; */
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid--box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  .d-h5-text {
+    font-size: 13px;
+  }
+
+  .li-text {
+    display: none;
+  }
+
+  .btn-primary:hover {
+    .li-text {
+      display: inline-block;
+      z-index: 100;
+    }
+  }
+
+  .btn-danger:hover {
+    .li-text {
+      display: inline-block;
+    }
+  }
+
+  .li-text {
+    font-size: 15px;
+  }
+
+  .sidebar-box {
+    width: 25%;
+    height: 100%;
+  }
+}

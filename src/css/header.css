@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn-warning {
+  position: fixed !important;
+  right: 2rem;
+}
+.logo-text {
+  font-family: "Sansation Light";
+}
+
+.border-bottom-3 {
+  position: sticky !important;
+  top: 0px !important;
+
+  background-color: white !important;
+  z-index: 10;
+}
+
+.button-header {
+  background-color: #3b968a;
+  border-radius: 10px;
+  border: none;
+  width: 50%;
+  height: 40px;
+  text-align: center;
+}
+
+.link-text {
+  color: black !important;
+}
+.container-fluid {
+  background-color: white !important;
+}
+
+.back-color {
+  background-color: linear-gradient(
+    94.27deg,
+    rgba(59, 150, 138, 0.5) 0.45%,
+
+    rgba(59, 150, 138, 0.5) 97.47%
+  );
+}
+
+.care-fore-h {
+  font-family: "Sansation Light ";
+  font-weight: 400 !important;
+  color: #000000 !important;
+  letter-spacing: 0.05em !important;
+}
+

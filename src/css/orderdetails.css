@@ -1,0 +1,56 @@
+.order-details-box::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+.order-details-box::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.38);
+  border-radius: 5px;
+}
+
+.oreder-order-details-box::-webkit-scrollbar {
+  width: 6px; /* width of the entire scrollbar */
+}
+
+.order-details-box {
+  background-color: #ffffff;
+  box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
+  border-radius: 24px;
+
+  height: 65vh;
+  overflow: scroll;
+}
+
+.details1 {
+  margin: auto;
+  background-color: rgba(225, 255, 251, 0.75);
+  box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
+  border-radius: 24px;
+  width: 95%;
+}
+
+li {
+  list-style: none;
+  color: #0c1947;
+  font-size: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.btn-white {
+  border: 1px solid black !important;
+  width: 90%;
+}
+
+.btn-secondary {
+  width: 90% !important;
+}
+
+.highlight-details {
+  font-family: "Poppins";
+
+  font-weight: 700;
+
+  /* identical to box height */
+
+  color: #0c1947;
+}
