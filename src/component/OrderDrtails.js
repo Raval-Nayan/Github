@@ -33,11 +33,11 @@ const OrderDetails = () => {
               fontFamily: "Poppins",
             }}
           >
-            Order Details
+            Add Employee
           </h2>
           {/* div grid banavo */}
 
-          <div className="order-details-box">
+          <div className="order-details-box ">
             <div className="row mt-1">
               <div className=" pt-3">
                 <div className="col-md-12 d-flex details1  ">
