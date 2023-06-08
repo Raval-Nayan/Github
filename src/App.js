@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Dashbord from "./Dashbord";
 import Order from "./Order";
 import AddEmployee from "./component/AddEmployee";
+import EmpProfile from "./component/EmpProfile";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import OrderDetails from "./component/OrderDrtails";
@@ -35,8 +36,9 @@ function App() {
           <Route path="/order" element={<Order></Order>}></Route>
           <Route path="/orderdetails" element={<OrderDetails />}></Route>
           <Route path="/orderproduct" element={<OrderProduct />}></Route>
-          <Route path="/employee" element={<Employees></Employees>}></Route>
-          <Route path="/addemployee" element={<AddEmployee></AddEmployee>}></Route>
+          <Route path="/employee" element={<Employees />}></Route>
+          <Route path="/addemployee" element={<AddEmployee />}></Route>
+          <Route path="/empprofile" element={<EmpProfile />}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

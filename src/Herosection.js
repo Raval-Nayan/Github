@@ -2,6 +2,7 @@ import React from "react";
 import "./css/herosection.css";
 import img from "./img/image 13.png";
 import img1 from "./img/Develop Your Business with Care For Each.png";
+import { NavLink } from "react-router-dom";
 
 // import img2 from "./img/image 20.png";
 
@@ -46,9 +47,11 @@ const Herosection = () => {
               ></input>
             </div>
             <div className="mb-2">
-              <button className="btn btn-primary mt-2 w-100 mx-2 my-2">
-                Log in
-              </button>
+              <NavLink to="/dashbord">
+                <button className="btn btn-primary mt-2 w-100 mx-2 my-2">
+                  Log in
+                </button>
+              </NavLink>
             </div>
           </div>
         </div>

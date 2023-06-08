@@ -17,7 +17,7 @@ function Nav1() {
           <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
           <Navbar.Collapse id="navbarNavAltMarkup">
             <Nav className="navbar-nav ms-auto align-items-center">
-              <NavLink to="/dashbord" className="me-3  ">
+              <NavLink to="#" className="me-3  ">
                 <span className="li-text" style={{ display: "block" }}>
                   Home
                 </span>

@@ -4,9 +4,10 @@ import SearchBox from "../component/SearchBox";
 import SiderBox from "../component/SiderBox";
 import "../css/orderdetails.css";
 import user from "../img/user.png";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../css/dashbord.css";
 import "../css/order.css";
+// import { NavLink } from "react-bootstrap";
 
 const AddEmployee = () => {
   return (
@@ -99,14 +100,16 @@ const AddEmployee = () => {
                     className="form-control mt-2 "
                     placeholder="Re-password"
                   ></input>
-                  <button
-                    className="btn btn-primary mt-3"
-                    style={{ color: "white " }}
-                  >
-                    <span style={{ color: "white", fontFamily: "Poppins" }}>
-                      Add Employee
-                    </span>
-                  </button>
+                  <NavLink to="/empprofile">
+                    <button
+                      className="btn btn-primary mt-3"
+                      style={{ color: "white " }}
+                    >
+                      <span style={{ color: "white", fontFamily: "Poppins" }}>
+                        Add Employee
+                      </span>
+                    </button>
+                  </NavLink>
                 </div>
               </div>
             </div>
