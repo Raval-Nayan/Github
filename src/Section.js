@@ -39,14 +39,16 @@ const Section = () => {
           </div>
 
           {/* box3 */}
-          <NavLink to="/employee">
+          
             <div className="boxs-style">
+            <NavLink to="/employee">
               <div className="d-flex">
                 <img className="me-2 img-fluid" src={img3} alt="nayan"></img>
                 <h5 className="mt-4 text-section">Employee</h5>
               </div>
+              </NavLink>
             </div>
-          </NavLink>
+          
 
           {/* box-4 */}
           <div className="boxs-style">

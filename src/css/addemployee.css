@@ -45,12 +45,13 @@
   .addemp-grid {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     width: 100%;
   }
 
   .phone-design {
     margin: auto;
     margin-top: 10px;
+    width: 100%;
   }
 }

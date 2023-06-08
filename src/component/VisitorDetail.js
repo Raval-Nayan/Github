@@ -8,8 +8,8 @@ import user from "../img/user.png";
 import "../css/dashbord.css";
 import "../css/order.css";
 import "../css/empprofile.css";
-import { NavLink } from "react-router-dom";
-const EmpProfile = () => {
+
+const VisitorDetails = () => {
   return (
     <>
       <div className="container-fluid dash-back-color d-flex">
@@ -45,7 +45,7 @@ const EmpProfile = () => {
                     </div>
                     <input
                       type="text"
-                      className="inputdesign color-input "
+                      className="inputdesign color-input mt-3 "
                       placeholder="Employee Name"
                     ></input>
 
@@ -62,7 +62,7 @@ const EmpProfile = () => {
                     ></input>
                   </div>
                   {/* part 2 */}
-                  <div className="phone-design   d-flex flex-column me-auto m-auto  pad ">
+                  <div className="phone-design   d-flex flex-column me-auto  pad ">
                     <input
                       type="text"
                       placeholder="Joining Date"
@@ -78,27 +78,12 @@ const EmpProfile = () => {
                       placeholder="Contact Number"
                       className="inputdesign color-input mt-2"
                     ></input>
-                    <input
-                      type="text"
-                      placeholder="Address"
-                      className="inputdesign color-input mt-2"
-                    ></input>
-                    <input
-                      type="text"
-                      className="inputdesign color-input mt-2 "
-                      placeholder="Education"
-                    ></input>
-
-                    <NavLink className="dlt-btn">
-                      <button
-                        className="btn btn-primary mt-3 w-100"
-                        style={{ color: "white " }}
-                      >
-                        <span style={{ color: "white", fontFamily: "Poppins" }}>
-                          Delete Profile
-                        </span>
-                      </button>
-                    </NavLink>
+                    <textarea
+                      class="form-control mt-2"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                      placeholder="Discussion"
+                    ></textarea>
                   </div>
                 </div>
               </div>
@@ -110,4 +95,4 @@ const EmpProfile = () => {
   );
 };
 
-export default EmpProfile;
+export default VisitorDetails;

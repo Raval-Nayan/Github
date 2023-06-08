@@ -89,7 +89,7 @@ li {
 @media (max-width: 500px) {
   .sidebar-boxs {
     width: 25vw !important;
-    height: 110vh !important;
+    height: 120vh !important;
     overflow: none !important;
   }
 

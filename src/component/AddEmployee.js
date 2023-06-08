@@ -102,7 +102,7 @@ const AddEmployee = () => {
                   ></input>
                   <NavLink to="/empprofile">
                     <button
-                      className="btn btn-primary mt-3"
+                      className="btn btn-primary mt-3 w-100"
                       style={{ color: "white " }}
                     >
                       <span style={{ color: "white", fontFamily: "Poppins" }}>

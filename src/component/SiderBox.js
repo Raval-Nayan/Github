@@ -49,7 +49,7 @@ const SiderBox = () => {
 
           {/* btn4 */}
           <li className="uls-style gx-0">
-            <NavLink>
+            <NavLink to="/visitor">
               <button className="btn btn-danger w-100  d-md-flex">
                 <i className="fa-solid fa-plane-up mt-1"></i>
                 <span className="li-text ms-md-4">Visitor</span>
