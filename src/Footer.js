@@ -9,13 +9,17 @@ const Footer = () => {
       <div className="container-fluid gx-0 ">
         <div className="footer-box text-center">
           <h5 className="text-footer pt-5">MISSION CARE FOR EACH</h5>
-          <img className="mt-2 img-fluid mb-4" src={img} alt="nayan"></img>
+          <img
+            className="mt-2 img-fluid img-texts mb-4"
+            src={img}
+            alt="nayan"
+          ></img>
 
           <div className="footer-grid mx-5 mt-3 text-center ">
-            <div className="h-30">
+            <div className="h-30 img-tetx">
               {" "}
               <img
-                className="img-fluid img-india  "
+                className="img-fluid  img-india  "
                 src={img1}
                 alt="nayan"
               ></img>

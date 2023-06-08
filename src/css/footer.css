@@ -61,6 +61,14 @@
 
 @media (max-width: 550px) {
   .img-india {
-    width: 100%;
+    width: 85%;
+  }
+
+  .img-texts {
+    width: 90% !important;
+  }
+
+  .footer-p-text {
+    font-size: 12px;
   }
 }
