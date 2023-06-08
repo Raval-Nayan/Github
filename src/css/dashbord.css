@@ -71,7 +71,7 @@ p {
 }
 
 .box {
-  width: 100%;
+  width: 80%;
   height: 100vh;
   /* border: 2px solid green; */
 }
@@ -139,15 +139,17 @@ ul {
   border-radius: 24px;
   width: 90%;
   height: 380px;
+  overflow-y: scroll;
 }
 
 .boxs--style {
   background-color: rgba(225, 255, 251, 0.75);
   box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
   border-radius: 24px;
-  width: 85%;
-  height: 70%;
-  margin: 10px 10px;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  padding: 10px;
 }
 
 .text-section {
@@ -244,5 +246,10 @@ ul {
   .sidebar-box {
     width: 25%;
     height: 100%;
+  }
+
+  .boxs--style {
+    width: 80%;
+    height: 80%;
   }
 }

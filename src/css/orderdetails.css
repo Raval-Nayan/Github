@@ -1,5 +1,5 @@
 .order-details-box::-webkit-scrollbar {
-  width: 6px; /* width of the entire scrollbar */
+  width: 3px; /* width of the entire scrollbar */
 }
 
 .order-details-box::-webkit-scrollbar-thumb {
@@ -15,9 +15,16 @@
   background-color: #ffffff;
   box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
   border-radius: 24px;
-  width: 95%;
+  width: 115%;
   height: 65vh;
-  overflow: scroll;
+  overflow-y: auto !important;
+  padding: 10px;
+  margin-left: 20px;
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  padding: 5px;
 }
 
 .details1 {
@@ -25,7 +32,8 @@
   background-color: rgba(225, 255, 251, 0.75);
   box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
   border-radius: 24px;
-  width: 95%;
+  width: 80%;
+  padding: 10px;
 }
 
 li {
@@ -53,4 +61,39 @@ li {
   /* identical to box height */
 
   color: #0c1947;
+}
+.details1 {
+  width: 100%;
+}
+
+.user-name-width {
+  width: 58%;
+}
+@media (max-width: 900px) {
+}
+
+@media (max-width: 500px) {
+  .order-details-box {
+    width: 80vw;
+    margin: 0px;
+  }
+  .details1 {
+    width: 100%;
+  }
+
+  .order-details-box {
+    overflow-y: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .sidebar-boxs {
+    width: 25vw !important;
+    height: 100vh !important;
+    overflow: none !important;
+  }
+
+  .item {
+    width: 75%;
+  }
 }

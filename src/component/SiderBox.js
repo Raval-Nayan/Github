@@ -3,13 +3,14 @@ import React from "react";
 import dimg from "../img/dashbord/image 13 (1).png";
 
 import support from "../img/dashbord/8e11c359-67b0-4692-a5e5-c57a74debab3.jpg";
-import "../css/order.css";
+
 import { NavLink } from "react-router-dom";
+import "../css/order.css";
 
 const SiderBox = () => {
   return (
     <>
-      <div className="sidebar-boxs  d-flex flex-column " id="sidebar">
+      <div className="sidebar-boxs  d-flex flex-column m-0">
         <div className="dash-img d-md-flex pt-3 ">
           <img className="img-fluid imgd h-50" src={dimg} alt="nayan"></img>
           <h4 className="d-h5-text ms-3  me-3 mb-2">CARE FOR EACH</h4>

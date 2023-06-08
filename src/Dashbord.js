@@ -49,7 +49,7 @@ const Dashbord = () => {
               {/* box1 */}
               <div className="boxs--style ">
                 <NavLink to="/order">
-                  <div className="ms-5 ">
+                  <div className="text-center ">
                     <img className=" imagess" src={img1} alt="nayan"></img>
                     <h5 className=" text-section ms-2">Order</h5>
                   </div>
@@ -58,7 +58,7 @@ const Dashbord = () => {
 
               {/* box2 */}
               <div className="boxs--style">
-                <div className="ms-5">
+                <div className="text-center">
                   <img className="  imagess" src={img2} alt="nayan"></img>
                   <h5 className=" text-section">Attendance</h5>
                 </div>
@@ -66,7 +66,7 @@ const Dashbord = () => {
 
               {/* box3 */}
               <div className="boxs--style">
-                <div className="ms-5 ">
+                <div className="text-center ">
                   <img className="me-2  imagess" src={img3} alt="nayan"></img>
                   <h5 className="ms4 text-section">Employee</h5>
                 </div>
@@ -76,7 +76,7 @@ const Dashbord = () => {
               <div className="boxs--style">
                 <div className="text-center">
                   <img className="imagess" src={img4} alt="nayan"></img>
-                  <h5 className="ms-4 text-section">Visitor</h5>
+                  <h5 className="ms-2 text-section">Visitor</h5>
                 </div>
               </div>
 
@@ -122,24 +122,24 @@ const Dashbord = () => {
 
               {/* box10 */}
               <div className="boxs--style">
-                <div className="d-flex flex-column text-center">
-                  <img className=" ms-5 imagess" src={img10} alt="nayan"></img>
+                <div className=" text-center">
+                  <img className="  imagess" src={img10} alt="nayan"></img>
                   <h5 className=" text-section">Message</h5>
                 </div>
               </div>
 
               {/* box11 */}
               <div className="boxs--style">
-                <div className="d-flex flex-column text-center">
-                  <img className=" ms-5 imagess" src={img11} alt="nayan"></img>
+                <div className=" text-center">
+                  <img className="  imagess" src={img11} alt="nayan"></img>
                   <h5 className=" text-section">Complaint</h5>
                 </div>
               </div>
 
               {/* box12 */}
               <div className="boxs--style">
-                <div className="d-flex flex-column text-center">
-                  <img className="  imagess ms-5" src={img12} alt="nayan"></img>
+                <div className=" text-center">
+                  <img className="  imagess " src={img12} alt="nayan"></img>
                   <h5 className=" text-section text-center">Report</h5>
                 </div>
               </div>

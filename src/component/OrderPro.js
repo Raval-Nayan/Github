@@ -5,7 +5,7 @@ import image from "../img/image 11.png";
 const OrderPro = () => {
   return (
     <div className="grid-product">
-      <div className="white d-flex m-3 p-3">
+      <div className="white d-md-flex m-3 p-1">
         <div className="me-3">
           <img className="img-fluid img--1" src={image} alt="nayan"></img>
         </div>
@@ -20,7 +20,7 @@ const OrderPro = () => {
           </ul>
         </div>
       </div>
-      <div className="white d-flex m-3 p-3">
+      <div className="white d-md-flex m-3 p-1">
         <div className="me-3">
           <img className="img-fluid img--1" src={image} alt="nayan"></img>
         </div>
@@ -35,7 +35,7 @@ const OrderPro = () => {
           </ul>
         </div>
       </div>
-      <div className="white d-flex m-3 p-3">
+      <div className="white d-md-flex m-3 p-1">
         <div className="me-3">
           <img className="img-fluid img--1" src={image} alt="nayan"></img>
         </div>
