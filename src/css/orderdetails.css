@@ -93,18 +93,10 @@ li {
   }
 }
 
-@media (max-width: 500px) {
-  /* .order-details-box {
-    width: 80vw;
-    margin: 0px;
-  } */
-  /* .details1 {
-    width: 100%;
-  } */
-
-  /* .order-details-box {
-    overflow-y: none !important;
-  } */
+@media (max-width: 580px) {
+  .details1 {
+    text-align: center;
+  }
 }
 /* 
 @media (max-width: 500px) {
