@@ -15,7 +15,7 @@ const EmpProfile = () => {
       <div className="container-fluid dash-back-color d-flex">
         {/* display flex , flex column */}
         <SiderBox></SiderBox>
-        <div className="d-flex flex-column box">
+        <div className="d-flex flex-column main">
           <SearchBox></SearchBox>
           <div>
             <small
@@ -37,8 +37,8 @@ const EmpProfile = () => {
             {/* div grid banavo */}
 
             <div className="color-white">
-              <div className=" d-flex flex column  mt-2">
-                <div className="part-2">
+              <div className="row part-2 ">
+                <div className="col-md-5 col-12">
                   <div className="d-flex flex-column  ">
                     <div className="text-center">
                       <img className="img-fluid " src={user} alt="nayan"></img>
@@ -61,7 +61,8 @@ const EmpProfile = () => {
                       className="inputdesign color-input mt-2"
                     ></input>
                   </div>
-                  {/* part 2 */}
+                </div>
+                <div className="col-md-5 col-12 mt-lg-5">
                   <div className="phone-design   d-flex flex-column me-auto m-auto  pad ">
                     <input
                       type="text"
@@ -88,18 +89,19 @@ const EmpProfile = () => {
                       className="inputdesign color-input mt-2 "
                       placeholder="Education"
                     ></input>
-
-                    <NavLink className="dlt-btn">
-                      <button
-                        className="btn btn-primary mt-3 w-100"
-                        style={{ color: "white " }}
-                      >
-                        <span style={{ color: "white", fontFamily: "Poppins" }}>
-                          Delete Profile
-                        </span>
-                      </button>
-                    </NavLink>
                   </div>
+                </div>
+                <div className="col-md-3 col-9">
+                  <NavLink className="dlt-btn">
+                    <button
+                      className="btn btn-sucess mt-3 w-100"
+                      style={{ color: "white " }}
+                    >
+                      <span style={{ color: "white", fontFamily: "Poppins" }}>
+                        Delete Profile
+                      </span>
+                    </button>
+                  </NavLink>
                 </div>
               </div>
             </div>

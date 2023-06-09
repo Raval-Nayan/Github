@@ -16,7 +16,7 @@ const Footer = () => {
           ></img>
 
           <div className="footer-grid mx-5 mt-3 text-center ">
-            <div className="h-30 img-tetx">
+            <div className=" img-tetx">
               {" "}
               <img
                 className="img-fluid  img-india  "

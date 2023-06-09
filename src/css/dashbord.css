@@ -3,10 +3,10 @@
   padding: 0px;
 }
 
-.img-support {
+/* .img-support {
   width: 50%;
   margin-left: 10px;
-}
+} */
 
 h1,
 h2,
@@ -34,32 +34,32 @@ p {
 
 .dash-back-color {
   background-color: #e8eeff !important;
-  width: 100% !important;
-  height: 100% !important;
+  /* width: 100% !important;
+  height: 100% !important; */
   background-size: cover;
 }
 
 .sidebar-box {
-  width: 25vw;
-  height: 100vh;
+  /* width: 25vw;
+  height: 100vh; */
   background-color: #ffffff;
   border-radius: 24px;
   box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
   margin-right: 20px;
   margin-top: 10px;
-  overflow-y: scroll;
-  overflow-y: scroll;
+  /* overflow-y: scroll;
+  overflow-y: scroll; */
 }
 
 .sidebar-box-order {
-  width: 20vw;
-  height: 100vh;
+  /* width: 20vw;
+  height: 100vh; */
   background-color: #ffffff;
   border-radius: 24px;
   box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
   margin-right: 20px;
   margin-top: 10px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 .search-box {
   width: 100%;
@@ -68,12 +68,6 @@ p {
   display: flex;
   align-content: space-between;
   margin-bottom: 5px;
-}
-
-.box {
-  width: 80%;
-  height: 100vh;
-  /* border: 2px solid green; */
 }
 
 .search {
@@ -137,17 +131,17 @@ ul {
   background-color: white;
   box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
   border-radius: 24px;
-  width: 90%;
-  height: 380px;
-  overflow-y: scroll;
+  /* width: 90%; */
+  /* height: 380px; */
+  /* overflow-y: scroll; */
 }
 
 .boxs--style {
   background-color: rgba(225, 255, 251, 0.75);
   box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
   border-radius: 24px;
-  width: 90%;
-  height: 80%;
+  /* width: 90%;
+  height: 80%; */
   margin: auto;
   padding: 10px;
 }
@@ -169,7 +163,7 @@ ul {
 
 @media (min-width: 1400px) {
   .container-fluid {
-    width: 1200px !important;
+    /* width: 1200px !important; */
     margin: 0px;
     padding: 0px;
   }
@@ -243,19 +237,19 @@ ul {
     font-size: 15px;
   }
 
-  .sidebar-box {
+  /* .sidebar-box {
     width: 25%;
     height: 100%;
-  }
+  } */
 
-  .boxs--style {
+  /* .boxs--style {
     width: 80%;
     height: 80%;
-  }
+  } */
 }
 
 @media (max-width: 400px) {
-  .btn-info {
+  /* .btn-info {
     width: 50% !important;
-  }
+  } */
 }

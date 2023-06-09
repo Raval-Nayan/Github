@@ -18,7 +18,7 @@ const OrderProduct = () => {
     <div className="container-fluid dash-back-color d-flex">
       <SiderBox></SiderBox>
 
-      <div className="d-flex flex-column box">
+      <div className="d-flex flex-column main">
         <SearchBox></SearchBox>
         <div>
           <small
@@ -38,24 +38,6 @@ const OrderProduct = () => {
             >
               Order Product Detail
             </h2>
-            <div className="d-flex">
-              {/* btn 1  */}
-
-              <select className=" select-box">
-                <option className="option-box">All</option>
-                <option className="option-box">This Year</option>
-                <option className="option-box">This Month</option>
-                <option className="option-box">Today</option>
-              </select>
-
-              <select className="ms-3 select-box">
-                <option className="option-box">abc</option>
-                <option className="option-box">def</option>
-                <option className="option-box">ghi</option>
-                <option className="option-box">jkl</option>
-                <option className="option-box">mno</option>
-              </select>
-            </div>
           </div>
           {/* grid box banavo ahi khali div ma */}
 

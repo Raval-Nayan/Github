@@ -29,29 +29,31 @@ const Herosection = () => {
       </div>
 
       <div className="container-fluid gx-0">
-        <div className="img---box border w-100">
+        <div className="img---box  w-100">
           <div className="d-flex flex-column login----box text-center p-3 mx-3">
-            <div className="text-center">
-              <h2>Login</h2>
-            </div>
-            <div className="d-flex flex-column mt-2 ">
-              <input
-                className="mt-2 form-control mx-2 mt-2 "
-                type="email mt-2"
-                placeholder="Email Id"
-              ></input>
-              <input
-                className="mt-2 form-control mx-2 my-2"
-                type="password mt-2"
-                placeholder="Password"
-              ></input>
-            </div>
-            <div className="mb-2">
-              <NavLink to="/dashbord">
-                <button className="btn btn-primary mt-2 w-100 mx-2 my-2">
-                  Log in
-                </button>
-              </NavLink>
+            <div>
+              <div className="text-center">
+                <h2>Login</h2>
+              </div>
+              <div className="d-flex flex-column mt-2 ">
+                <input
+                  className="mt-2 form-control mx-2 mt-2 "
+                  type="email mt-2"
+                  placeholder="Email Id"
+                ></input>
+                <input
+                  className="mt-2 form-control mx-2 my-2"
+                  type="password mt-2"
+                  placeholder="Password"
+                ></input>
+              </div>
+              <div className="mb-2">
+                <NavLink to="/dashbord">
+                  <button className="btn btn-primary mt-2 w-100 mx-2 my-2">
+                    Log in
+                  </button>
+                </NavLink>
+              </div>
             </div>
           </div>
         </div>

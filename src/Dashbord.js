@@ -26,7 +26,7 @@ const Dashbord = () => {
       <div className="container-fluid dash-back-color d-flex">
         {/* display flex , flex column */}
         <SiderBox></SiderBox>
-        <div className="d-flex flex-column box">
+        <div className="d-flex flex-column main">
           <SearchBox></SearchBox>
           <div>
             <small

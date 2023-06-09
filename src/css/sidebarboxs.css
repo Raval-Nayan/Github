@@ -1,13 +1,13 @@
-#sidebar {
+/* #sidebar {
   overflow-y: scroll;
   width: 30%;
   height: 100vh;
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   #sidebar {
     overflow-y: none !important;
     width: 30%;
     height: 100vh;
   }
-}
+} */

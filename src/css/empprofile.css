@@ -5,29 +5,23 @@
 }
 
 .part-2 {
-  display: flex;
   background-color: rgba(225, 255, 251, 0.75);
   box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
   border-radius: 24px;
-  margin: auto;
   padding: 10px;
-  width: 60%;
-  overflow-y: scroll;
-}
-
-.pad { 
-  padding:10px;
-
+  /* width: 60%; */
+  /* overflow-y: scroll; */
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 900px) {
   .part-2 {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
   }
-  .pad { 
-    padding: 0px
-  
+  .pad {
+    padding: 0px;
   }
 }

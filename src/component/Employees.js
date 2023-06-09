@@ -17,7 +17,7 @@ const Employees = () => {
     <div className="container-fluid dash-back-color d-flex">
       {/* display flex , flex column */}
       <SiderBox></SiderBox>
-      <div className="d-flex flex-column box">
+      <div className="d-flex flex-column main">
         <SearchBox></SearchBox>
         <div>
           <small
@@ -40,10 +40,8 @@ const Employees = () => {
           <div className="postion">
             <div className="back-----color ">
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -51,11 +49,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -64,10 +62,8 @@ const Employees = () => {
 
               {/* box2 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -75,11 +71,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -87,10 +83,8 @@ const Employees = () => {
               </div>
               {/* box-3 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -98,11 +92,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -110,10 +104,8 @@ const Employees = () => {
               </div>
               {/* box-4 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -121,11 +113,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -133,10 +125,8 @@ const Employees = () => {
               </div>
               {/* box5 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -144,11 +134,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -157,10 +147,8 @@ const Employees = () => {
               {/* box 6 */}
 
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -168,11 +156,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -181,10 +169,8 @@ const Employees = () => {
 
               {/* box7 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -192,11 +178,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -204,10 +190,8 @@ const Employees = () => {
               </div>
               {/* box8 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -215,11 +199,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -228,10 +212,8 @@ const Employees = () => {
 
               {/* box 9 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -239,11 +221,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -251,10 +233,8 @@ const Employees = () => {
               </div>
               {/* box10 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -262,11 +242,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -275,10 +255,8 @@ const Employees = () => {
 
               {/* box11 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -286,11 +264,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -299,10 +277,8 @@ const Employees = () => {
 
               {/* box12 */}
               <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
-                </div>
+                <img className="img-fluid" src={user} alt="nayan"></img>
+
                 <div className="tetx-----div">
                   <ul>
                     <li>Person Name : abc</li>
@@ -310,11 +286,11 @@ const Employees = () => {
                     <li>Email : asyd@ldsfh.com</li>
                     <li>Contact No : +918743839834</li>
                   </ul>
-                  <div className="d-flex">
-                    <button className="button-modify">
+                  <div className="d-sm-flex  ">
+                    <button className="button-modify w-100">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
-                    <button className="button-modify">
+                    <button className="button-modify w-100 mt-2 mt-sm-0">
                       <i class="fa-solid fa-message"></i> <span>Message</span>
                     </button>
                   </div>
@@ -323,7 +299,7 @@ const Employees = () => {
             </div>
 
             <NavLink to="/addemployee">
-              <button className="add-button " style={{ color: "white" }}>
+              <button className="add-button mt-2" style={{ color: "white" }}>
                 {" "}
                 <span className="text "> Add Employee +</span>
               </button>
