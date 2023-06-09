@@ -169,10 +169,10 @@ ul {
   color: #7d8592;
 }
 
-.col-12 {
+/* .col-12 {
   width: 99% !important;
   margin: 10px !important;
-}
+} */
 
 @media (min-width: 1400px) {
   .container-fluid {
