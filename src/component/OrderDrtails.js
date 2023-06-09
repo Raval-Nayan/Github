@@ -270,7 +270,7 @@ const OrderDetails = () => {
                 </div>
               </div>
               <div className="col-lg-2 col-sm-12 p-0">
-                <div className=" ms-2 d-lg-flex flex-md-column ">
+                <div className=" ms-2 d-lg-flex flex-md-column  button-column">
                   {" "}
                   <NavLink>
                     <button className="btn btn-secondary mt-2  me-1">

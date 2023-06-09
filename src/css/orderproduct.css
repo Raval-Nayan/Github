@@ -43,3 +43,10 @@
     gap: 0px;
   }
 }
+
+@media (max-width: 365px) {
+  .btn-info {
+    width: 50% !important;
+    padding: 3px !important;
+  }
+}
