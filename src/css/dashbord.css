@@ -165,13 +165,8 @@ ul {
   color: #091f57;
 }
 ::placeholder {
-  
   font-family: "Nunito Sans";
   color: #7d8592;
-}
-
-.col-12 {
-  width: 99vw !important;
 }
 
 @media (min-width: 1400px) {
