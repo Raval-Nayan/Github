@@ -100,71 +100,9 @@ const OrderDetails = () => {
               </div>
             </div>
 
-            {/* box2 */}
-            <div className="row details1 mt-2 ">
-              <div className="col-lg-1 col-sm-5 p-0">
-                <img className="img-fluid" src={user} alt="nayan"></img>
-              </div>
-              <div className="col-lg-3 col-sm-6 p-0">
-                {" "}
-                <ul className=" ">
-                  <li className="">Name : abc</li>
-                  <li>Company Name : asdjsht</li>
-                  <li>Email : asyd@ldsfh.com</li>
-                  <li>Contact No : +918743839834</li>
-                  <li>Date : 01-03-2023</li>
-                  <li>Grand Total : ₹ 9874</li>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-sm-5 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Employee Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Name : Himanshu Anand</li>
-                    <li>Designation : Web Developer</li>
-                    <li>Email : hv7460@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Payment Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Date : 05-03-2023</li>
-                    <li>Payment type : Cash</li>
-                    <li>Paid Amount : ₹ 49309</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-2 col-sm-12 p-0">
-                <div className=" ms-2 d-lg-flex flex-md-column ">
-                  {" "}
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
-                      Grand Total : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
-                      Paid Amount : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink to="/orderproduct">
-                    <button className="btn btn-white mt-2 me-1 ">
-                      View Product
-                    </button>
-                  </NavLink>
-                </div>
-              </div>
-            </div>
-            {/* box3 */}
-            <div className="row details1 mt-2 ">
+            {/* box 2 */}
+
+            <div className="row details1 ">
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
@@ -227,8 +165,8 @@ const OrderDetails = () => {
               </div>
             </div>
 
-            {/* box4 */}
-            <div className="row details1 mt-2 ">
+            {/* box 3 */}
+            <div className="row details1 ">
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
@@ -270,7 +208,71 @@ const OrderDetails = () => {
                 </div>
               </div>
               <div className="col-lg-2 col-sm-12 p-0">
-                <div className=" ms-2 d-lg-flex flex-md-column  button-column">
+                <div className=" ms-2 d-lg-flex flex-md-column ">
+                  {" "}
+                  <NavLink>
+                    <button className="btn btn-secondary mt-2  me-1">
+                      Grand Total : ₹ 49309
+                    </button>
+                  </NavLink>
+                  <NavLink>
+                    <button className="btn btn-secondary mt-2 me-1 ">
+                      Paid Amount : ₹ 49309
+                    </button>
+                  </NavLink>
+                  <NavLink to="/orderproduct">
+                    <button className="btn btn-white mt-2 me-1 ">
+                      View Product
+                    </button>
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+
+            {/* box 4 */}
+            <div className="row details1 ">
+              <div className="col-lg-1 col-sm-5 p-0">
+                <img className="img-fluid" src={user} alt="nayan"></img>
+              </div>
+              <div className="col-lg-3 col-sm-6 p-0">
+                {" "}
+                <ul className=" ">
+                  <li className="">Name : abc</li>
+                  <li>Company Name : asdjsht</li>
+                  <li>Email : asyd@ldsfh.com</li>
+                  <li>Contact No : +918743839834</li>
+                  <li>Date : 01-03-2023</li>
+                  <li>Grand Total : ₹ 9874</li>
+                </ul>
+              </div>
+              <div className="col-lg-3 col-sm-5 p-0">
+                {" "}
+                <div className="">
+                  <NavLink>
+                    <h6 className="highlight-details ">Employee Detail :</h6>
+                  </NavLink>
+                  <ul>
+                    <li>Name : Himanshu Anand</li>
+                    <li>Designation : Web Developer</li>
+                    <li>Email : hv7460@gmail.com</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-3 col-sm-6 p-0">
+                {" "}
+                <div className="">
+                  <NavLink>
+                    <h6 className="highlight-details ">Payment Detail :</h6>
+                  </NavLink>
+                  <ul>
+                    <li>Date : 05-03-2023</li>
+                    <li>Payment type : Cash</li>
+                    <li>Paid Amount : ₹ 49309</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-2 col-sm-12 p-0">
+                <div className=" ms-2 d-lg-flex flex-md-column ">
                   {" "}
                   <NavLink>
                     <button className="btn btn-secondary mt-2  me-1">
