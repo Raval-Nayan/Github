@@ -22,14 +22,14 @@ const OrderProduct = () => {
         <SearchBox></SearchBox>
         <div>
           <small
-            className="pt-2"
+            className="pt-2 ms-2 mb-2"
             style={{ color: "#7D8592", fontWeight: "400" }}
           >
             Welcome to Care For Each
           </small>
           <div className="order-box">
             <h2
-              className="mt-1 mb-3"
+              className="mt-2 mb-3 ms-3"
               style={{
                 color: " #091F57",
                 fontWeight: "600",
