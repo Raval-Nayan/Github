@@ -49,7 +49,7 @@ const Dashbord = () => {
             </div>
 
             <div className="white---color">
-              <div className="row">
+              <div className="row ">
                 <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12 ">
                   <NavLink to="/order">
                     <div className="text-center ">
