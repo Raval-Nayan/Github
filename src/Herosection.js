@@ -49,7 +49,7 @@ const Herosection = () => {
               </div>
               <div className="mb-2">
                 <NavLink to="/dashbord">
-                  <button className="btn btn-primary mt-2 w-100 mx-2 my-2">
+                  <button className="btn btn-primary mt-2 w-100 mx-2 my-2" >
                     Log in
                   </button>
                 </NavLink>

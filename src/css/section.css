@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+.btn-primary {
+  background-color: #3b968a !important;
+}
+
 .full-w-box {
   background-color: #3b968a !important;
 }
@@ -78,3 +82,14 @@
     padding: 2px;
   }
 }
+
+/* @media (max-width: 400px) {
+  .img-fluid {
+    width: 30% !important;
+    font-size: 10px !important;
+  }
+
+  .text-section {
+    font-size: 12px;
+  }
+} */

@@ -10,11 +10,8 @@ import "../css/order.css";
 const SiderBox = () => {
   return (
     <>
-      <div
-        className="sidebar-boxs  d-flex flex-column m-0 gx-0 sidebar-width"
-        
-      >
-        <div className="dash-img d-md-flex pt-3 ">
+      <div className="sidebar-boxs  d-flex flex-column m-0 gx-0 sidebar-width mt-3">
+        <div className="dash-img d-md-flex pt-3  ">
           <img className="img-fluid imgd h-50" src={dimg} alt="nayan"></img>
           <h4 className="d-h5-text ms-3  me-3 mb-2">CARE FOR EACH</h4>
         </div>
@@ -23,7 +20,7 @@ const SiderBox = () => {
         <ul className="d-flex flex-column  ">
           <li className="uls-style gx-0">
             <NavLink to="/">
-              <button className="btn btn-primary   d-md-flex ">
+              <button className="btn btn-primary   d-md-flex  w-100">
                 <i className="fa-solid fa-house mt-1"></i>
                 <span className=" li-text ms-md-4">Home</span>
               </button>

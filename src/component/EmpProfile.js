@@ -94,7 +94,7 @@ const EmpProfile = () => {
                 <div className="col-md-3 col-9">
                   <NavLink className="dlt-btn">
                     <button
-                      className="btn btn-sucess mt-3 w-100"
+                      className="btn btn-sucess mt-3 w-100 mb-3"
                       style={{ color: "white " }}
                     >
                       <span style={{ color: "white", fontFamily: "Poppins" }}>

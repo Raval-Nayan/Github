@@ -8,7 +8,7 @@ import "../css/order.css";
 
 const SearchBox = () => {
   return (
-    <div className="search-box mt-4  ms-2">
+    <div className="search-box mt-4  ms-2 mb-3">
       <div className="w-50 search-input">
         <input
           className="form-control search  "
@@ -26,7 +26,7 @@ const SearchBox = () => {
         <buuton className="btn btn-dark ms-3">
           <i className="fa-solid fa-bell"></i>
         </buuton>
-        <button className="btn btn-info dropdown-toggle ms-3">
+        <button className="btn btn-info dropdown-toggle ms-2  ">
           <img className="img-fluid me-1" src={avtar} alt="nayan"></img>
           Your Profile
         </button>

@@ -34,7 +34,11 @@ const Section = () => {
           <div className="boxs-style">
             <div className="d-flex">
               <img className="me-2 img-fluid" src={img2} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Attendance</h5>
+
+              <NavLink to="#">
+                {" "}
+                <h5 className="mt-4 text-section">Attendance</h5>
+              </NavLink>
             </div>
           </div>
 
@@ -44,7 +48,11 @@ const Section = () => {
             <NavLink to="/employee">
               <div className="d-flex">
                 <img className="me-2 img-fluid" src={img3} alt="nayan"></img>
-                <h5 className="mt-4 text-section">Employee</h5>
+
+                <NavLink to="#">
+                  {" "}
+                  <h5 className="mt-4 text-section">Employee</h5>
+                </NavLink>
               </div>
             </NavLink>
           </div>

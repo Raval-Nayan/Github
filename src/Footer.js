@@ -2,6 +2,7 @@ import React from "react";
 import "./css/footer.css";
 import img from "./img/Strong India, Smart Business.png";
 import img1 from "./img/image 21.png";
+import vactor from "./img/Vector 2.png";
 
 const Footer = () => {
   return (
@@ -19,7 +20,7 @@ const Footer = () => {
             <div className=" img-tetx">
               {" "}
               <img
-                className="img-fluid  img-india  "
+                className="img-fluid  img-india   "
                 src={img1}
                 alt="nayan"
               ></img>
@@ -34,6 +35,15 @@ const Footer = () => {
                 e-commerce companies so they could operate legally.
               </p>
             </div>
+          </div>
+
+          <div className="copy-right">
+            <img className="img-fluid" src={vactor} alt="nayan"></img>
+
+            <ul className="d-flex gap-4  copy-right-ab ">
+              <li> Care For Each </li>
+              <li style={{ listStyle: "circle" }}> Privacy Policy</li>
+            </ul>
           </div>
         </div>
       </div>

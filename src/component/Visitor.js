@@ -38,13 +38,17 @@ const Visitor = () => {
           {/* div grid banavo */}
           <div className="postion">
             <div className="back-----color ">
-              <NavLink to="/visitordetails" className="m-auto">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
                 <div className="background d-flex">
                   <div>
                     {" "}
-                    <img className="img-fluid" src={user} alt="nayan"></img>
+                    <img
+                      className="img-fluid me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
                   </div>
-                  <div className="tetx-----div">
+                  <div className="ms-lg-2">
                     <ul className="mt-4">
                       <li>Person Name : kagkuh</li>
                       <li>Company Name : mygve</li>
@@ -57,186 +61,252 @@ const Visitor = () => {
               </NavLink>
 
               {/* box2 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid  me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
               {/* box-3 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid  me-md-0  me-3  "
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
               {/* box-4 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid   me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
               {/* box5 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid   me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
               {/* box 6 */}
 
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid  me-md-0  me-3 "
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
 
               {/* box7 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid   me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
               {/* box8 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid   me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
 
               {/* box 9 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid   me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
               {/* box10 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid  me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
 
               {/* box11 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid   me-md-0  me-3"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
 
               {/* box12 */}
-              <div className="background d-flex">
-                <div>
-                  {" "}
-                  <img className="img-fluid" src={user} alt="nayan"></img>
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+                <div className="background d-flex">
+                  <div>
+                    {" "}
+                    <img
+                      className="img-fluid  me-md-0  me-3 "
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="ms-lg-2">
+                    <ul className="mt-4">
+                      <li>Person Name : kagkuh</li>
+                      <li>Company Name : mygve</li>
+                      <li>Date : 09-08-2020</li>
+                      <li>Time : 01:30 PM</li>
+                      <li>Mail Id : sftctc@gmail.com</li>
+                    </ul>
+                  </div>
                 </div>
-                <div className="tetx-----div">
-                  <ul className="mt-4">
-                    <li>Person Name : kagkuh</li>
-                    <li>Company Name : mygve</li>
-                    <li>Date : 09-08-2020</li>
-                    <li>Time : 01:30 PM</li>
-                    <li>Mail Id : sftctc@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
+              </NavLink>
             </div>
           </div>
         </div>

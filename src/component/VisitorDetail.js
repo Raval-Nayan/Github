@@ -15,7 +15,7 @@ const VisitorDetails = () => {
       <div className="container-fluid dash-back-color d-flex">
         {/* display flex , flex column */}
         <SiderBox></SiderBox>
-        <div className="d-flex flex-column main " >
+        <div className="d-flex flex-column main ">
           <SearchBox></SearchBox>
           <div>
             <small
@@ -32,59 +32,59 @@ const VisitorDetails = () => {
                 fontFamily: "Poppins",
               }}
             >
-              Employee Profile
+              Visitor Detail
             </h2>
             {/* div grid banavo */}
 
             <div className="color-white">
-              <div className=" d-flex flex column  mt-2">
-                <div className="part-2">
-                  <div className="d-flex flex-column  ">
-                    <div className="text-center">
-                      <img className="img-fluid " src={user} alt="nayan"></img>
-                    </div>
+              <div className="row part-2">
+                <div className="col-md-5 ">
+                  <div className="text-center">
+                    {" "}
+                    <img className="img-fluid " src={user} alt="nayan"></img>
+                  </div>
+
+                  <form className="d-flex flex-column">
                     <input
                       type="text"
                       className="inputdesign color-input mt-3 "
-                      placeholder="Employee Name"
+                      placeholder="  Employee Name"
                     ></input>
-
                     <input
                       type="email"
-                      placeholder="Email"
+                      placeholder="  Email"
                       className="inputdesign color-input   mt-2"
                     ></input>
 
                     <input
                       type="text"
-                      placeholder="Designation"
+                      placeholder="  Designation"
                       className="inputdesign color-input mt-2"
                     ></input>
-                  </div>
-                  {/* part 2 */}
-                  <div className="phone-design   d-flex flex-column me-auto  pad ">
-                    <input
-                      type="text"
-                      placeholder="Joining Date"
-                      className="inputdesign color-input mt-2"
-                    ></input>
-                    <input
-                      type="date"
-                      placeholder="Date of Birth"
-                      className="inputdesign color-input mt-2"
-                    ></input>
-                    <input
-                      type="number"
-                      placeholder="Contact Number"
-                      className="inputdesign color-input mt-2"
-                    ></input>
-                    <textarea
-                      class="form-control mt-2"
-                      id="exampleFormControlTextarea1"
-                      rows="3"
-                      placeholder="Discussion"
-                    ></textarea>
-                  </div>
+                  </form>
+                </div>
+                <div className="col-md-5 mt-lg-5 ">
+                  <input
+                    type="text"
+                    placeholder="  Joining Date"
+                    className="inputdesign color-input mt-2 w-100"
+                  ></input>
+                  <input
+                    type="date"
+                    placeholder="  Date of Birth"
+                    className="inputdesign color-input mt-2 w-100"
+                  ></input>
+                  <input
+                    type="number"
+                    placeholder="  Contact Number"
+                    className="inputdesign color-input mt-2 w-100"
+                  ></input>
+                  <textarea
+                    class="form-control mt-2"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                    placeholder="  Discussion"
+                  ></textarea>
                 </div>
               </div>
             </div>
