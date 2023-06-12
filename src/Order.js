@@ -58,23 +58,29 @@ const Order = () => {
             {/* item 1 */}
             <NavLink to="/orderdetails">
               <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+                <div>
+                  <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+                </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                <div>
+                  <ul clasname="ul-item">
+                    <li className="li-item">Name : abc</li>
+                    <li className="li-item">Company Name : asdjsht</li>
+                    <li className="li-item">Email : asyd@ldsfh.com</li>
+                    <li className="li-item">Contact No : +918743839834</li>
+                    <li className="li-item">Date : 01-03-2023</li>
+                    <li className="li-item">Grand Total : ₹ 9874 </li>
+                  </ul>
+                </div>
               </div>
             </NavLink>
 
             {/* item2 */}
             <NavLink to="/orderdetails">
               <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+                <div>
+                  <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+                </div>
 
                 <div>
                   <ul clasname="ul-item">
