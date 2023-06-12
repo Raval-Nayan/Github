@@ -4,8 +4,6 @@
 }
 .footer-box {
   background-color: #f8f8f8;
-  /* height: 100%; */
-  z-index: 100;
 }
 
 .text-footer {
@@ -28,7 +26,7 @@
   color: #091f57;
   font-weight: 400;
   font-size: 25px;
-  /* margin-left: -70px; */
+
   text-align: justify;
   font-family: "Poppins";
 }
@@ -44,9 +42,6 @@
   font-size: 15px;
 }
 
-/* .img-india {
-  width: 50%;
-} */
 @media (max-width: 900px) {
   .footer-grid {
     display: flex;
@@ -76,35 +71,6 @@
     margin-top: 10px;
   }
 }
-
-/* @media (max-width: 750px) {
-  .img-india {
-    width: 70%;
-  }
-} */
-
-/* @media (max-width: 650px) {
-  .img-india {
-    width: 80%;
-  }
-} */
-
-/* @media (max-width: 550px) {
-  .img-india {
-    width: 85%;
-  }
-
-  .img-texts {
-    width: 90% !important;
-  }
-
-  .footer-p-text {
-    margin-top: 20px;
-    text-align: justify;
-    font-size: 12px;
-    width: 100%;
-  }
-} */
 
 @media (max-width: 570px) {
   .copy-right-ab {
