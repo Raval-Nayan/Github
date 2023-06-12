@@ -128,9 +128,9 @@ const SiderBox = () => {
           </li>
 
           {/* btn-12 */}
-          <li className="uls-style gx-0 w-100">
+          <li className="uls-style gx-0 ">
             <NavLink>
-              <button className="btn btn-danger   d-md-flex ">
+              <button className="btn btn-danger   d-md-flex w-100 ">
                 <i className="fa-solid fa-right-from-bracket mt-1"></i>
                 <span className="li-text ms-md-4">Log out</span>
               </button>
