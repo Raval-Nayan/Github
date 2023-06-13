@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/dashbord.css";
+import "./css/desh.css";
 
 // import { NavLink } from "react-bootstrap";
 import img1 from "./img/image 14.png";
@@ -49,8 +50,8 @@ const Dashbord = () => {
             </div>
 
             <div className="white---color">
-              <div className="row ">
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12 ">
+              <div className="row dash---box ">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12 ">
                   <NavLink to="/order">
                     <div className="text-center ">
                       <img className=" imagess" src={img1} alt="nayan"></img>
@@ -59,14 +60,14 @@ const Dashbord = () => {
                   </NavLink>
                 </div>
                 {/* box2 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className="text-center">
                     <img className="  imagess" src={img2} alt="nayan"></img>
                     <h5 className=" text-section">Attendance</h5>
                   </div>
                 </div>
                 {/* box3 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className="text-center ">
                     <img className="me-2  imagess" src={img3} alt="nayan"></img>
                     <h5 className="ms4 text-section">Employee</h5>
@@ -74,7 +75,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box-4 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className="text-center">
                     <img className="imagess" src={img4} alt="nayan"></img>
                     <h5 className="ms-2 text-section">Visitor</h5>
@@ -82,7 +83,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box5 */}
-                <div className="boxs--style  col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style  col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className="text-center">
                     <img className="  imagess" src={img5} alt="nayan"></img>
                     <h5 className=" text-section">Ginnie Box</h5>
@@ -90,7 +91,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box6 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className="text-center ">
                     <img className="pt-1  imagess" src={img6} alt="nayan"></img>
                     <h5 className="ms-3 text-section">Product</h5>
@@ -98,7 +99,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box7 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className="text-center">
                     <img className="  imagess" src={img7} alt="nayan"></img>
                     <h5 className=" text-section">Leave Request</h5>
@@ -106,7 +107,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box8 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className="text-center">
                     <img className=" imagess" src={img8} alt="nayan"></img>
                     <h5 className=" text-section">Category</h5>
@@ -114,7 +115,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box9 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className=" text-center">
                     <img className="ms-5 imagess" src={img9} alt="nayan"></img>
                     <h5 className="text-section">Sub Category</h5>
@@ -122,7 +123,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box10 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className=" text-center">
                     <img className="  imagess" src={img10} alt="nayan"></img>
                     <h5 className=" text-section">Message</h5>
@@ -130,7 +131,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box11 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className=" text-center">
                     <img className="  imagess" src={img11} alt="nayan"></img>
                     <h5 className=" text-section">Complaint</h5>
@@ -138,7 +139,7 @@ const Dashbord = () => {
                 </div>
 
                 {/* box12 */}
-                <div className="boxs--style col-lg-3 col-md-4 col-sm-6 col-12">
+                <div className="boxs--style col-lg-2 col-md-4 col-sm-6 col-12">
                   <div className=" text-center">
                     <img className="  imagess " src={img12} alt="nayan"></img>
                     <h5 className=" text-section text-center">Report</h5>

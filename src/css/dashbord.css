@@ -152,6 +152,9 @@ ul {
 
   padding: 10px;
   margin: 0px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .text-section {
