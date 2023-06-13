@@ -49,6 +49,7 @@
   border-radius: 24px;
   /* width: 80%; */
   padding: 10px;
+  align-items: center;
 }
 
 li {

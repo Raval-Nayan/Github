@@ -1,4 +1,8 @@
 import React from "react";
+import "../css/dashbord.css";
+import "../css/order.css";
+import "../css/employee.css";
+import "../css/orderdetails.css";
 
 // import { NavLink } from "react-router-dom";
 
@@ -7,9 +11,9 @@ import SiderBox from "../component/SiderBox";
 import "../css/orderdetails.css";
 import user from "../img/user.png";
 import { NavLink } from "react-router-dom";
-import "../css/dashbord.css";
+// import { NavLink } from "react-router-dom";
 
-const OrderDetails = () => {
+const GinnieBox = () => {
   return (
     <div className="container-fluid dash-back-color d-flex">
       {/* display flex , flex column */}
@@ -32,7 +36,7 @@ const OrderDetails = () => {
                 fontFamily: "Poppins",
               }}
             >
-              Order Detail
+              Ginnie Box
             </h2>
             <div className="d-flex w-25 ">
               {/* btn 1  */}
@@ -111,7 +115,7 @@ const OrderDetails = () => {
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
-                  <NavLink to="/orderproduct">
+                  <NavLink to="/ginnieboxproductdetail">
                     <button className="btn btn-white mt-2 me-1 ">
                       View Product
                     </button>
@@ -319,4 +323,4 @@ const OrderDetails = () => {
   );
 };
 
-export default OrderDetails;
+export default GinnieBox;

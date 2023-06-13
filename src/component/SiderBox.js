@@ -77,9 +77,20 @@ const SiderBox = () => {
             </NavLink>{" "}
           </li>
 
+          {/* btn  */}
+
+          <li className="uls-style gx-0">
+            <NavLink to="/ginniebox">
+              <button className="btn btn-danger   d-md-flex w-100">
+                <i className="fa-solid fa-comments mt-1"></i>
+                <span className="li-text ms-md-4">Ginnie Box</span>
+              </button>
+            </NavLink>{" "}
+          </li>
+
           {/* btn7 */}
           <li className="uls-style gx-0">
-            <NavLink>
+            <NavLink to="/product">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-regular fa-folder mt-1"></i>
                 <span className="li-text ms-md-4">Product</span>
@@ -89,7 +100,7 @@ const SiderBox = () => {
 
           {/* btn8 */}
           <li className="uls-style gx-0">
-            <NavLink>
+            <NavLink to="/leaverequest">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-regular fa-folder-open mt-1"></i>
                 <span className="li-text  ms-md-3">Leave request</span>

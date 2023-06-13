@@ -8,8 +8,9 @@ import "../css/orderdetails.css";
 import user from "../img/user.png";
 import { NavLink } from "react-router-dom";
 import "../css/dashbord.css";
+import "../css/orderdetails.css";
 
-const OrderDetails = () => {
+const GinnieBoxDetail = () => {
   return (
     <div className="container-fluid dash-back-color d-flex">
       {/* display flex , flex column */}
@@ -32,7 +33,7 @@ const OrderDetails = () => {
                 fontFamily: "Poppins",
               }}
             >
-              Order Detail
+              Ginnie Box Product Detail
             </h2>
             <div className="d-flex w-25 ">
               {/* btn 1  */}
@@ -61,7 +62,7 @@ const OrderDetails = () => {
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
+              <div className="col-lg-3 col-sm-6 p-0">
                 {" "}
                 <ul className=" ">
                   <li className="">Name : abc</li>
@@ -126,7 +127,7 @@ const OrderDetails = () => {
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
+              <div className="col-lg-3 col-sm-6 p-0">
                 {" "}
                 <ul className=" ">
                   <li className="">Name : abc</li>
@@ -190,7 +191,7 @@ const OrderDetails = () => {
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
+              <div className="col-lg-3 col-sm-6 p-0">
                 {" "}
                 <ul className=" ">
                   <li className="">Name : abc</li>
@@ -254,7 +255,7 @@ const OrderDetails = () => {
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
+              <div className="col-lg-3 col-sm-6 p-0">
                 {" "}
                 <ul className=" ">
                   <li className="">Name : abc</li>
@@ -319,4 +320,4 @@ const OrderDetails = () => {
   );
 };
 
-export default OrderDetails;
+export default GinnieBoxDetail;

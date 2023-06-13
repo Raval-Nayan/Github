@@ -1,0 +1,45 @@
+.product--box {
+  background: rgba(225, 255, 251, 0.75);
+  box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
+  border-radius: 24px;
+  padding: 10px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-delete-position {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #3b968a;
+}
+
+@media (max-width: 750px) {
+  .product--box {
+    width: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .icon-delete-position {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .delete-icon {
+    position: absolute;
+    top: 10px;
+
+    color: #3b968a;
+  }
+}

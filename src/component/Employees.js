@@ -71,7 +71,7 @@ const Employees = () => {
                     <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
+                    <button className="button-modify w-100 ">
                       <i class="fa-solid fa-phone"></i> <span>Call</span>
                     </button>
                     <button className="button-modify w-100 mt-2 mt-sm-0">
