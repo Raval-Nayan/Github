@@ -70,10 +70,6 @@
 
   margin-left: 25px;
 }
-.img-size-box {
-  /* width: 80%;
-  height: 80px; */
-}
 
 .item {
   background-color: rgba(225, 255, 251, 0.75);
@@ -99,10 +95,6 @@
   display: flex;
 
   color: #0c1947;
-}
-
-.ul-item {
-  /* margin-left: 10px; */
 }
 
 @media (max-width: 1000px) {
