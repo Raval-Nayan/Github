@@ -43,7 +43,7 @@ const Order = () => {
                 <option className="option-box">Today</option>
               </select>
 
-              <select className=" select-box ms-2 w-100 h-50">
+              <select className=" select-box ms-md-2   w-100 h-50">
                 <option className="option-box">abc</option>
                 <option className="option-box">def</option>
                 <option className="option-box">ghi</option>
@@ -54,7 +54,7 @@ const Order = () => {
           </div>
           {/* grid box banavo ahi khali div ma */}
 
-          <div className=" oreder-grid  ">
+          <div className=" oreder-grid   ">
             {/* item 1 */}
             <NavLink to="/orderdetails">
               <div className="item d-flex ">

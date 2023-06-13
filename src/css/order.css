@@ -131,6 +131,20 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     /* overflow-y: auto; */
   }
+
+  .order-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+  }
+
+  .d-flex.w-25 {
+    width: 100% !important;
+  }
+
+  .select-box {
+    margin: 10px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -144,5 +158,14 @@
   .oreder-grid {
     padding: 0px;
     /* overflow-y: auto; */
+  }
+
+  .order-box {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
   }
 }
