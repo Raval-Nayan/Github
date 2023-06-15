@@ -1,8 +1,9 @@
 import React from "react";
-import "./css/herosection.css";
+
 import img from "./img/image 13.png";
 import img1 from "./img/Develop Your Business with Care For Each.png";
 import { NavLink } from "react-router-dom";
+import "./css/herosection.css";
 
 // import img2 from "./img/image 20.png";
 
@@ -17,8 +18,15 @@ const Herosection = () => {
               <img className="img-fluid img-size" src={img} alt="nayan"></img>
               <h1 className="mt-3 w-100 care-for-each">CARE FOR EACH</h1>
             </div>
-            <div className="w-40 d-flex align-items-center">
-              <img className="img-fluid care-imge" src={img1} alt="nayan"></img>
+            <div
+              className="w-40 d-flex align-items-center"
+              style={{ justifyContent: "center" }}
+            >
+              <img
+                className="img-fluid care-imgess "
+                src={img1}
+                alt="nayan"
+              ></img>
             </div>
           </div>
         </div>

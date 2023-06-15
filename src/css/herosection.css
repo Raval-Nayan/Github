@@ -5,6 +5,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.care-imgess {
+  width: 60% !important;
+}
+
 h2,
 ::placeholder {
   font-family: "Poppins", sans-serif;
