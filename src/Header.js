@@ -9,12 +9,12 @@ function Nav1() {
       {/* navbar */}
       <Navbar expand="lg" className=" border-bottom-3 h-box">
         <div className="container-fluid">
-          <Navbar.Brand href="#" className="brand ">
-            <span className="care-fore-head"> CARE FOR EACH</span>
+          <Navbar.Brand href="#" className="brand w-50">
+            <span className="care-fore-head "> CARE FOR EACH</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
           <Navbar.Collapse id="navbarNavAltMarkup">
-            <Nav className="navbar-nav ms-auto align-items-center">
+            <Nav className="navbar-nav  align-items-center space">
               <Nav.Link to="#" className="me-3  ">
                 <span className="li-text" style={{ display: "block" }}>
                   Home
@@ -27,7 +27,10 @@ function Nav1() {
               </Nav.Link>
 
               <Nav.Link href="#" className=" w-60">
-                <button className="btn btn-primary  w-100  border">
+                <button
+                  className="btn btn-primary    "
+                  style={{ width: "130px" }}
+                >
                   Log in
                 </button>
               </Nav.Link>

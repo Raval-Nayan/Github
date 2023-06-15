@@ -3,11 +3,17 @@
   margin: 0px;
 }
 
+.space {
+  display: flex !important;
+  justify-content: space-around !important;
+  width: 100% !important;
+}
+
 .care-fore-head {
   font-family: "Sansation Light";
   font-style: normal;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 34px;
   line-height: 56px;
   /* identical to box height */
   margin-left: 10pxs;

@@ -22,6 +22,9 @@ h2,
 .li-text {
   font-weight: 500 !important;
   font-family: "Poppins" !important;
+  font-size: 25px;
+  font-weight: 500 !important;
+  color: black !important;
 }
 
 .img {
@@ -73,7 +76,10 @@ h2,
   width: 60vh;
   position: absolute;
   right: 40px;
-  top: 90px;
+
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
 }
 
 .login-text {
@@ -127,12 +133,37 @@ h2,
   .container-fluid {
     width: 1200px;
   }
+
+  .login----box {
+    border-radius: 20px;
+    /* height: 20vw; */
+    background-color: white;
+    height: 18vw;
+    width: 60vh;
+    position: absolute;
+    right: 40px;
+
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+  }
 }
 
 @media (max-width: 1100px) {
   .login----box {
-    height: 28vw;
-    width: 60vh;
+    position: absolute;
+    right: 40px;
+
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1075px) {
+  .login----box {
+    height: 30vw;
+    width: 45vh;
   }
 }
 
@@ -159,14 +190,14 @@ h2,
   }
 
   .login----box {
-    height: 33vw;
-    width: 50vh;
+    height: 35vw;
+    width: 35vh;
   }
 }
 
 @media (max-width: 760px) {
   .img-size {
-    width: 70%;
+    width: 50%;
     margin-top: 50px;
   }
 
@@ -177,7 +208,7 @@ h2,
 
   .login----box {
     height: 35vw;
-    width: 40vh;
+    width: 35vh;
   }
   .eye-absulate {
     position: absolute;
@@ -222,17 +253,17 @@ h2,
     margin-top: 120px;
   }
   .login----box {
-    height: 45vw;
-    width: 40vh;
-    top: 10px;
+    height: 40vw;
+    width: 35vh;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .login----box {
     height: 45vw;
-    width: 30vh;
-    top: 0px;
+    width: 25vh;
+
+    margin: 0px;
   }
 
   .login-text {
@@ -240,7 +271,6 @@ h2,
   }
 
   .text--hero {
-    
     padding: 0px;
     margin: 0px;
   }
