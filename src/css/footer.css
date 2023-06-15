@@ -1,6 +1,10 @@
 * {
   padding: 0px;
   margin: 0px;
+
+  p {
+    font-family: "Poppins";
+  }
 }
 .footer-box {
   background-color: #f8f8f8;
@@ -87,6 +91,9 @@ p {
     top: 10px;
     left: 12px;
     /* font-size: 15px; */
+  }
+  p {
+    font-size: 22px;
   }
 }
 

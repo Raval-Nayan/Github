@@ -16,11 +16,11 @@ const Herosection = () => {
           <div className="hero-box">
             <div className="w-40 px-2 care-for">
               <img className="img-fluid img-size" src={img} alt="nayan"></img>
-              <h1 className="mt-3 w-100 care-for-each">CARE FOR EACH</h1>
+              <h1 className="mt-3 w-100 care-for-each  text--hero">CARE FOR EACH</h1>
             </div>
             <div
               className="w-40 d-flex align-items-center"
-              style={{ justifyContent: "center" }}
+              style={{ justifyContent: "end" }}
             >
               <img
                 className="img-fluid care-imgess "
