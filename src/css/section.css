@@ -3,6 +3,16 @@
   padding: 0px;
 }
 
+h5 {
+  font-family: "Poppins";
+
+  font-weight: 500;
+
+  /* identical to box height */
+
+  color: #091f57;
+}
+
 .btn-primary {
   background-color: #3b968a !important;
 }

@@ -117,7 +117,7 @@ const Section = () => {
           <div className="boxs-style">
             <div className="d-flex">
               <img className="me-2 img-fluid" src={img11} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Complaint</h5>
+              <h5 className="mt-5 text-section">Complaint</h5>
             </div>
           </div>
 
@@ -125,7 +125,7 @@ const Section = () => {
           <div className="boxs-style">
             <div className="d-flex">
               <img className="me-2 img-fluid" src={img12} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Report</h5>
+              <h5 className="mt-3 text-section">Report</h5>
             </div>
           </div>
         </div>

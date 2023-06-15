@@ -12,16 +12,16 @@ function Nav1() {
       <Navbar expand="lg" className=" border-bottom-3 h-box">
         <div className="container-fluid">
           <Navbar.Brand href="#" className="brand ">
-            <span className="care-fore-h"> CARE FOR EACH</span>
+            <span className="care-fore-head"> CARE FOR EACH</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
           <Navbar.Collapse id="navbarNavAltMarkup">
             <Nav className="navbar-nav ms-auto align-items-center">
-              <NavLink to="#" className="me-3  ">
+              <Nav.Link to="#" className="me-3  ">
                 <span className="li-text" style={{ display: "block" }}>
                   Home
                 </span>
-              </NavLink>
+              </Nav.Link>
               <Nav.Link href="#" className=" ">
                 <span className="li-text " style={{ display: "block" }}>
                   Contact us

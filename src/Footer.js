@@ -7,7 +7,10 @@ import vactor from "./img/Vector 2.png";
 const Footer = () => {
   return (
     <>
-      <div className="container-fluid gx-0 ">
+      <div
+        className="container-fluid gx-0 "
+        style={{ backgroundColor: "#F8F8F8" }}
+      >
         <div className="footer-box text-center">
           <h5 className="text-footer pt-5">MISSION CARE FOR EACH</h5>
           <img
@@ -16,18 +19,12 @@ const Footer = () => {
             alt="nayan"
           ></img>
 
-          <div className="footer-grid mx-5 mt-3 text-center ">
-            <div className=" img-tetx">
-              {" "}
-              <img
-                className="img-fluid  img-india   "
-                src={img1}
-                alt="nayan"
-              ></img>
+          <div className="row gx-0 ms-md-4 mb-5  mt-3">
+            <div className="col-md-3 col-12 ms-md-3 me-md-3  ">
+              <img className="img-fluid  img-india " src={img1} alt="nayan" />
             </div>
-            <div className="p-div">
-              {" "}
-              <p className="w-100 footer-p-text">
+            <div className="col-md-8 col-12 ">
+              <p className=" ">
                 E-commerce business ideas are ready to blow up in India due to
                 multiple factors positively influencing the market. With this,
                 comes a lot of compliance and regulations that need to be
@@ -36,15 +33,14 @@ const Footer = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="copy-right">
+          <ul className="d-flex gap-4  copy-right-ab ">
+            <li> Care For Each </li>
+            <li style={{ listStyle: "circle" }}> Privacy Policy</li>
+          </ul>
 
-          <div className="copy-right">
-            <img className="img-fluid" src={vactor} alt="nayan"></img>
-
-            <ul className="d-flex gap-4  copy-right-ab ">
-              <li> Care For Each </li>
-              <li style={{ listStyle: "circle" }}> Privacy Policy</li>
-            </ul>
-          </div>
+          <img className="img-fluid" src={vactor} alt="nayan"></img>
         </div>
       </div>
     </>

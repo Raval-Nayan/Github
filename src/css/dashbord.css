@@ -157,16 +157,7 @@ ul {
   align-items: center;
 }
 
-.text-section {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 700;
 
-  line-height: 30px;
-  /* identical to box height */
-
-  color: #091f57;
-}
 ::placeholder {
   font-family: "Nunito Sans";
   color: #7d8592;

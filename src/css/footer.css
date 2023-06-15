@@ -6,6 +6,15 @@
   background-color: #f8f8f8;
 }
 
+p {
+  font-family: "Poppins";
+  text-align: justify;
+  font-weight: 400;
+  font-size: 30px;
+
+  color: #091f57;
+}
+
 .text-footer {
   color: #000000;
   font-weight: 300;

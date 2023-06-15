@@ -3,6 +3,19 @@
   margin: 0px;
 }
 
+.care-fore-head {
+  font-family: "Sansation Light";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 56px;
+  /* identical to box height */
+
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
 .btn-warning {
   position: fixed !important;
   right: 2rem;
@@ -31,9 +44,6 @@
 .link-text {
   color: black !important;
 }
-.container-fluid {
-  background-color: white !important;
-}
 
 .back-color {
   background-color: linear-gradient(
@@ -42,13 +52,6 @@
 
     rgba(59, 150, 138, 0.5) 97.47%
   );
-}
-
-.care-fore-h {
-  font-family: "Sansation Light ";
-  font-weight: 400 !important;
-  color: #000000 !important;
-  letter-spacing: 0.05em !important;
 }
 
 @media (max-width: 350px) {
