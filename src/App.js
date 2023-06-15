@@ -20,7 +20,7 @@ import OrderProduct from "./component/OrderProduct";
 import Employees from "./component/Employees";
 import VisitorDetails from "./component/VisitorDetail";
 import LeaveStatus from "./component/LeaveStatus";
-import { Router } from "routes";
+
 import AddProduct from "./component/AddProduct";
 
 function App() {
@@ -65,7 +65,7 @@ function App() {
           <Route path="/product" element={<Product />}></Route>
           <Route path="/addproduct" element={<AddProduct />}></Route>
           <Route path="/productdetails" element={<ProductDetails />}></Route>
-          <Route path="/leavestatus" element={<LeaveStatus/>}></Route>
+          <Route path="/leavestatus" element={<LeaveStatus />}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

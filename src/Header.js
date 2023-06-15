@@ -3,8 +3,6 @@ import "./css/header.css";
 
 import { Navbar, Nav } from "react-bootstrap";
 
-import { NavLink } from "react-router-dom";
-
 function Nav1() {
   return (
     <>
