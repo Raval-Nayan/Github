@@ -9,7 +9,7 @@ function Nav1() {
       {/* navbar */}
       <Navbar expand="lg" className=" border-bottom-3 h-box">
         <div className="container-fluid">
-          <Navbar.Brand href="#" className="brand w-50">
+          <Navbar.Brand href="#" className="brand ">
             <span className="care-fore-head "> CARE FOR EACH</span>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
