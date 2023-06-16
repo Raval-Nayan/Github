@@ -13,6 +13,9 @@ import GinnieBoxProductDetail from "./component/GinnieBoxProductDetail";
 import Product from "./component/Product";
 import ProductDetails from "./component/ProductDetails";
 import LeaveRequest from "./component/LeaveRequest";
+import Panding from "./component/Panding";
+import Approved from "./component/Approved";
+import Rejected from "./component/Rejected";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import OrderDetails from "./component/OrderDrtails";
@@ -20,6 +23,7 @@ import OrderProduct from "./component/OrderProduct";
 import Employees from "./component/Employees";
 import VisitorDetails from "./component/VisitorDetail";
 import LeaveStatus from "./component/LeaveStatus";
+import Category from "./component/Category";
 
 import AddProduct from "./component/AddProduct";
 
@@ -66,6 +70,10 @@ function App() {
           <Route path="/addproduct" element={<AddProduct />}></Route>
           <Route path="/productdetails" element={<ProductDetails />}></Route>
           <Route path="/leavestatus" element={<LeaveStatus />}></Route>
+          <Route path="/panding" element={<Panding></Panding>}></Route>
+          <Route path="/approved" element={<Approved />}></Route>
+          <Route path="/rejected" element={<Rejected></Rejected>}></Route>
+          <Route path="/category" element={<Category />}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

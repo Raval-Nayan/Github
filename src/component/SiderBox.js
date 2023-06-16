@@ -98,11 +98,22 @@ const SiderBox = () => {
             </NavLink>{" "}
           </li>
 
+          {/* 8/9 */}
+          <li className="uls-style gx-0">
+            <NavLink to="/Category">
+              <button className="btn btn-danger   d-md-flex w-100">
+                <i className="fa-regular fa-folder-open mt-1 "></i>
+
+                <span className="li-text  ms-md-3">Category</span>
+              </button>
+            </NavLink>{" "}
+          </li>
+
           {/* btn8 */}
           <li className="uls-style gx-0">
             <NavLink to="/leaverequest">
               <button className="btn btn-danger   d-md-flex w-100">
-                <i className="fa-regular fa-folder-open mt-1"></i>
+                <i className="fa-regular fa-folder-open mt-1 "></i>
                 <span className="li-text  ms-md-3">Leave request</span>
               </button>
             </NavLink>{" "}
