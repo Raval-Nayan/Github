@@ -52,6 +52,19 @@
   color: black !important;
 }
 
+@media (max-width: 950px) {
+  .space {
+    display: flex !important;
+
+    width: 0% !important;
+    margin: auto !important;
+  }
+
+  .li-text {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 350px) {
   .px-5 {
     padding-right: 0px !important;
