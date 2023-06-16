@@ -22,7 +22,7 @@ h2,
 .li-text {
   font-weight: 500 !important;
   font-family: "Poppins" !important;
-  font-size: 25px;
+  /* font-size: px; */
   font-weight: 500 !important;
   color: black !important;
 }

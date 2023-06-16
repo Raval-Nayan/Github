@@ -53,7 +53,15 @@ p {
   top: 30px;
   left: 12px;
   font-size: 15px;
+  align-items: center;
 }
+
+@media (min-width:1200px){
+  .copy-right-ab{
+    font-size: 3rem;
+  }
+
+}|
 
 @media (max-width: 900px) {
   .footer-grid {

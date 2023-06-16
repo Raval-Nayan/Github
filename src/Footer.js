@@ -40,7 +40,12 @@ const Footer = () => {
             <li style={{ listStyle: "circle" }}> Privacy Policy</li>
           </ul>
 
-          <img className="img-fluid" src={vactor} alt="nayan"></img>
+          <img
+            className="img-fluid"
+            src={vactor}
+            alt="nayan"
+            style={{ width: "100vw" }}
+          ></img>
         </div>
       </div>
     </>
