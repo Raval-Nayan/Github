@@ -21,7 +21,10 @@ function Nav1() {
                 </span>
               </Nav.Link>
               <Nav.Link href="#" className=" ">
-                <span className="li-text " style={{ display: "block" }}>
+                <span
+                  className="li-text "
+                  style={{ display: "block", width: "100px" }}
+                >
                   Contact us
                 </span>
               </Nav.Link>
