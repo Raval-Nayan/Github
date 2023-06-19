@@ -16,6 +16,9 @@ import LeaveRequest from "./component/LeaveRequest";
 import Panding from "./component/Panding";
 import Approved from "./component/Approved";
 import Rejected from "./component/Rejected";
+import AddNewCategory from "./component/AddNewCategory";
+import AddNewSubCategory from "./component/AddNewSubCategory";
+import Message from "./component/Message";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import OrderDetails from "./component/OrderDrtails";
@@ -24,6 +27,9 @@ import Employees from "./component/Employees";
 import VisitorDetails from "./component/VisitorDetail";
 import LeaveStatus from "./component/LeaveStatus";
 import Category from "./component/Category";
+import EditCategory from "./component/EditCategory";
+import SubCategory from "./component/SubCategory";
+import ChatBox from "./component/ChatBox";
 
 import AddProduct from "./component/AddProduct";
 
@@ -31,17 +37,6 @@ function App() {
   return (
     <>
       {/* page1 */}
-
-      {/* <Nav1></Nav1>
-      <Herosection></Herosection>
-      <Section></Section>
-      <Footer></Footer> */}
-
-      {/* page2 */}
-      {/* <Dashbord></Dashbord> */}
-
-      {/* page3 */}
-      {/* <Order></Order> */}
 
       <BrowserRouter>
         <Nav1></Nav1>
@@ -74,6 +69,18 @@ function App() {
           <Route path="/approved" element={<Approved />}></Route>
           <Route path="/rejected" element={<Rejected></Rejected>}></Route>
           <Route path="/category" element={<Category />}></Route>
+          <Route path="/addnewcategory" element={<AddNewCategory />}></Route>
+          <Route
+            path="/editcategory"
+            element={<EditCategory></EditCategory>}
+          ></Route>
+          <Route path="/subcategory" element={<SubCategory />}></Route>
+          <Route
+            path="/addnewsubcategory"
+            element={<AddNewSubCategory />}
+          ></Route>
+          <Route path="/message" element={<Message></Message>}></Route>
+          <Route path="/chatbox" element={<ChatBox/>}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>

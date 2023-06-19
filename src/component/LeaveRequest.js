@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/dashbord.css";
+ import "../css/dashbord.css";
 import "../css/order.css";
 import "../css/employee.css";
 import "../css/productdetails.css";

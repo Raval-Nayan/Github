@@ -6,9 +6,10 @@
   height: 30px; */
   color: #3b968a;
   font-size: 12px;
+  padding: 1px;
   margin-right: 2px;
+
   width: 50%;
-  padding: 2px;
 }
 
 li {
@@ -24,15 +25,16 @@ li {
   background-color: rgba(225, 255, 251, 0.75);
   box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
   border-radius: 24px;
-  padding: 10px;
+  /* padding: 10px; */
+
+  padding: 5px;
   margin-left: 10px;
-  margin-top: 5px;
+  /* margin-top: 5px; */
   align-items: center;
   justify-content: center;
 }
 
 .tetx-----div {
-  padding-left: 10px;
   width: 100%;
 }
 
@@ -43,7 +45,7 @@ li {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 5px;
+  gap: 10px;
   /* overflow-y: scroll; */
   padding: 15px;
   /* height: 60vh; */

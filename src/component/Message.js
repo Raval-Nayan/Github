@@ -3,6 +3,7 @@ import "../css/dashbord.css";
 import "../css/order.css";
 import "../css/employee.css";
 
+
 // import { NavLink } from "react-router-dom";
 
 import SearchBox from "../component/SearchBox";
@@ -12,7 +13,7 @@ import user from "../img/user.png";
 import { NavLink } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 
-const Employees = () => {
+const Message = () => {
   return (
     <div className="container-fluid dash-back-color d-flex">
       {/* display flex , flex column */}
@@ -35,9 +36,9 @@ const Employees = () => {
                 fontFamily: "Poppins",
               }}
             >
-              Employees
+              Message
             </h2>
-            <div className="d-flex width----drop " >
+            <div className="d-flex width----drop ">
               {/* btn 1  */}
 
               <select className=" select-box w-100 h-50">
@@ -70,15 +71,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100 ">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -94,15 +103,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -117,15 +134,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -140,15 +165,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -163,15 +196,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -187,15 +228,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -211,15 +260,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -234,15 +291,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -258,15 +323,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -281,15 +354,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -305,15 +386,23 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -329,26 +418,27 @@ const Employees = () => {
                     <li>Person Name : abc</li>
                     <li>Designation : asdjsht</li>
                     <li>Email : asyd@ldsfh.com</li>
-                    <li>Contact No : +918743839834</li>
                   </ul>
                   <div className="d-sm-flex  ">
-                    <button className="button-modify w-100">
-                      <i class="fa-solid fa-phone"></i> <span>Call</span>
-                    </button>
-                    <button className="button-modify w-100 mt-2 mt-sm-0">
-                      <i class="fa-solid fa-message"></i> <span>Message</span>
-                    </button>
+                    <div className="w-100 me-1">
+                      <NavLink>
+                        <button className="button-modify w-100 ">
+                          <i class="fa-solid fa-phone"></i> <span>Call</span>
+                        </button>
+                      </NavLink>
+                    </div>
+                    <div className="w-100">
+                      <NavLink to="/chatbox">
+                        <button className="button-modify w-100 mt-2 mt-sm-0">
+                          <i class="fa-solid fa-message"></i>{" "}
+                          <span>Message</span>
+                        </button>
+                      </NavLink>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <NavLink to="/addemployee">
-              <button className="add-button mt-2" style={{ color: "white" }}>
-                {" "}
-                <span className="text "> Add Employee +</span>
-              </button>
-            </NavLink>
           </div>
         </div>
       </div>
@@ -356,4 +446,4 @@ const Employees = () => {
   );
 };
 
-export default Employees;
+export default Message;

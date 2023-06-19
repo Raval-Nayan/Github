@@ -13,7 +13,7 @@ import { NavLink } from "react-router-dom";
 
 // import { NavLink } from "react-router-dom";
 
-const Category = () => {
+const SubCategory = () => {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -41,89 +41,79 @@ const Category = () => {
                   fontFamily: "Poppins",
                 }}
               >
-                Category
+                Sub Category
               </h2>
             </div>
 
             <div className="category-box-white">
               <div className="row justify-content-center ">
                 <div className="col-ms-10 col-11 category-name  mt-3">
-                  <h5 className="m-0 ms-2">Category Name</h5>
-                  <h5 className="m-0 me-2">GST %</h5>
+                  <div className="w-75">
+                    <h5 className="m-0 ms-sm-2  h5-text ">SubCategory</h5>
+                  </div>
+                  <div className="w-25 ">
+                    <h5 className="m-0 me-sm-2 h5-text">Category</h5>
+                  </div>
                 </div>
                 {/* box2 */}
                 <div className="col-ms-10 col-11 category mt-3">
-                  <h5 className="m-0 ms-2">Select Category</h5>
-                  <div className="side-button ">
-                    <span>20</span>
-                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
+                  <h5 className="m-0 ms-2">Android Application</h5>
+                  <div className=" side-category-box ">
+                    <span>Mobile Application</span>
+                    <i
+                      className="fa-solid fa-pen ms-2"
+                      onClick={handleShow}
+                    ></i>
                   </div>
                 </div>
                 {/* box-3 */}
                 <div className="col-ms-10 col-11 category mt-3">
-                  <h5 className="m-0 ms-2">Mobile Application</h5>
-                  <div className="side-button ">
-                    <span>20</span>
+                  <h5 className="m-0 ms-2">Social Media</h5>
+                  <div className="side-category-box ">
+                    <span>Digital Marketing</span>
                     <i class="fa-solid fa-pen"></i>
                   </div>
                 </div>
                 {/* box-4 */}
                 <div className="col-ms-10 col-11 category mt-3">
-                  <h5 className="m-0 ms-2">Digital Marketing</h5>
-                  <div className="side-button ">
-                    <span>20</span>
+                  <h5 className="m-0 ms-2">IOS</h5>
+                  <div className="side-category-box  ">
+                    <span>Mobile Application</span>
                     <i class="fa-solid fa-pen"></i>
                   </div>
                 </div>
                 {/* box-5 */}
                 <div className="col-ms-10 col-11 category mt-3">
-                  <h5 className="m-0 ms-2">Web Application</h5>
-                  <div className="side-button ">
-                    <span>20</span>
+                  <h5 className="m-0 ms-2">Windows</h5>
+                  <div className="side-category-box  ">
+                    <span>Mobile Application</span>
                     <i class="fa-solid fa-pen"></i>
                   </div>
                 </div>
                 {/* box-6 */}
                 <div className="col-ms-10 col-11 category mt-3">
-                  <h5 className="m-0 ms-2">Graphic Designing</h5>
-                  <div className="side-button ">
-                    <span>20</span>
+                  <h5 className="m-0 ms-2">Operators</h5>
+                  <div className="side-category-box ">
+                    <span>Customized Software</span>
                     <i class="fa-solid fa-pen"></i>
                   </div>
                 </div>
 
                 {/* box-7 */}
                 <div className="col-ms-10 col-11 category mt-3">
-                  <h5 className="m-0 ms-2">Customized Software</h5>
-                  <div className="side-button ">
-                    <span>20</span>
-                    <i class="fa-solid fa-pen"></i>
-                  </div>
-                </div>
-                {/* box-8 */}
-                <div className="col-ms-10 col-11 category mt-3">
-                  <h5 className="m-0 ms-2">Man Power</h5>
-                  <div className="side-button ">
-                    <span>20</span>
+                  <h5 className="m-0 ms-2">Hello1</h5>
+                  <div className="side-category-box  ">
+                    <span>Man Power</span>
                     <i class="fa-solid fa-pen"></i>
                   </div>
                 </div>
 
                 {/* box-9 */}
-                <div className="col-ms-10 col-11 category mt-3 mb-5 ">
-                  <h5 className="m-0 ms-2">hello</h5>
-                  <div className="side-button ">
-                    <span>20</span>
-                    <i class="fa-solid fa-pen "></i>
-                  </div>
-                </div>
               </div>
 
-              <NavLink to="/addnewcategory">
+              <NavLink to="/addnewsubcategory">
                 {" "}
-                <button className="btn  add-btn-category">
-                  Add Category +
-                </button>
+                <button className="btn  add-sub-btn"> Add Category +</button>
               </NavLink>
             </div>
           </div>
@@ -137,7 +127,7 @@ const Category = () => {
         onHide={handleClose}
         centered
       >
-        <Modal.Header closeButton>Edit Category :</Modal.Header>
+        <Modal.Header closeButton>Edit Sub-Category :</Modal.Header>
         <Modal.Body className=" edit-categoty px-3">
           {" "}
           <div>
@@ -154,7 +144,7 @@ const Category = () => {
               className="btn w-100 mt-2"
               style={{ color: "#3B968A", border: "1px solid #3B968A" }}
             >
-              18
+              Android Application
             </button>
           </div>
         </Modal.Body>
@@ -164,7 +154,7 @@ const Category = () => {
               Delete
             </Button>
           </NavLink>
-          <NavLink to="/editcategory">
+          <NavLink to="#">
             <Button variant="primary" className="w-100" onClick={handleClose}>
               Edit
             </Button>
@@ -175,4 +165,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default SubCategory;

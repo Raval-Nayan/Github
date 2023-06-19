@@ -69,7 +69,7 @@ const SiderBox = () => {
 
           {/* btn6 */}
           <li className="uls-style gx-0">
-            <NavLink>
+            <NavLink to="/message">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-solid fa-comments mt-1"></i>
                 <span className="li-text ms-md-4">Messenger</span>
@@ -105,6 +105,17 @@ const SiderBox = () => {
                 <i className="fa-regular fa-folder-open mt-1 "></i>
 
                 <span className="li-text  ms-md-3">Category</span>
+              </button>
+            </NavLink>{" "}
+          </li>
+
+          {/* 9/10 */}
+          <li className="uls-style gx-0">
+            <NavLink to="/subcategory">
+              <button className="btn btn-danger   d-md-flex w-100">
+                <i className="fa-regular fa-folder-open mt-1 "></i>
+
+                <span className="li-text  ms-md-3"> sub Category</span>
               </button>
             </NavLink>{" "}
           </li>

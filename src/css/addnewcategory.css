@@ -1,0 +1,56 @@
+.drop-select {
+  border-bottom: 2px solid #0034b9;
+  height: 45px;
+
+  width: 100%;
+  padding: 10px;
+  margin-top: -5px;
+  border-bottom: 2px solid #0c1947;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.addcategory {
+  display: grid;
+
+  margin: auto;
+  background-color: rgba(225, 255, 251, 0.75);
+  box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
+  border-radius: 24px;
+}
+.border----bottom {
+  border-bottom: 2px solid #0c1947 !important;
+}
+.form-floating > label {
+  height: 70% !important;
+}
+
+label {
+  color: #0034b9 !important;
+}
+
+.button-width-addcategory {
+  width: 50% !important;
+}
+
+@media (max-width: 500px) {
+  /* label {
+    font-size: 12px !important;
+  } */
+  .button-width-addcategory {
+    width: 100% !important;
+  }
+
+  .font {
+    font-size: 10px !important;
+  }
+
+  select.drop-select {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  label {
+    font-size: 5px !important;
+  }
+}

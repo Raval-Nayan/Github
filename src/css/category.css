@@ -1,13 +1,42 @@
+* {
+  font-family: "Poppins";
+  span {
+    font-family: "Poppins";
+    color: #3b968a;
+  }
+}
+
+.side-category-box {
+  width: 30%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .category-box-white {
   background-color: white;
   /* width: 100%; */
   box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
   border-radius: 24px;
   height: auto;
+  padding: 30px;
   position: relative;
+}
+.add-sub-btn {
+  position: absolute;
+  right: 50px;
+  bottom: -20px;
+
+  background-color: #091f57 !important;
+  color: white !important;
 }
 h5 {
   font-family: "Poppins";
+}
+.edit-categoty {
+  flex-direction: column !important;
+  padding: 0px !important;
 }
 
 .category-name {
@@ -38,8 +67,9 @@ h5 {
 }
 .add-btn-category {
   position: absolute;
-  right: 20px;
-  margin-top: -43px;
+  right: 50px;
+  bottom: -10px;
+
   background-color: #091f57 !important;
   color: white !important;
 }
@@ -47,5 +77,30 @@ h5 {
 @media (max-width: 500px) {
   .side-button {
     width: 40px;
+  }
+
+  .h5-text {
+    font-size: 13px !important;
+  }
+
+  h5 {
+    font-size: 15px !important;
+  }
+
+  .side-category-box {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .add-sub-btn {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+
+    background-color: #091f57 !important;
+    color: white !important;
   }
 }

@@ -9,7 +9,7 @@ import "../css/order.css";
 const SearchBox = () => {
   return (
     <div className="search-box mt-4  ms-2 mb-3">
-      <div className="w-50 search-input">
+      <div className="w-50  search-input">
         <input
           className="form-control search  "
           type="text"
