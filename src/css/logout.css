@@ -1,0 +1,23 @@
+.align {
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.back-color-blue {
+  background-color: #0c1947;
+  color: white;
+  border-radius: 15px;
+  width: 100% !important;
+  height: 190px;
+  padding: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.yes-no-btn {
+  display: flex;
+}

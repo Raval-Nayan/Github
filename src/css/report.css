@@ -1,0 +1,50 @@
+.color-xyz {
+  background-color: rgba(225, 255, 251, 0.75);
+  box-shadow: 0px 4px 4px rgba(9, 31, 87, 0.25);
+  border-radius: 24px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+th {
+  border: 2px solid black !important;
+  padding: 8px;
+  background-color: #71c1ad;
+}
+.color-dates {
+  background-color: rgba(225, 255, 251, 0.75) !important;
+}
+
+.h5-excle {
+  font-family: "Poppins";
+
+  font-weight: 500;
+
+  /* identical to box height, or 25% */
+
+  color: #0c1947 !important;
+}
+tr {
+  height: 30px;
+}
+
+td {
+  background-color: #e2eaff;
+  border: 1px solid black !important;
+}
+
+table {
+  border-radius: 0px 0px 10px 10px;
+}
+
+.btn-width {
+  width: 25% !important;
+}
+
+@media (max-width: 500px) {
+  .btn-width {
+    width: 100% !important;
+  }
+}

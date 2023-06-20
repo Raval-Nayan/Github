@@ -19,7 +19,8 @@ import Rejected from "./component/Rejected";
 import AddNewCategory from "./component/AddNewCategory";
 import AddNewSubCategory from "./component/AddNewSubCategory";
 import Message from "./component/Message";
-
+// import Complaint from "./component/Complaint";
+import ComplaintProfile from "./component/ComplaintProfile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import OrderDetails from "./component/OrderDrtails";
 import OrderProduct from "./component/OrderProduct";
@@ -30,6 +31,8 @@ import Category from "./component/Category";
 import EditCategory from "./component/EditCategory";
 import SubCategory from "./component/SubCategory";
 import ChatBox from "./component/ChatBox";
+import Logout from "./component/Logout";
+import Report from "./component/Report";
 
 import AddProduct from "./component/AddProduct";
 
@@ -80,7 +83,10 @@ function App() {
             element={<AddNewSubCategory />}
           ></Route>
           <Route path="/message" element={<Message></Message>}></Route>
-          <Route path="/chatbox" element={<ChatBox/>}></Route>
+          <Route path="/chatbox" element={<ChatBox />}></Route>
+          <Route path="/complaint" element={<ComplaintProfile />}></Route>
+          <Route path="/logout" element={<Logout />}></Route>
+          <Route path="/report" element={<Report/>}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
