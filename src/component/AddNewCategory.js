@@ -5,7 +5,7 @@ import "../css/addnewcategory.css";
 
 import SearchBox from "../component/SearchBox";
 import SiderBox from "../component/SiderBox";
-import { NavLink } from "react-router-dom";
+
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 const AddNewCategory = () => {

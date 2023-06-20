@@ -8,7 +8,7 @@ import "../css/employee.css";
 import SearchBox from "../component/SearchBox";
 import SiderBox from "../component/SiderBox";
 import "../css/orderdetails.css";
-import user from "../img/user.png";
+
 import { NavLink } from "react-router-dom";
 import cd from "../img/cd.png";
 import we from "../img/we.png";
