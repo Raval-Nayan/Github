@@ -11,3 +11,17 @@
     height: 100vh;
   }
 } */
+
+.d-h5-text {
+  font-family: "Sansation Light";
+
+  font-weight: 300;
+  /* font-size: 26px; */
+  line-height: 29px;
+
+  color: #000000;
+}
+
+.button-style {
+  background-color: black !important;
+}

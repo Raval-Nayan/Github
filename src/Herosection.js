@@ -42,14 +42,14 @@ const Herosection = () => {
 
               <div className="d-flex flex-column  ">
                 <input
-                  className="form-control input "
+                  className="form-control input  w-100 "
                   type="email mt-2"
                   placeholder="Email Id"
                 ></input>
                 <div className="eye-passwords">
                   <input
                     className="mt-md-2 form-control input"
-                    type="password mt-2"
+                    type="password mt-2 w-100"
                     placeholder="Password"
                   ></input>
                   <i class="fa-solid fa-eye-slash eye-absulate"></i>

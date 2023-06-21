@@ -6,20 +6,24 @@ import support from "../img/dashbord/8e11c359-67b0-4692-a5e5-c57a74debab3.jpg";
 
 import { NavLink } from "react-router-dom";
 import "../css/order.css";
+import "../css/sidebarboxs.css";
 
 const SiderBox = () => {
   return (
     <>
       <div className="sidebar-boxs  d-flex flex-column m-0 gx-0 sidebar-width mt-3">
         <div className="dash-img d-md-flex pt-3  ">
-          <img className="img-fluid imgd h-50" src={dimg} alt="nayan"></img>
-          <h4 className="d-h5-text ms-3  me-3 mb-2">CARE FOR EACH</h4>
+          <img className="img-fluid p-2 imgd " src={dimg} alt="nayan"></img>
+          <h4 className="d-h5-text ms-3  me-3 mb-2">
+            CARE <br /> FOR <br />
+            EACH
+          </h4>
         </div>
 
         {/* ul,li flex-column */}
         <ul className="d-flex flex-column  ">
           <li className="uls-style gx-0">
-            <NavLink to="/" className="nav-link">
+            <NavLink to="/" className="nav-link ">
               <button className="btn btn-primary   d-md-flex  w-100">
                 <i className="fa-solid fa-house mt-1"></i>
                 <span className=" li-text ms-md-4">Home</span>
