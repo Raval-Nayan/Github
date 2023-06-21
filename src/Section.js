@@ -21,113 +21,132 @@ const Section = () => {
         <div className="grid-boxs">
           {/* box1 */}
           <div className="boxs-style ">
-            <div className="d-flex ">
-              <img className="me-2 img-fluid" src={img1} alt="nayan"></img>
-              <NavLink to="/order">
-                {" "}
-                <h5 className="mt-4 text-section">Order</h5>
-              </NavLink>
-            </div>
+            <NavLink to="/order" className="nav-link">
+              <div className="d-flex ">
+                <img className="img-fluid" src={img1} alt="nayan"></img>{" "}
+                <h5 className=" text-section">Order</h5>
+              </div>
+            </NavLink>
           </div>
 
           {/* box2 */}
           <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img2} alt="nayan"></img>
-
-              <NavLink to="#">
-                {" "}
-                <h5 className="mt-4 text-section">Attendance</h5>
-              </NavLink>
-            </div>
+            <NavLink to="/attendance" className="nav-link">
+              <div className="d-flex">
+                <img className=" img-fluid" src={img2} alt="nayan"></img>{" "}
+                <h5 className="text-section">Attendance</h5>
+              </div>
+            </NavLink>
           </div>
 
           {/* box3 */}
 
           <div className="boxs-style">
-            <NavLink to="/employee">
-              <div className="d-flex">
-                <img className="me-2 img-fluid" src={img3} alt="nayan"></img>
-
-                <NavLink to="#">
-                  {" "}
-                  <h5 className="mt-4 text-section">Employee</h5>
-                </NavLink>
+            <NavLink to="/employee" className="nav-link">
+              <div className="d-flex mt-3">
+                <img className="me-2 img-fluid" src={img3} alt="nayan"></img>{" "}
+                <h5 className="mt-4 text-section">Employee</h5>
               </div>
             </NavLink>
           </div>
 
           {/* box-4 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img4} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Visitor</h5>
+          <NavLink to="/visitor" className="nav-link">
+            <div className="boxs-style">
+              <div className="d-flex">
+                <img className="me-2 img-fluid" src={img4} alt="nayan"></img>
+                <h5 className="mt-4 text-section">Visitor</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
 
           {/* box5 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img5} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Ginnie Box</h5>
+          <NavLink to="/ginniebox" className="nav-link">
+            <div className="boxs-style">
+              <div className="d-flex">
+                <img className="me-2 img-fluid" src={img5} alt="nayan"></img>
+                <h5 className="mt-4 text-section">Ginnie Box</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
 
           {/* box6 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img6} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Product</h5>
+          <NavLink to="/product" className="nav-link">
+            {" "}
+            <div className="boxs-style">
+              <div className="d-flex">
+                <img className="me-2 img-fluid" src={img6} alt="nayan"></img>
+                <h5 className="mt-4 text-section">Product</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
 
           {/* box7 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img7} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Leave Request</h5>
+          <NavLink to="/leaverequest" className="nav-link">
+            <div className="boxs-style">
+              <div className="d-flex justify-content-center">
+                <img className="me-2 img-fluid" src={img7} alt="nayan"></img>
+                <h5 className="mt-4 text-section">Leave Request</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
 
           {/* box8 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img8} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Category</h5>
+          <NavLink to="/category" className="nav-link">
+            {" "}
+            <div className="boxs-style">
+              <div className="section-item-flex ">
+                <div>
+                  <img
+                    className=" img-fluid w-75 "
+                    src={img8}
+                    alt="nayan"
+                  ></img>
+                </div>
+                <h5 className=" text-section">Category</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
 
           {/* box9 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img9} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Sub Category</h5>
+          <NavLink to="/subcategory" className="nav-link">
+            <div className="boxs-style">
+              <div className="d-flex">
+                <img className="me-2 img-fluid" src={img9} alt="nayan"></img>
+                <h5 className="mt-4 text-section">Sub Category</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
 
           {/* box10 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img10} alt="nayan"></img>
-              <h5 className="mt-4 text-section">Message</h5>
+          <NavLink to="/message" className="nav-link">
+            <div className="boxs-style">
+              <div className="d-flex">
+                <img className="me-2 img-fluid" src={img10} alt="nayan"></img>
+                <h5 className="mt-4 text-section">Message</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
 
           {/* box11 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img11} alt="nayan"></img>
-              <h5 className="mt-5 text-section">Complaint</h5>
+          <NavLink to="/complaint" className="nav-link">
+            <div className="boxs-style">
+              <div className="d-flex">
+                <img className="me-2 img-fluid" src={img11} alt="nayan"></img>
+                <h5 className="mt-4 text-section">Complaint</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
 
           {/* box12 */}
-          <div className="boxs-style">
-            <div className="d-flex">
-              <img className="me-2 img-fluid" src={img12} alt="nayan"></img>
-              <h5 className="mt-3 text-section">Report</h5>
+          <NavLink to="/report" className="nav-link">
+            <div className="boxs-style">
+              <div className="d-flex">
+                <img className="me-2 img-fluid" src={img12} alt="nayan"></img>
+                <h5 className="mt-3 text-section">Report</h5>
+              </div>
             </div>
-          </div>
+          </NavLink>
         </div>
       </div>
     </div>

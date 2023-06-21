@@ -9,7 +9,6 @@ import SearchBox from "../component/SearchBox";
 import SiderBox from "../component/SiderBox";
 import "../css/orderdetails.css";
 import "../css/complaint.css";
-import circle from "../img/circle.png";
 
 import { NavLink } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
@@ -61,25 +60,162 @@ const Complaint = () => {
           {/* div  banavo */}
 
           <div className="complaint-white-box">
-            <div className="items-grid-box">
-              <div className="box-complaint ">
-                <div className="box-side-color"></div>
-                <div className=" content-center-img">
-                  {" "}
-                  {/* <img
-                    className="img-fluid img-postion"
-                    src={circle}
-                    alt="nayan"
-                  /> */}
-                  <h5 className="cd-text">cd</h5>
+            <div className="row  gap-2 justify-content-center">
+              {/* box1 */}
+              <div className="col-lg-4 col-md-6 col-8 out-stru ">
+                <div className="circle-create ">
+                  <NavLink to="/complaintprofile">
+                    <span className="cd-text">CD</span>
+                  </NavLink>
                 </div>
-                <div className=" content-center">
+                <div className="div-----width">
+                  <ul className="d-flex flex-column flex-end">
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
+                  </ul>
+                </div>
+              </div>
+              {/* box2 */}
+              <div className="col-lg-4 col-md-6 col-8 out-stru ">
+                <div className="circle-create ">
+                  <span className="cd-text">CD</span>
+                </div>
+                <div className="div-----width">
                   <ul>
-                    <li>Name : Abc</li>
-                    <li>Designation : Flutter Developer</li>
-                    <li>Subject : Payment</li>
-                    <li>Description : XYZ</li>
-                    <li>Date : 01-03-2023</li>
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
+                  </ul>
+                </div>
+              </div>
+              {/* box3 */}
+              <div className="col-lg-4  col-md-6  col-8 out-stru ">
+                <div className="circle-create ">
+                  <span className="cd-text">CD</span>
+                </div>
+                <div className="div-----width">
+                  <ul>
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* box4 */}
+              <div className="col-lg-4  col-md-6 col-8 out-stru ">
+                <div className="circle-create ">
+                  <span className="cd-text">CD</span>
+                </div>
+                <div className="div-----width">
+                  <ul>
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* box-5 */}
+              <div className="col-lg-4  col-md-6 col-8 out-stru ">
+                <div className="circle-create ">
+                  <span className="cd-text">CD</span>
+                </div>
+                <div className="div-----width">
+                  <ul>
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
+                  </ul>
+                </div>
+              </div>
+              {/* box-6 */}
+              <div className="col-lg-4  col-md-6 col-8 out-stru ">
+                <div className="circle-create ">
+                  <span className="cd-text">CD</span>
+                </div>
+                <div className="div-----width">
+                  <ul>
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* box-7 */}
+              <div className="col-lg-4  col-md-6 col-8 out-stru ">
+                <div className="circle-create ">
+                  <span className="cd-text">CD</span>
+                </div>
+                <div className="div-----width">
+                  <ul>
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
+                  </ul>
+                </div>
+              </div>
+              {/* box-8 */}
+              <div className="col-lg-4  col-md-6 col-8 out-stru ">
+                <div className="circle-create ">
+                  <span className="cd-text">CD</span>
+                </div>
+                <div className="div-----width">
+                  <ul>
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
+                  </ul>
+                </div>
+              </div>
+              {/* 9 */}
+              <div className="col-lg-4  col-md-6 col-8 out-stru ">
+                <div className="circle-create ">
+                  <span className="cd-text">CD</span>
+                </div>
+                <div className="div-----width">
+                  <ul>
+                    <li className="li-texts">Name : Abc</li>
+                    <li className="li-texts">
+                      Designation : Flutter Developer
+                    </li>
+                    <li className="li-texts">Subject : Payment</li>
+                    <li className="li-texts"> Description : XYZ</li>
+                    <li className="li-texts">Date : 01-03-2023</li>
                   </ul>
                 </div>
               </div>

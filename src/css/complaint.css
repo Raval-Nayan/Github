@@ -1,77 +1,83 @@
-* {
-  li {
-    font-family: "Poppins";
-
-    font-weight: 500;
-
-    color: #0c1947;
-  }
-}
-
-.cd-text {
+.li-texts {
   font-family: "Poppins";
-
+  font-style: normal;
   font-weight: 500;
-
-  /* identical to box height */
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  margin: auto;
-  padding: 50px;
-  margin: 20px;
+  /* font-size: 12px; */
+  line-height: 18px;
 
   color: #0c1947;
-}
-
-.content-center-img {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  /* position: relative; */
-}
-.border-redios {
-  border: 2px solid red;
-  border-radius: 50%;
-}
-
-.img-postion {
-  /* position: relative; */
-  margin-right: 30px;
-}
-
-.content-center {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-
-.box-side-color {
-  background-color: #3b968a;
-  border-radius: 50px 0px 0px 45px;
-  /* height: 100px; */
-}
-
-.box-complaint {
-  border: 2px solid #3b968a;
-  box-sizing: border-box;
-  height: 170px;
-  border-radius: 26px 0px 0px 26px;
-  display: grid;
-  grid-template-columns: 24px 1fr 1fr;
-  grid-template-rows: 1fr;
 }
 
 .complaint-white-box {
   background-color: #ffffff;
   box-shadow: 0px 6px 58px rgba(196, 203, 214, 0.103611);
   border-radius: 24px;
+  padding: 30px;
 }
 
-.items-grid-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-
+.out-stru {
+  border: 3px solid #3b968a;
+  border-left: 30px solid #3b968a;
+  border-radius: 20px 6px 6px 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
   height: 200px;
+  gap: 1rem;
+  position: relative;
+  width: 30% !important;
+}
+
+.div-----width {
+  width: 65%;
+}
+.cd-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  color: #0c1947;
+}
+
+.circle-create {
+  border: 2px solid #3b968a;
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: cenetr;
+  position: absolute;
+  background-color: white;
+  left: -14px;
+}
+
+@media (max-width: 992px) {
+  .out-stru {
+    width: 40% !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .out-stru {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 660px) {
+  .out-stru {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .out-stru {
+    width: 95% !important;
+  }
+
+  .complaint-white-box {
+    padding: 12px;
+  }
 }

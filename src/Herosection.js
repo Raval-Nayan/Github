@@ -16,7 +16,9 @@ const Herosection = () => {
           <div className="hero-box">
             <div className="w-40 px-2 care-for">
               <img className="img-fluid img-size" src={img} alt="nayan"></img>
-              <h1 className="mt-3 w-100 care-for-each  text--hero">CARE FOR EACH</h1>
+              <h1 className="mt-3 w-100 care-for-each  text--hero">
+                CARE FOR EACH
+              </h1>
             </div>
             <div
               className="w-40 d-flex align-items-center"
@@ -54,7 +56,7 @@ const Herosection = () => {
                 </div>
               </div>
 
-              <NavLink to="/dashbord">
+              <NavLink to="/dashbord" className="nav-link">
                 <button className="btn btn-primary  w-100 login-button">
                   Log in
                 </button>

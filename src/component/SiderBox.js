@@ -19,7 +19,7 @@ const SiderBox = () => {
         {/* ul,li flex-column */}
         <ul className="d-flex flex-column  ">
           <li className="uls-style gx-0">
-            <NavLink to="/">
+            <NavLink to="/" className="nav-link">
               <button className="btn btn-primary   d-md-flex  w-100">
                 <i className="fa-solid fa-house mt-1"></i>
                 <span className=" li-text ms-md-4">Home</span>
@@ -29,7 +29,7 @@ const SiderBox = () => {
 
           {/* btn2 */}
           <li className="uls-style gx-0">
-            <NavLink to="/order">
+            <NavLink to="/order" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-solid fa-grip mt-1"></i>
                 <span className="li-text ms-md-4">order</span>
@@ -39,7 +39,7 @@ const SiderBox = () => {
 
           {/* btn3 */}
           <li className="uls-style gx-0">
-            <NavLink>
+            <NavLink to="/attendance" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-solid fa-clipboard-user mt-1"></i>
                 <span className="li-text ms-md-4">Attendance</span>
@@ -49,7 +49,7 @@ const SiderBox = () => {
 
           {/* btn4 */}
           <li className="uls-style gx-0">
-            <NavLink to="/visitor">
+            <NavLink to="/visitor" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-solid fa-plane-up mt-1"></i>
                 <span className="li-text ms-md-4">Visitor</span>
@@ -59,7 +59,7 @@ const SiderBox = () => {
 
           {/* btn5 */}
           <li className="uls-style gx-0">
-            <NavLink to="/employee">
+            <NavLink to="/employee" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-solid fa-user mt-1"></i>
                 <span className="li-text ms-md-4">Employees</span>
@@ -69,7 +69,7 @@ const SiderBox = () => {
 
           {/* btn6 */}
           <li className="uls-style gx-0">
-            <NavLink to="/message">
+            <NavLink to="/message" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-solid fa-comments mt-1"></i>
                 <span className="li-text ms-md-4">Messenger</span>
@@ -80,7 +80,7 @@ const SiderBox = () => {
           {/* btn  */}
 
           <li className="uls-style gx-0">
-            <NavLink to="/ginniebox">
+            <NavLink to="/ginniebox" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i class="fa-solid fa-box"></i>
                 <span className="li-text ms-md-4">Ginnie Box</span>
@@ -90,7 +90,7 @@ const SiderBox = () => {
 
           {/* btn7 */}
           <li className="uls-style gx-0">
-            <NavLink to="/product">
+            <NavLink to="/product" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-regular fa-folder mt-1"></i>
                 <span className="li-text ms-md-4">Product</span>
@@ -100,7 +100,7 @@ const SiderBox = () => {
 
           {/* 8/9 */}
           <li className="uls-style gx-0">
-            <NavLink to="/Category">
+            <NavLink to="/Category" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-regular fa-folder-open mt-1 "></i>
 
@@ -111,7 +111,7 @@ const SiderBox = () => {
 
           {/* 9/10 */}
           <li className="uls-style gx-0">
-            <NavLink to="/subcategory">
+            <NavLink to="/subcategory" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-regular fa-folder-open mt-1 "></i>
 
@@ -122,7 +122,7 @@ const SiderBox = () => {
 
           {/* btn8 */}
           <li className="uls-style gx-0">
-            <NavLink to="/leaverequest">
+            <NavLink to="/leaverequest" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-regular fa-folder-open mt-1 "></i>
                 <span className="li-text  ms-md-3">Leave request</span>
@@ -131,7 +131,7 @@ const SiderBox = () => {
           </li>
           {/* btn9 */}
           <li className="uls-style gx-0">
-            <NavLink to="/complaint">
+            <NavLink to="/complaint" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-solid fa-question mt-1"></i>
                 <span className="li-text ms-md-4">Complaint</span>
@@ -140,7 +140,7 @@ const SiderBox = () => {
           </li>
           {/* btn10 */}
           <li className="uls-style gx-0">
-            <NavLink to="/report">
+            <NavLink to="/report" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100">
                 <i className="fa-solid fa-info mt-1"></i>
                 <span className="li-text ms-md-4">Report</span>
@@ -149,7 +149,7 @@ const SiderBox = () => {
           </li>
           {/* btn11 */}
           <li className="uls-style gx-0">
-            <NavLink>
+            <NavLink className="nav-link">
               <button className="btn btn-danger  gx-0 ">
                 <img
                   className="img-support img-fluid"
@@ -162,7 +162,7 @@ const SiderBox = () => {
 
           {/* btn-12 */}
           <li className="uls-style gx-0 ">
-            <NavLink to="/logout">
+            <NavLink to="/logout" className="nav-link">
               <button className="btn btn-danger   d-md-flex w-100 ">
                 <i className="fa-solid fa-right-from-bracket mt-1"></i>
                 <span className="li-text ms-md-4">Log out</span>

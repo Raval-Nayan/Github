@@ -19,7 +19,8 @@ import Rejected from "./component/Rejected";
 import AddNewCategory from "./component/AddNewCategory";
 import AddNewSubCategory from "./component/AddNewSubCategory";
 import Message from "./component/Message";
-// import Complaint from "./component/Complaint";
+import Attendance from "./component/Attendance";
+
 import ComplaintProfile from "./component/ComplaintProfile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import OrderDetails from "./component/OrderDrtails";
@@ -33,6 +34,7 @@ import SubCategory from "./component/SubCategory";
 import ChatBox from "./component/ChatBox";
 import Logout from "./component/Logout";
 import Report from "./component/Report";
+import Complaint from "./component/Complaint";
 
 import AddProduct from "./component/AddProduct";
 
@@ -84,9 +86,14 @@ function App() {
           ></Route>
           <Route path="/message" element={<Message></Message>}></Route>
           <Route path="/chatbox" element={<ChatBox />}></Route>
-          <Route path="/complaint" element={<ComplaintProfile />}></Route>
+          <Route path="/complaint" element={<Complaint />}></Route>
+          <Route
+            path="/complaintprofile"
+            element={<ComplaintProfile />}
+          ></Route>
           <Route path="/logout" element={<Logout />}></Route>
-          <Route path="/report" element={<Report/>}></Route>
+          <Route path="/report" element={<Report />}></Route>
+          <Route path="/attendance" element={<Attendance />}></Route>
         </Routes>
         <Footer></Footer>
       </BrowserRouter>
