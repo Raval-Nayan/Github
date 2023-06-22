@@ -168,12 +168,12 @@ const GinnieBoxDetail = () => {
                 <div className=" ms-2 d-lg-flex flex-md-column ">
                   {" "}
                   <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
+                    <button className="btn btn-secondary mt-2  me-1 ">
                       Grand Total : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
+                    <button className="btn btn-secondary mt-2 me-1  ">
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>

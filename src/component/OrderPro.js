@@ -72,7 +72,7 @@ const OrderPro = () => {
                 {" "}
                 <div className="mt-md-0 mt-3">
                   <h6 className="h6----text text-center">HIGHLANDER</h6>
-                  <ul className="ul----text justify-">
+                  <ul className="ul----text ">
                     <li className="ul----text">
                       Men Slim Fit Solid Cut Away Collar Casual Jacket.
                     </li>
@@ -97,7 +97,7 @@ const OrderPro = () => {
                 {" "}
                 <div className="mt-md-0 mt-3">
                   <h6 className="h6----text text-center">HIGHLANDER</h6>
-                  <ul className="ul----text justify-">
+                  <ul className="ul----text ">
                     <li className="ul----text">
                       Men Slim Fit Solid Cut Away Collar Casual Jacket.
                     </li>

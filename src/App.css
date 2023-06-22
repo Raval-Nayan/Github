@@ -4,7 +4,6 @@
 
 .nav-link {
   text-decoration: none;
-  background-color: none;
 }
 
 .active .btn-color {
@@ -13,6 +12,6 @@
   color: white !important;
 }
 
-.btn {
+.icon {
   color: #3b968a !important;
 }
