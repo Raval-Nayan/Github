@@ -4,4 +4,15 @@
 
 .nav-link {
   text-decoration: none;
+  background-color: none;
+}
+
+.active .btn-color {
+  background-color: #3b968a !important;
+  border-radius: 30px !important;
+  color: white !important;
+}
+
+.btn {
+  color: #3b968a !important;
 }

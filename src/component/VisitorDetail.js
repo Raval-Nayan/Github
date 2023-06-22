@@ -8,6 +8,8 @@ import user from "../img/user.png";
 import "../css/dashbord.css";
 import "../css/order.css";
 import "../css/empprofile.css";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
 
 const VisitorDetails = () => {
   return (
@@ -35,7 +37,7 @@ const VisitorDetails = () => {
               >
                 Visitor Detail
               </h2>
-              <div className="d-flex w-25 ">
+              <div className="d-flex width----drop ">
                 {/* btn 1  */}
 
                 <select className=" select-box w-100 h-50">
@@ -56,55 +58,103 @@ const VisitorDetails = () => {
             </div>
             {/* div grid banavo */}
 
-            <div className="color-white">
-              <div className="row part-2">
-                <div className="col-md-5 ">
+            <div className="color-white p-5">
+              <div className="row part-2 p-md-5">
+                <div className="col-md-5 mt-4 ">
                   <div className="text-center">
                     {" "}
                     <img className="img-fluid " src={user} alt="nayan"></img>
                   </div>
 
                   <form className="d-flex flex-column">
-                    <input
-                      type="text"
-                      className="inputdesign color-input mt-3 "
-                      placeholder="  Employee Name"
-                    ></input>
-                    <input
-                      type="email"
-                      placeholder="  Email"
-                      className="inputdesign color-input   mt-2"
-                    ></input>
+                    <FloatingLabel
+                      controlId="floatingInput"
+                      label="Employee Name"
+                      className=" mt-2  "
+                    >
+                      <Form.Control
+                        type="text"
+                        placeholder="    "
+                        className="border----bottom  w-100"
+                        style={{ backgroundColor: "#D3E0FF" }}
+                      />
+                    </FloatingLabel>
 
-                    <input
-                      type="text"
-                      placeholder="  Designation"
-                      className="inputdesign color-input mt-2"
-                    ></input>
+                    <FloatingLabel
+                      controlId="floatingInput"
+                      label="Email"
+                      className=" my-2  "
+                    >
+                      <Form.Control
+                        type="email"
+                        placeholder="    "
+                        className="border----bottom  w-100"
+                        style={{ backgroundColor: "#D3E0FF" }}
+                      />
+                    </FloatingLabel>
+
+                    <FloatingLabel
+                      controlId="floatingInput"
+                      label="Company Name"
+                      className="   "
+                    >
+                      <Form.Control
+                        type="text"
+                        placeholder="    "
+                        className="border----bottom  w-100"
+                        style={{ backgroundColor: "#D3E0FF" }}
+                      />
+                    </FloatingLabel>
                   </form>
                 </div>
                 <div className="col-md-5 mt-lg-5 ">
-                  <input
-                    type="text"
-                    placeholder="  Joining Date"
-                    className="inputdesign color-input mt-2 w-100"
-                  ></input>
-                  <input
-                    type="date"
-                    placeholder="  Date of Birth"
-                    className="inputdesign color-input mt-2 w-100"
-                  ></input>
-                  <input
-                    type="number"
-                    placeholder="  Contact Number"
-                    className="inputdesign color-input mt-2 w-100"
-                  ></input>
-                  <textarea
-                    class="form-control mt-2"
-                    id="exampleFormControlTextarea1"
-                    rows="3"
-                    placeholder="  Discussion"
-                  ></textarea>
+                  <FloatingLabel
+                    controlId="floatingInput"
+                    label="date"
+                    className="  "
+                  >
+                    <Form.Control
+                      type="date"
+                      placeholder="."
+                      className="border----bottom  w-100"
+                      style={{ backgroundColor: "#D3E0FF" }}
+                    />
+                  </FloatingLabel>
+
+                  <FloatingLabel
+                    controlId="floatingInput"
+                    label="Time"
+                    className=" my-2 "
+                  >
+                    <Form.Control
+                      type="time"
+                      placeholder="."
+                      className="border----bottom  w-100"
+                      style={{ backgroundColor: "#D3E0FF" }}
+                    />
+                  </FloatingLabel>
+
+                  <FloatingLabel
+                    controlId="floatingInput"
+                    label="Contact No."
+                    className=" my-2 "
+                  >
+                    <Form.Control
+                      type="number"
+                      placeholder="."
+                      className="border----bottom  w-100"
+                      style={{ backgroundColor: "#D3E0FF" }}
+                    />
+                  </FloatingLabel>
+
+                  <FloatingLabel controlId="floatingTextarea2" label="Comments">
+                    <Form.Control
+                      as="textarea"
+                      placeholder="."
+                      style={{ height: "100px", backgroundColor: "#D3E0FF" }}
+                      className="border----bottom  w-100"
+                    />
+                  </FloatingLabel>
                 </div>
               </div>
             </div>

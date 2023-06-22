@@ -37,7 +37,7 @@ const Product = () => {
             >
               Product
             </h2>
-            <div className="d-flex w-25 ">
+            <div className="d-flex width----drop ">
               {/* btn 1  */}
 
               <select className=" select-box w-100 h-50">
@@ -60,8 +60,11 @@ const Product = () => {
 
           <div className="postion">
             <div className="back-----color ">
-              <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+              <div className="background d-flex  ">
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -76,7 +79,10 @@ const Product = () => {
 
               {/* box2 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -90,7 +96,10 @@ const Product = () => {
               </div>
               {/* box-3 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -104,7 +113,10 @@ const Product = () => {
               </div>
               {/* box-4 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -118,7 +130,10 @@ const Product = () => {
               </div>
               {/* box5 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -133,7 +148,10 @@ const Product = () => {
               {/* box 6 */}
 
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -148,7 +166,10 @@ const Product = () => {
 
               {/* box7 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -162,7 +183,10 @@ const Product = () => {
               </div>
               {/* box8 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -177,7 +201,10 @@ const Product = () => {
 
               {/* box 9 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -191,7 +218,10 @@ const Product = () => {
               </div>
               {/* box10 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -206,7 +236,10 @@ const Product = () => {
 
               {/* box11 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>
@@ -221,7 +254,10 @@ const Product = () => {
 
               {/* box12 */}
               <div className="background d-flex">
-                <img className="img-fluid" src={user} alt="nayan"></img>
+                <div className="me-2 m-2">
+                  {" "}
+                  <img className="img-fluid " src={user} alt="nayan"></img>
+                </div>
 
                 <div className="tetx-----div">
                   <ul>

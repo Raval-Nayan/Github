@@ -38,7 +38,7 @@ const GinnieBox = () => {
             >
               Ginnie Box
             </h2>
-            <div className="d-flex w-25 ">
+            <div className="d-flex width----drop ">
               {/* btn 1  */}
 
               <select className=" select-box w-100 h-50">
@@ -59,262 +59,409 @@ const GinnieBox = () => {
           </div>
           {/* div grid banavo */}
 
-          <div className="back-color-white">
-            {/* box1 */}
-            <div className="row details1 ">
-              <div className="col-lg-1 col-sm-5 p-0">
-                <img className="img-fluid" src={user} alt="nayan"></img>
-              </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
-                {" "}
-                <ul className=" ">
-                  <li className="">Name : abc</li>
-                  <li>Company Name : asdjsht</li>
-                  <li>Email : asyd@ldsfh.com</li>
-                  <li>Contact No : +918743839834</li>
-                  <li>Date : 01-03-2023</li>
-                  <li>Grand Total : ₹ 9874</li>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-sm-5 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Employee Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Name : Himanshu Anand</li>
-                    <li>Designation : Web Developer</li>
-                    <li>Email : hv7460@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Payment Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Date : 05-03-2023</li>
-                    <li>Payment type : Cash</li>
-                    <li>Paid Amount : ₹ 49309</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-2 col-sm-12 p-0">
-                <div className=" ms-2 d-lg-flex flex-md-column ">
-                  {" "}
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
-                      Grand Total : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
-                      Paid Amount : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink to="/ginnieboxproductdetail">
-                    <button className="btn btn-white mt-2 me-1 ">
-                      View Product
-                    </button>
-                  </NavLink>
-                </div>
-              </div>
-            </div>
+          <div className="postion">
+            <div className="back-----color ">
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-            {/* box 2 */}
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
 
-            <div className="row details1 ">
-              <div className="col-lg-1 col-sm-5 p-0">
-                <img className="img-fluid" src={user} alt="nayan"></img>
-              </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
-                {" "}
-                <ul className=" ">
-                  <li className="">Name : abc</li>
-                  <li>Company Name : asdjsht</li>
-                  <li>Email : asyd@ldsfh.com</li>
-                  <li>Contact No : +918743839834</li>
-                  <li>Date : 01-03-2023</li>
-                  <li>Grand Total : ₹ 9874</li>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-sm-5 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Employee Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Name : Himanshu Anand</li>
-                    <li>Designation : Web Developer</li>
-                    <li>Email : hv7460@gmail.com</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Payment Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Date : 05-03-2023</li>
-                    <li>Payment type : Cash</li>
-                    <li>Paid Amount : ₹ 49309</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-2 col-sm-12 p-0">
-                <div className=" ms-2 d-lg-flex flex-md-column ">
-                  {" "}
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
-                      Grand Total : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
-                      Paid Amount : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink to="/orderproduct">
-                    <button className="btn btn-white mt-2 me-1 ">
-                      View Product
-                    </button>
-                  </NavLink>
-                </div>
-              </div>
-            </div>
+              {/* box2 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-            {/* box 3 */}
-            <div className="row details1 ">
-              <div className="col-lg-1 col-sm-5 p-0">
-                <img className="img-fluid" src={user} alt="nayan"></img>
-              </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
-                {" "}
-                <ul className=" ">
-                  <li className="">Name : abc</li>
-                  <li>Company Name : asdjsht</li>
-                  <li>Email : asyd@ldsfh.com</li>
-                  <li>Contact No : +918743839834</li>
-                  <li>Date : 01-03-2023</li>
-                  <li>Grand Total : ₹ 9874</li>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-sm-5 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Employee Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Name : Himanshu Anand</li>
-                    <li>Designation : Web Developer</li>
-                    <li>Email : hv7460@gmail.com</li>
-                  </ul>
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Payment Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Date : 05-03-2023</li>
-                    <li>Payment type : Cash</li>
-                    <li>Paid Amount : ₹ 49309</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-lg-2 col-sm-12 p-0">
-                <div className=" ms-2 d-lg-flex flex-md-column ">
-                  {" "}
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
-                      Grand Total : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
-                      Paid Amount : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink to="/orderproduct">
-                    <button className="btn btn-white mt-2 me-1 ">
-                      View Product
-                    </button>
-                  </NavLink>
-                </div>
-              </div>
-            </div>
+              </NavLink>
+              {/* box-3 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-            {/* box 4 */}
-            <div className="row details1 ">
-              <div className="col-lg-1 col-sm-5 p-0">
-                <img className="img-fluid" src={user} alt="nayan"></img>
-              </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
-                {" "}
-                <ul className=" ">
-                  <li className="">Name : abc</li>
-                  <li>Company Name : asdjsht</li>
-                  <li>Email : asyd@ldsfh.com</li>
-                  <li>Contact No : +918743839834</li>
-                  <li>Date : 01-03-2023</li>
-                  <li>Grand Total : ₹ 9874</li>
-                </ul>
-              </div>
-              <div className="col-lg-3 col-sm-5 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Employee Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Name : Himanshu Anand</li>
-                    <li>Designation : Web Developer</li>
-                    <li>Email : hv7460@gmail.com</li>
-                  </ul>
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-sm-6 p-0">
-                {" "}
-                <div className="">
-                  <NavLink>
-                    <h6 className="highlight-details ">Payment Detail :</h6>
-                  </NavLink>
-                  <ul>
-                    <li>Date : 05-03-2023</li>
-                    <li>Payment type : Cash</li>
-                    <li>Paid Amount : ₹ 49309</li>
-                  </ul>
+              </NavLink>
+              {/* box-4 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="col-lg-2 col-sm-12 p-0">
-                <div className=" ms-2 d-lg-flex flex-md-column ">
-                  {" "}
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
-                      Grand Total : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
-                      Paid Amount : ₹ 49309
-                    </button>
-                  </NavLink>
-                  <NavLink to="/orderproduct">
-                    <button className="btn btn-white mt-2 me-1 ">
-                      View Product
-                    </button>
-                  </NavLink>
+              </NavLink>
+              {/* box5 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </NavLink>
+              {/* box 6 */}
+
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+
+              {/* box7 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+              {/* box8 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+
+              {/* box 9 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+              {/* box10 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+
+              {/* box11 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+
+              {/* box12 */}
+              <NavLink to="/ginnieboxdetail " className="nav-link">
+                <div className="background d-flex">
+                  <div className="me-2">
+                    <img className="img-fluid" src={user} alt="nayan"></img>
+                  </div>
+
+                  <div className="tetx-----div">
+                    <ul>
+                      <li>Person Name : abc</li>
+                      <li>Designation : asdjsht</li>
+                      <li>Email : asyd@ldsfh.com</li>
+                    </ul>
+                    <div className="d-sm-flex  ">
+                      <div className="w-100 me-1">
+                        <NavLink>
+                          <button className="button-modify w-100 ">
+                            <i class="fa-solid fa-phone"></i> <span>Call</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                      <div className="w-100">
+                        <NavLink to="">
+                          <button className="button-modify w-100 mt-2 mt-sm-0">
+                            <i class="fa-solid fa-message"></i>{" "}
+                            <span>Message</span>
+                          </button>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
             </div>
           </div>
         </div>

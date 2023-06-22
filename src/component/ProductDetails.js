@@ -38,7 +38,7 @@ const ProductDetails = () => {
             >
               Product Details
             </h2>
-            <div className="d-flex w-25 ">
+            <div className="d-flex width----drop ">
               {/* btn 1  */}
 
               <select className=" select-box w-100 h-50">

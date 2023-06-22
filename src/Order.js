@@ -33,7 +33,7 @@ const Order = () => {
             >
               Order
             </h2>
-            <div className="d-flex w-25 ">
+            <div className="d-flex width----drop ">
               {/* btn 1  */}
 
               <select className=" select-box w-100 h-50">
@@ -43,7 +43,7 @@ const Order = () => {
                 <option className="option-box">Today</option>
               </select>
 
-              <select className=" select-box ms-md-2   w-100 h-50">
+              <select className=" select-box ms-2 w-100 h-50">
                 <option className="option-box">abc</option>
                 <option className="option-box">def</option>
                 <option className="option-box">ghi</option>
@@ -56,7 +56,7 @@ const Order = () => {
 
           <div className=" oreder-grid   ">
             {/* item 1 */}
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails " className="nav-link">
               <div className="item d-flex ">
                 <div className="me-2">
                   <img className=" img-fluid me-2" src={user} alt="nayan"></img>
@@ -76,7 +76,7 @@ const Order = () => {
             </NavLink>
 
             {/* item2 */}
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <div>
                   <img className=" img-fluid me-2" src={user} alt="nayan"></img>
@@ -96,7 +96,7 @@ const Order = () => {
             </NavLink>
 
             {/* item3 */}
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <div>
                   <img className=" img-fluid me-2" src={user} alt="nayan"></img>
@@ -116,7 +116,7 @@ const Order = () => {
             </NavLink>
 
             {/* item 4 */}
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 
@@ -132,7 +132,7 @@ const Order = () => {
             </NavLink>
 
             {/* item 5 */}
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 
@@ -149,7 +149,7 @@ const Order = () => {
 
             {/* item 6 */}
 
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 
@@ -165,7 +165,7 @@ const Order = () => {
             </NavLink>
 
             {/* item 7 */}
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 
@@ -182,7 +182,7 @@ const Order = () => {
 
             {/* item 8 */}
 
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 
@@ -199,7 +199,7 @@ const Order = () => {
 
             {/* item 9 */}
 
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 
@@ -215,7 +215,7 @@ const Order = () => {
             </NavLink>
 
             {/* item 10 */}
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 
@@ -231,7 +231,7 @@ const Order = () => {
             </NavLink>
 
             {/* item 11 */}
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 
@@ -248,7 +248,7 @@ const Order = () => {
 
             {/* item 12 */}
 
-            <NavLink to="/orderdetails">
+            <NavLink to="/orderdetails" className="nav-link">
               <div className="item d-flex ">
                 <img className=" img-fluid me-2" src={user} alt="nayan"></img>
 

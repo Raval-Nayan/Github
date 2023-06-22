@@ -36,7 +36,7 @@ const Visitor = () => {
             >
               Visitor
             </h2>
-            <div className="d-flex w-25 ">
+            <div className="d-flex width----drop ">
               {/* btn 1  */}
 
               <select className=" select-box w-100 h-50">
@@ -58,7 +58,10 @@ const Visitor = () => {
           {/* div grid banavo */}
           <div className="postion">
             <div className="back-----color ">
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink
+                to="/visitordetails"
+                className="m-auto mb-md-0 mb-2 nav-link"
+              >
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -81,7 +84,7 @@ const Visitor = () => {
               </NavLink>
 
               {/* box2 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -103,7 +106,7 @@ const Visitor = () => {
                 </div>
               </NavLink>
               {/* box-3 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link ">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -125,7 +128,7 @@ const Visitor = () => {
                 </div>
               </NavLink>
               {/* box-4 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link ">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -147,7 +150,7 @@ const Visitor = () => {
                 </div>
               </NavLink>
               {/* box5 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link ">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -170,7 +173,7 @@ const Visitor = () => {
               </NavLink>
               {/* box 6 */}
 
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -193,7 +196,7 @@ const Visitor = () => {
               </NavLink>
 
               {/* box7 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -215,7 +218,7 @@ const Visitor = () => {
                 </div>
               </NavLink>
               {/* box8 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -238,7 +241,7 @@ const Visitor = () => {
               </NavLink>
 
               {/* box 9 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -260,7 +263,7 @@ const Visitor = () => {
                 </div>
               </NavLink>
               {/* box10 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -283,7 +286,7 @@ const Visitor = () => {
               </NavLink>
 
               {/* box11 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link">
                 <div className="background d-flex">
                   <div>
                     {" "}
@@ -306,7 +309,7 @@ const Visitor = () => {
               </NavLink>
 
               {/* box12 */}
-              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 ">
+              <NavLink to="/visitordetails" className="m-auto mb-md-0 mb-2 nav-link">
                 <div className="background d-flex">
                   <div>
                     {" "}
