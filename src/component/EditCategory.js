@@ -46,8 +46,8 @@ const EditCategory = () => {
 
               <div className="m-4">
                 <div className="row justify-content-center ">
-                  <div className="col-9 m-3  addcategory">
-                    <div className="col-8 m-auto mt-2">
+                  <div className="col-12 col-md-9 m-3   addcategory">
+                    <div className="col-8  w-box m-auto mt-2">
                       <FloatingLabel
                         controlId="floatingInput"
                         label="Enter Category Name "
