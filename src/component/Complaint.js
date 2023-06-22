@@ -64,20 +64,21 @@ const Complaint = () => {
               {/* box1 */}
               <div className="col-lg-4 col-md-6 col-8 out-stru ">
                 <div className="circle-create ">
-                  <NavLink to="/complaintprofile">
-                    <span className="cd-text">CD</span>
-                  </NavLink>
+                  <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul className="d-flex flex-column flex-end">
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
               {/* box2 */}
@@ -86,15 +87,18 @@ const Complaint = () => {
                   <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul>
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
               {/* box3 */}
@@ -103,15 +107,18 @@ const Complaint = () => {
                   <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul>
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
 
@@ -121,15 +128,18 @@ const Complaint = () => {
                   <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul>
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
 
@@ -139,15 +149,18 @@ const Complaint = () => {
                   <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul>
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
               {/* box-6 */}
@@ -156,15 +169,18 @@ const Complaint = () => {
                   <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul>
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
 
@@ -174,15 +190,18 @@ const Complaint = () => {
                   <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul>
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
               {/* box-8 */}
@@ -191,15 +210,18 @@ const Complaint = () => {
                   <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul>
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
               {/* 9 */}
@@ -208,15 +230,18 @@ const Complaint = () => {
                   <span className="cd-text">CD</span>
                 </div>
                 <div className="div-----width">
-                  <ul>
-                    <li className="li-texts">Name : Abc</li>
-                    <li className="li-texts">
-                      Designation : Flutter Developer
-                    </li>
-                    <li className="li-texts">Subject : Payment</li>
-                    <li className="li-texts"> Description : XYZ</li>
-                    <li className="li-texts">Date : 01-03-2023</li>
-                  </ul>
+                  <NavLink to="/complaintprofile " className="nav-link">
+                    {" "}
+                    <ul className="d-flex flex-column flex-end">
+                      <li className="li-texts">Name : Abc</li>
+                      <li className="li-texts">
+                        Designation : Flutter Developer
+                      </li>
+                      <li className="li-texts">Subject : Payment</li>
+                      <li className="li-texts"> Description : XYZ</li>
+                      <li className="li-texts">Date : 01-03-2023</li>
+                    </ul>
+                  </NavLink>
                 </div>
               </div>
             </div>

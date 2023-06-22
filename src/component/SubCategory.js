@@ -71,7 +71,7 @@ const SubCategory = () => {
                   <h5 className="m-0 ms-2">Social Media</h5>
                   <div className="side-category-box ">
                     <span>Digital Marketing</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
                 {/* box-4 */}
@@ -79,7 +79,7 @@ const SubCategory = () => {
                   <h5 className="m-0 ms-2">IOS</h5>
                   <div className="side-category-box  ">
                     <span>Mobile Application</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
                 {/* box-5 */}
@@ -87,7 +87,7 @@ const SubCategory = () => {
                   <h5 className="m-0 ms-2">Windows</h5>
                   <div className="side-category-box  ">
                     <span>Mobile Application</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
                 {/* box-6 */}
@@ -95,7 +95,7 @@ const SubCategory = () => {
                   <h5 className="m-0 ms-2">Operators</h5>
                   <div className="side-category-box ">
                     <span>Customized Software</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
 
@@ -104,7 +104,7 @@ const SubCategory = () => {
                   <h5 className="m-0 ms-2">Hello1</h5>
                   <div className="side-category-box  ">
                     <span>Man Power</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
 
@@ -150,7 +150,7 @@ const SubCategory = () => {
         </Modal.Body>
         <Modal.Footer className="my-1">
           <NavLink to="#">
-            <Button variant="secondary" className="w-100" onClick={handleClose}>
+            <Button variant="primary" className="w-100" onClick={handleClose}>
               Delete
             </Button>
           </NavLink>

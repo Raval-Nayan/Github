@@ -64,7 +64,7 @@ const GinnieBoxDetail = () => {
               </div>
               <div className="col-lg-3 col-sm-6 p-0">
                 {" "}
-                <ul className=" ">
+                <ul className=" ms-2 ">
                   <li className="">Name : abc</li>
                   <li>Company Name : asdjsht</li>
                   <li>Email : asyd@ldsfh.com</li>
@@ -123,13 +123,13 @@ const GinnieBoxDetail = () => {
 
             {/* box 2 */}
 
-            <div className="row details1 ">
+            <div className="row details1 my-3">
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
               <div className="col-lg-3 col-sm-6 p-0">
                 {" "}
-                <ul className=" ">
+                <ul className="ms-2 ">
                   <li className="">Name : abc</li>
                   <li>Company Name : asdjsht</li>
                   <li>Email : asyd@ldsfh.com</li>
@@ -187,13 +187,13 @@ const GinnieBoxDetail = () => {
             </div>
 
             {/* box 3 */}
-            <div className="row details1 ">
+            <div className="row details1 my-3">
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
               <div className="col-lg-3 col-sm-6 p-0">
                 {" "}
-                <ul className=" ">
+                <ul className="ms-2 ">
                   <li className="">Name : abc</li>
                   <li>Company Name : asdjsht</li>
                   <li>Email : asyd@ldsfh.com</li>
@@ -257,7 +257,7 @@ const GinnieBoxDetail = () => {
               </div>
               <div className="col-lg-3 col-sm-6 p-0">
                 {" "}
-                <ul className=" ">
+                <ul className="ms-2 ">
                   <li className="">Name : abc</li>
                   <li>Company Name : asdjsht</li>
                   <li>Email : asyd@ldsfh.com</li>

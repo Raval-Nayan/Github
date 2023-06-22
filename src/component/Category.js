@@ -64,7 +64,7 @@ const Category = () => {
                   <h5 className="m-0 ms-2">Mobile Application</h5>
                   <div className="side-button ">
                     <span>20</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
                 {/* box-4 */}
@@ -72,7 +72,7 @@ const Category = () => {
                   <h5 className="m-0 ms-2">Digital Marketing</h5>
                   <div className="side-button ">
                     <span>20</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
                 {/* box-5 */}
@@ -80,7 +80,7 @@ const Category = () => {
                   <h5 className="m-0 ms-2">Web Application</h5>
                   <div className="side-button ">
                     <span>20</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
                 {/* box-6 */}
@@ -88,7 +88,7 @@ const Category = () => {
                   <h5 className="m-0 ms-2">Graphic Designing</h5>
                   <div className="side-button ">
                     <span>20</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
 
@@ -97,7 +97,7 @@ const Category = () => {
                   <h5 className="m-0 ms-2">Customized Software</h5>
                   <div className="side-button ">
                     <span>20</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
                 {/* box-8 */}
@@ -105,7 +105,7 @@ const Category = () => {
                   <h5 className="m-0 ms-2">Man Power</h5>
                   <div className="side-button ">
                     <span>20</span>
-                    <i class="fa-solid fa-pen"></i>
+                    <i class="fa-solid fa-pen" onClick={handleShow}></i>
                   </div>
                 </div>
 
@@ -114,7 +114,7 @@ const Category = () => {
                   <h5 className="m-0 ms-2">hello</h5>
                   <div className="side-button ">
                     <span>20</span>
-                    <i class="fa-solid fa-pen "></i>
+                    <i class="fa-solid fa-pen " onClick={handleShow}></i>
                   </div>
                 </div>
               </div>
@@ -160,7 +160,7 @@ const Category = () => {
         </Modal.Body>
         <Modal.Footer className="my-1">
           <NavLink to="#">
-            <Button variant="secondary" className="w-100" onClick={handleClose}>
+            <Button variant="primary" className="w-100" onClick={handleClose}>
               Delete
             </Button>
           </NavLink>
