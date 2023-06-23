@@ -47,4 +47,10 @@ table {
   .btn-width {
     width: 100% !important;
   }
+
+  .color-xyz {
+    
+    padding: 0px;
+    
+  }
 }

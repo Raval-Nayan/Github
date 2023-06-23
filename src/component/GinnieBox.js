@@ -68,12 +68,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -102,12 +105,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -135,12 +141,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -168,12 +177,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -201,12 +213,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -235,12 +250,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -269,12 +287,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -302,12 +323,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -336,12 +360,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -369,12 +396,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -403,12 +433,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">
@@ -437,12 +470,15 @@ const GinnieBox = () => {
                   </div>
 
                   <div className="tetx-----div">
-                    <ul>
-                      <li>Person Name : abc</li>
-                      <li>Designation : asdjsht</li>
-                      <li>Email : asyd@ldsfh.com</li>
+                    <ul className="p-0 m-0 mt-1">
+                      <li>Name : salkjh</li>
+                      <li>Company Name : WebEarl</li>
+                      <li>Date : 01-01-2021</li>
+                      <li>Email : skjhhfi@gmail.com</li>
+                      <li>Contact No : 6789012345</li>
+                      <li>Grand Total : ₹ 987978</li>
                     </ul>
-                    <div className="d-sm-flex  ">
+                    <div className="d-sm-flex  m-0 p-0 ">
                       <div className="w-100 me-1">
                         <NavLink>
                           <button className="button-modify w-100 ">

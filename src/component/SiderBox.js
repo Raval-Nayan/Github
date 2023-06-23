@@ -153,13 +153,15 @@ const SiderBox = () => {
           </li>
           {/* btn11 */}
           <li className="uls-style gx-0">
-            <NavLink className="nav-link">
+            <NavLink className="nav-link d-flex ">
               <button className="btn btn-danger  gx-0 ">
-                <img
-                  className="img-support img-fluid"
-                  src={support}
-                  alt="nayan"
-                ></img>
+                <div className="d-flex ">
+                  <img
+                    className="img-support w-50   img-fluid"
+                    src={support}
+                    alt="nayan"
+                  ></img>
+                </div>
               </button>
             </NavLink>{" "}
           </li>

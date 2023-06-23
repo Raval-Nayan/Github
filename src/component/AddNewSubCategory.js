@@ -48,7 +48,7 @@ const AddNewSubCategory = () => {
               <div className="m-4">
                 <div className="row justify-content-center ">
                   <div className="col-sm-9 m-3  addcategory">
-                    <div className="col-sm-8 m-auto mt-2">
+                    <div className="col-sm-7 m-auto mt-2">
                       <FloatingLabel
                         controlId="floatingInput"
                         label="Add New Sub Category"
@@ -77,7 +77,12 @@ const AddNewSubCategory = () => {
 
                       <div className="d-flex justify-content-center my-2">
                         <button className="btn btn-primary font m-1 button-width-addcategory ">
-                          Save Sub Category
+                          <span
+                            style={{ fontSize: "12px", fontFamily: "poppins" }}
+                          >
+                            {" "}
+                            Save Sub Category
+                          </span>
                         </button>
                       </div>
                     </div>

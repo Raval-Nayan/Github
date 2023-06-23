@@ -61,7 +61,7 @@ const OrderDetails = () => {
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
+              <div className="col-lg-3 col-sm-6 ps-lg-5 p-0 ">
                 {" "}
                 <ul className=" ">
                   <li className="">Name : abc</li>
@@ -102,17 +102,23 @@ const OrderDetails = () => {
                 <div className=" ms-2 d-lg-flex flex-md-column ">
                   {" "}
                   <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
+                    <button
+                      className="btn btn-total-color  mt-2  w-100 me-1"
+                      style={{ backgroundColor: "#3B968A" }}
+                    >
                       Grand Total : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
+                    <button className="btn btn-total-color mt-2 w-100 me-1 ">
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink to="/orderproduct">
-                    <button className="btn btn-white mt-2 me-1 ">
+                    <button
+                      className="btn btn-white mt-2 w-100 me-1 "
+                      style={{ backgroundColor: "white" }}
+                    >
                       View Product
                     </button>
                   </NavLink>
@@ -122,11 +128,11 @@ const OrderDetails = () => {
 
             {/* box 2 */}
 
-            <div className="row details1 ">
+            <div className="row details1 my-3">
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
+              <div className="col-lg-3 col-sm-6 ps-lg-5 p-0">
                 {" "}
                 <ul className=" ">
                   <li className="">Name : abc</li>
@@ -167,17 +173,23 @@ const OrderDetails = () => {
                 <div className=" ms-2 d-lg-flex flex-md-column ">
                   {" "}
                   <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
+                    <button
+                      className="btn btn-total-color  mt-2  w-100 me-1"
+                      style={{ backgroundColor: "#3B968A" }}
+                    >
                       Grand Total : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
+                    <button className="btn btn-total-color mt-2 w-100 me-1 ">
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink to="/orderproduct">
-                    <button className="btn btn-white mt-2 me-1 ">
+                    <button
+                      className="btn btn-white mt-2 w-100 me-1 "
+                      style={{ backgroundColor: "white" }}
+                    >
                       View Product
                     </button>
                   </NavLink>
@@ -186,11 +198,11 @@ const OrderDetails = () => {
             </div>
 
             {/* box 3 */}
-            <div className="row details1 ">
+            <div className="row details1 my-3">
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
+              <div className="col-lg-3 col-sm-6 ps-lg-5 p-0">
                 {" "}
                 <ul className=" ">
                   <li className="">Name : abc</li>
@@ -231,17 +243,23 @@ const OrderDetails = () => {
                 <div className=" ms-2 d-lg-flex flex-md-column ">
                   {" "}
                   <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
+                    <button
+                      className="btn btn-total-color  mt-2  w-100 me-1"
+                      style={{ backgroundColor: "#3B968A" }}
+                    >
                       Grand Total : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
+                    <button className="btn btn-total-color mt-2 w-100 me-1 ">
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink to="/orderproduct">
-                    <button className="btn btn-white mt-2 me-1 ">
+                    <button
+                      className="btn btn-white mt-2 w-100 me-1 "
+                      style={{ backgroundColor: "white" }}
+                    >
                       View Product
                     </button>
                   </NavLink>
@@ -254,7 +272,7 @@ const OrderDetails = () => {
               <div className="col-lg-1 col-sm-5 p-0">
                 <img className="img-fluid" src={user} alt="nayan"></img>
               </div>
-              <div className="col-lg-3 col-sm-6 ps-md-5 p-0">
+              <div className="col-lg-3 col-sm-6 ps-lg-5 p-0">
                 {" "}
                 <ul className=" ">
                   <li className="">Name : abc</li>
@@ -295,17 +313,23 @@ const OrderDetails = () => {
                 <div className=" ms-2 d-lg-flex flex-md-column ">
                   {" "}
                   <NavLink>
-                    <button className="btn btn-secondary mt-2  me-1">
+                    <button
+                      className="btn btn-total-color  mt-2  w-100 me-1"
+                      style={{ backgroundColor: "#3B968A" }}
+                    >
                       Grand Total : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink>
-                    <button className="btn btn-secondary mt-2 me-1 ">
+                    <button className="btn btn-total-color mt-2 w-100 me-1 ">
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
                   <NavLink to="/orderproduct">
-                    <button className="btn btn-white mt-2 me-1 ">
+                    <button
+                      className="btn btn-white mt-2 w-100 me-1 "
+                      style={{ backgroundColor: "white" }}
+                    >
                       View Product
                     </button>
                   </NavLink>

@@ -10,6 +10,10 @@
   background-color: #f8f8f8;
 }
 
+.footer-text-care {
+  font-size: 100%;
+}
+
 p {
   font-family: "Poppins";
   text-align: justify;
@@ -56,11 +60,10 @@ p {
   align-items: center;
 }
 
-@media (min-width:1200px){
-  .copy-right-ab{
+@media (min-width: 1200px) {
+  .copy-right-ab {
     font-size: 3rem;
   }
-
 }
 
 @media (max-width: 900px) {
@@ -103,6 +106,9 @@ p {
   p {
     font-size: 20px;
     padding: 20px;
+  }
+  .footer-text-care {
+    font-size: 70%;
   }
 }
 

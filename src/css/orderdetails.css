@@ -11,6 +11,12 @@
   width: 6px; /* width of the entire scrollbar */
 }
 
+.btn-total-color {
+  color: white !important;
+  font-size: 10px !important;
+  background-color: #3b968a !important;
+}
+
 .btn-text-color {
   color: "white" !important;
 }

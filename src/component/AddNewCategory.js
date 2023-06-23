@@ -75,7 +75,7 @@ const AddNewCategory = () => {
 
                       <div className="d-flex justify-content-center">
                         <button className="btn btn-primary font m-1 button-width-addcategory ">
-                          Save Category
+                          <span>Save Category</span>
                         </button>
                       </div>
                     </div>

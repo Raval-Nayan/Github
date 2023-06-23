@@ -57,209 +57,280 @@ const Order = () => {
           <div className=" oreder-grid   ">
             {/* item 1 */}
             <NavLink to="/orderdetails " className="nav-link">
-              <div className="item d-flex ">
-                <div className="me-2">
-                  <img className=" img-fluid me-2" src={user} alt="nayan"></img>
-                </div>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <div>
-                  <ul clasname="ul-item">
-                    <li className="li-item">Name : abc</li>
-                    <li className="li-item">Company Name : asdjsht</li>
-                    <li className="li-item">Email : asyd@ldsfh.com</li>
-                    <li className="li-item">Contact No : +918743839834</li>
-                    <li className="li-item">Date : 01-03-2023</li>
-                    <li className="li-item">Grand Total : ₹ 9874 </li>
-                  </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </NavLink>
 
             {/* item2 */}
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <div>
-                  <img className=" img-fluid me-2" src={user} alt="nayan"></img>
-                </div>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <div>
-                  <ul clasname="ul-item">
-                    <li className="li-item">Name : abc</li>
-                    <li className="li-item">Company Name : asdjsht</li>
-                    <li className="li-item">Email : asyd@ldsfh.com</li>
-                    <li className="li-item">Contact No : +918743839834</li>
-                    <li className="li-item">Date : 01-03-2023</li>
-                    <li className="li-item">Grand Total : ₹ 9874 </li>
-                  </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </NavLink>
 
             {/* item3 */}
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <div>
-                  <img className=" img-fluid me-2" src={user} alt="nayan"></img>
-                </div>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <div>
-                  <ul clasname="ul-item mt-3">
-                    <li className="li-item">Name : abc</li>
-                    <li className="li-item">Company Name : asdjsht</li>
-                    <li className="li-item">Email : asyd@ldsfh.com</li>
-                    <li className="li-item">Contact No : +918743839834</li>
-                    <li className="li-item">Date : 01-03-2023</li>
-                    <li className="li-item">Grand Total : ₹ 9874 </li>
-                  </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </NavLink>
 
             {/* item 4 */}
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
 
             {/* item 5 */}
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
 
             {/* item 6 */}
 
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
 
             {/* item 7 */}
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
 
             {/* item 8 */}
 
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
 
             {/* item 9 */}
 
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
 
             {/* item 10 */}
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
 
             {/* item 11 */}
             <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
-
             {/* item 12 */}
 
-            <NavLink to="/orderdetails" className="nav-link">
-              <div className="item d-flex ">
-                <img className=" img-fluid me-2" src={user} alt="nayan"></img>
+            <NavLink to="/orderdetails" className="nav-link ">
+              <div className="center-align">
+                {" "}
+                <div className="item d-flex  ">
+                  <div className="m-2 ">
+                    <img className="  img-fluid" src={user} alt="nayan"></img>
+                  </div>
 
-                <ul clasname="ul-item">
-                  <li className="li-item">Name : abc</li>
-                  <li className="li-item">Company Name : asdjsht</li>
-                  <li className="li-item">Email : asyd@ldsfh.com</li>
-                  <li className="li-item">Contact No : +918743839834</li>
-                  <li className="li-item">Date : 01-03-2023</li>
-                  <li className="li-item">Grand Total : ₹ 9874 </li>
-                </ul>
+                  <div className="m-2">
+                    <ul clasname="ul-item">
+                      <li className="li-item">Name : abc</li>
+                      <li className="li-item">Company Name : asdjsht</li>
+                      <li className="li-item">Email : asyd@ldsfh.com</li>
+                      <li className="li-item">Contact No : +918743839834</li>
+                      <li className="li-item">Date : 01-03-2023</li>
+                      <li className="li-item">Grand Total : ₹ 9874 </li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </NavLink>
           </div>

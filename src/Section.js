@@ -22,9 +22,13 @@ const Section = () => {
           {/* box1 */}
           <div className="boxs-style ">
             <NavLink to="/order" className="nav-link">
-              <div className="d-flex ">
-                <img className="img-fluid" src={img1} alt="nayan"></img>{" "}
-                <h5 className=" text-section">Order</h5>
+              <div className="section-item-flex">
+                <div className="width-part">
+                  <img className="img-fluid" src={img1} alt="nayan"></img>{" "}
+                </div>
+                <div className="width-part">
+                  <h5 className=" text-section">Order</h5>
+                </div>
               </div>
             </NavLink>
           </div>
@@ -32,9 +36,13 @@ const Section = () => {
           {/* box2 */}
           <div className="boxs-style">
             <NavLink to="/attendance" className="nav-link">
-              <div className="d-flex">
-                <img className=" img-fluid" src={img2} alt="nayan"></img>{" "}
-                <h5 className="text-section">Attendance</h5>
+              <div className="section-item-flex">
+                <div className="width-part">
+                  <img className=" img-fluid" src={img2} alt="nayan"></img>{" "}
+                </div>
+                <div className="width-part">
+                  <h5 className="  text-section">Attendance</h5>
+                </div>
               </div>
             </NavLink>
           </div>
@@ -43,9 +51,13 @@ const Section = () => {
 
           <div className="boxs-style">
             <NavLink to="/employee" className="nav-link">
-              <div className="d-flex mt-3">
-                <img className="me-2 img-fluid" src={img3} alt="nayan"></img>{" "}
-                <h5 className="mt-4 text-section">Employee</h5>
+              <div className="section-item-flex mt-2">
+                <div className="width-part">
+                  <img className=" img-fluid " src={img3} alt="nayan"></img>{" "}
+                </div>
+                <div className="part">
+                  <h5 className=" text-section">Employee</h5>
+                </div>
               </div>
             </NavLink>
           </div>
@@ -53,9 +65,13 @@ const Section = () => {
           {/* box-4 */}
           <NavLink to="/visitor" className="nav-link">
             <div className="boxs-style">
-              <div className="d-flex">
-                <img className="me-2 img-fluid" src={img4} alt="nayan"></img>
-                <h5 className="mt-4 text-section">Visitor</h5>
+              <div className="section-item-flex">
+                <div className="part">
+                  <img className="img-fluid" src={img4} alt="nayan"></img>
+                </div>
+                <div className="width-part">
+                  <h5 className=" text-section">Visitor</h5>
+                </div>
               </div>
             </div>
           </NavLink>
@@ -63,9 +79,13 @@ const Section = () => {
           {/* box5 */}
           <NavLink to="/ginniebox" className="nav-link">
             <div className="boxs-style">
-              <div className="d-flex">
-                <img className="me-2 img-fluid" src={img5} alt="nayan"></img>
-                <h5 className="mt-4 text-section">Ginnie Box</h5>
+              <div className="section-item-flex">
+                <div className="width-part">
+                  <img className=" img-fluid" src={img5} alt="nayan"></img>
+                </div>
+                <div className="width-part">
+                  <h5 className=" text-section">Ginnie Box</h5>
+                </div>
               </div>
             </div>
           </NavLink>
@@ -74,9 +94,15 @@ const Section = () => {
           <NavLink to="/product" className="nav-link">
             {" "}
             <div className="boxs-style">
-              <div className="d-flex">
-                <img className="me-2 img-fluid" src={img6} alt="nayan"></img>
-                <h5 className="mt-4 text-section">Product</h5>
+              <div className="section-item-flex">
+                <div className="width-part">
+                  {" "}
+                  <img className=" img-fluid" src={img6} alt="nayan"></img>
+                </div>
+                <div className="width-part">
+                  {" "}
+                  <h5 className=" text-section">Product</h5>
+                </div>
               </div>
             </div>
           </NavLink>
@@ -84,9 +110,14 @@ const Section = () => {
           {/* box7 */}
           <NavLink to="/leaverequest" className="nav-link">
             <div className="boxs-style">
-              <div className="d-flex justify-content-center">
-                <img className="me-2 img-fluid" src={img7} alt="nayan"></img>
-                <h5 className="mt-4 text-section">Leave Request</h5>
+              <div className="section-item-flex  ">
+                <div className="width-part">
+                  <img className=" img-fluid" src={img7} alt="nayan"></img>
+                </div>
+                <div className="width-part">
+                  {" "}
+                  <h5 className="text-section">Leave Request</h5>
+                </div>
               </div>
             </div>
           </NavLink>
@@ -96,14 +127,12 @@ const Section = () => {
             {" "}
             <div className="boxs-style">
               <div className="section-item-flex ">
-                <div>
-                  <img
-                    className=" img-fluid w-75 "
-                    src={img8}
-                    alt="nayan"
-                  ></img>
+                <div className="width-part">
+                  <img className=" img-fluid  " src={img8} alt="nayan"></img>
                 </div>
-                <h5 className=" text-section">Category</h5>
+                <div className="width-part">
+                  <h5 className="  text-section">Category</h5>
+                </div>
               </div>
             </div>
           </NavLink>
@@ -111,9 +140,14 @@ const Section = () => {
           {/* box9 */}
           <NavLink to="/subcategory" className="nav-link">
             <div className="boxs-style">
-              <div className="d-flex">
-                <img className="me-2 img-fluid" src={img9} alt="nayan"></img>
-                <h5 className="mt-4 text-section">Sub Category</h5>
+              <div className="section-item-flex">
+                <div className="width-part">
+                  <img className=" img-fluid" src={img9} alt="nayan"></img>
+                </div>
+                <div className="width-part">
+                  {" "}
+                  <h5 className=" text-section">Sub Category</h5>
+                </div>
               </div>
             </div>
           </NavLink>
@@ -121,9 +155,14 @@ const Section = () => {
           {/* box10 */}
           <NavLink to="/message" className="nav-link">
             <div className="boxs-style">
-              <div className="d-flex">
-                <img className="me-2 img-fluid" src={img10} alt="nayan"></img>
-                <h5 className="mt-4 text-section">Message</h5>
+              <div className="section-item-flex">
+                <div className="width-part">
+                  {" "}
+                  <img className=" img-fluid" src={img10} alt="nayan"></img>
+                </div>
+                <div className="width-part">
+                  <h5 className=" text-section">Message</h5>
+                </div>
               </div>
             </div>
           </NavLink>
@@ -131,9 +170,14 @@ const Section = () => {
           {/* box11 */}
           <NavLink to="/complaint" className="nav-link">
             <div className="boxs-style">
-              <div className="d-flex">
-                <img className="me-2 img-fluid" src={img11} alt="nayan"></img>
-                <h5 className="mt-4 text-section">Complaint</h5>
+              <div className="section-item-flex">
+                <div className="width-part">
+                  {" "}
+                  <img className=" img-fluid" src={img11} alt="nayan"></img>
+                </div>
+                <div className="width-part">
+                  <h5 className="  text-section">Complaint</h5>
+                </div>
               </div>
             </div>
           </NavLink>
@@ -141,9 +185,14 @@ const Section = () => {
           {/* box12 */}
           <NavLink to="/report" className="nav-link">
             <div className="boxs-style">
-              <div className="d-flex">
-                <img className="me-2 img-fluid" src={img12} alt="nayan"></img>
-                <h5 className="mt-3 text-section">Report</h5>
+              <div className="section-item-flex">
+                <div className="width-part">
+                  {" "}
+                  <img className=" img-fluid" src={img12} alt="nayan"></img>
+                </div>
+                <div className="width-part">
+                  <h5 className=" text-section">Report</h5>
+                </div>
               </div>
             </div>
           </NavLink>

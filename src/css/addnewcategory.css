@@ -36,6 +36,10 @@ label {
   /* label {
     font-size: 12px !important;
   } */
+
+  .w-box {
+    width: 100% !important;
+  }
   .button-width-addcategory {
     width: 100% !important;
   }
@@ -51,6 +55,6 @@ label {
 
 @media (max-width: 400px) {
   label {
-    font-size: 5px !important;
+    font-size: 10px !important;
   }
 }

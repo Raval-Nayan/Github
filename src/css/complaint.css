@@ -28,6 +28,10 @@
   width: 30% !important;
 }
 
+.out-strus {
+  width: 30% !important;
+}
+
 .div-----width {
   width: 65%;
 }
@@ -58,10 +62,17 @@
   .out-stru {
     width: 40% !important;
   }
+
+  .out-strus {
+    width: 40% !important;
+  }
 }
 
 @media (max-width: 900px) {
   .out-stru {
+    width: 45% !important;
+  }
+  .out-strus {
     width: 50% !important;
   }
 }
@@ -70,11 +81,21 @@
   .out-stru {
     width: 70% !important;
   }
+  .out-strus {
+    width: 70% !important;
+  }
 }
 
 @media (max-width: 500px) {
   .out-stru {
+    width: 90% !important;
+  }
+  .out-strus {
     width: 95% !important;
+  }
+
+  .li-texts {
+    font-size: 12px;
   }
 
   .complaint-white-box {

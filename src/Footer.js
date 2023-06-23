@@ -36,8 +36,11 @@ const Footer = () => {
         </div>
         <div className="copy-right">
           <ul className="d-flex gap-4  copy-right-ab ">
-            <li> Care For Each </li>
-            <li style={{ listStyle: "circle" }}> Privacy Policy</li>
+            <li className="footer-text-care"> Care For Each </li>
+            <li className="footer-text-care" style={{ listStyle: "circle" }}>
+              {" "}
+              Privacy Policy
+            </li>
           </ul>
 
           <img

@@ -59,55 +59,57 @@ const ComplaintProfile = () => {
             {/* div grid banavo */}
 
             <div className="color-white p-5">
-              <div className="row part-2 p-md-5">
-                <div className="col-md-5 mt-4 ">
+              <div className="row part-2 ">
+                <div className="col-lg-5 c mt-4 ">
                   <div className="text-center">
                     {" "}
                     <img className="img-fluid " src={user} alt="nayan"></img>
                   </div>
 
-                  <form className="d-flex flex-column">
-                    <FloatingLabel
-                      controlId="floatingInput"
-                      label="Employee Name"
-                      className=" mt-2  "
-                    >
-                      <Form.Control
-                        type="text"
-                        placeholder="    "
-                        className="border----bottom  w-100"
-                        style={{ backgroundColor: "#D3E0FF" }}
-                      />
-                    </FloatingLabel>
+                  <div className="w-100">
+                    <form className="d-flex flex-column">
+                      <FloatingLabel
+                        controlId="floatingInput"
+                        label="Employee Name"
+                        className=" mt-2  "
+                      >
+                        <Form.Control
+                          type="text"
+                          placeholder="    "
+                          className="border----bottom  w-100"
+                          style={{ backgroundColor: "#D3E0FF" }}
+                        />
+                      </FloatingLabel>
 
-                    <FloatingLabel
-                      controlId="floatingInput"
-                      label="Email"
-                      className=" my-2  "
-                    >
-                      <Form.Control
-                        type="email"
-                        placeholder="    "
-                        className="border----bottom  w-100"
-                        style={{ backgroundColor: "#D3E0FF" }}
-                      />
-                    </FloatingLabel>
+                      <FloatingLabel
+                        controlId="floatingInput"
+                        label="Email"
+                        className=" my-2  "
+                      >
+                        <Form.Control
+                          type="email"
+                          placeholder="    "
+                          className="border----bottom  w-100"
+                          style={{ backgroundColor: "#D3E0FF" }}
+                        />
+                      </FloatingLabel>
 
-                    <FloatingLabel
-                      controlId="floatingInput"
-                      label="Company Name"
-                      className="   "
-                    >
-                      <Form.Control
-                        type="text"
-                        placeholder="    "
-                        className="border----bottom  w-100"
-                        style={{ backgroundColor: "#D3E0FF" }}
-                      />
-                    </FloatingLabel>
-                  </form>
+                      <FloatingLabel
+                        controlId="floatingInput"
+                        label="Company Name"
+                        className="   "
+                      >
+                        <Form.Control
+                          type="text"
+                          placeholder="    "
+                          className="border----bottom  w-100"
+                          style={{ backgroundColor: "#D3E0FF" }}
+                        />
+                      </FloatingLabel>
+                    </form>
+                  </div>
                 </div>
-                <div className="col-md-5 mt-lg-5 ">
+                <div className="col-lg-5 mt-lg-5 ">
                   <FloatingLabel
                     controlId="floatingInput"
                     label="date"

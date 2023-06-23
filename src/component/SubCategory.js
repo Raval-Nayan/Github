@@ -113,7 +113,10 @@ const SubCategory = () => {
 
               <NavLink to="/addnewsubcategory">
                 {" "}
-                <button className="btn  add-sub-btn"> Add Category +</button>
+                <button className="btn  add-sub-btn">
+                  {" "}
+                  Add Sub Category +
+                </button>
               </NavLink>
             </div>
           </div>

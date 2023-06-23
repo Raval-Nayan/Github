@@ -34,13 +34,13 @@ const Report = () => {
                   fontFamily: "Poppins",
                 }}
               >
-                Logout
+                Report
               </h2>
             </div>
 
             <div className="category-box-white p-4 ">
               <div className="color-xyz">
-                <div className="w-50 mt-5">
+                <div className=" mt-5 width-mobile">
                   <select className="drop-select p-2 w-100">
                     <option>Report Type</option>
 

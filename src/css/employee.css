@@ -11,6 +11,9 @@
 
   width: 50%;
 }
+span {
+  font-size: 10px;
+}
 
 li {
   list-style: none;
@@ -93,7 +96,7 @@ li {
 
   .background {
     margin: auto;
-    width: 70%;
+    width: 100%;
   }
 }
 

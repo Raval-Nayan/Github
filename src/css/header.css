@@ -5,8 +5,9 @@
 
 .space {
   display: flex !important;
-  justify-content: space-around !important;
+  justify-content: flex-end !important;
   width: 100% !important;
+  gap: 40px !important;
 }
 
 .care-fore-head {

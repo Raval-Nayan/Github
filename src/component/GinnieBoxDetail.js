@@ -112,7 +112,7 @@ const GinnieBoxDetail = () => {
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
-                  <NavLink to="/orderproduct">
+                  <NavLink to="/ginnieboxproductdetail">
                     <button className="btn btn-white mt-2 me-1 ">
                       View Product
                     </button>
@@ -177,7 +177,7 @@ const GinnieBoxDetail = () => {
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
-                  <NavLink to="/orderproduct">
+                  <NavLink to="/ginnieboxproductdetail">
                     <button className="btn btn-white mt-2 me-1 ">
                       View Product
                     </button>
@@ -241,7 +241,7 @@ const GinnieBoxDetail = () => {
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
-                  <NavLink to="/orderproduct">
+                  <NavLink to="/ginnieboxproductdetail">
                     <button className="btn btn-white mt-2 me-1 ">
                       View Product
                     </button>
@@ -305,7 +305,7 @@ const GinnieBoxDetail = () => {
                       Paid Amount : ₹ 49309
                     </button>
                   </NavLink>
-                  <NavLink to="/orderproduct">
+                  <NavLink to="/ginnieboxproductdetail">
                     <button className="btn btn-white mt-2 me-1 ">
                       View Product
                     </button>
