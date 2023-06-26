@@ -28,7 +28,7 @@ const SearchBox = () => {
         </buuton>
         <button className="btn btn-info dropdown-toggle ms-2  ">
           <img className="img-fluid me-1" src={avtar} alt="nayan"></img>
-          Your Profile
+          <span> Your Profile</span>
         </button>
       </div>
     </div>

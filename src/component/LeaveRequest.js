@@ -6,6 +6,7 @@ import "../css/productdetails.css";
 import "../css/leaverequest.css";
 import yellow from "../img/circle yellow.png";
 import red from "../img/red.png";
+import green from "../img/green.png";
 
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
@@ -67,9 +68,14 @@ const LeaveRequest = () => {
                     </button>
                   </NavLink>
                   {/* btn2 */}
-                  <NavLink to="/panding" >
+                  <NavLink to="/panding">
                     {" "}
-                    <button className="btn btn-light ms-2">Pending</button>
+                    <button
+                      className="btn btn-light ms-2 btn-green"
+                      style={{ backgroundColor: "#71C1AD" }}
+                    >
+                      Pending
+                    </button>
                   </NavLink>
                 </div>
 
@@ -77,21 +83,23 @@ const LeaveRequest = () => {
                 <div>
                   {/* btn3 */}
                   <NavLink to="/approved">
-                    <button className="btn btn-light ms-2 mb-2  mb-md-0   ">
+                    <button className="btn btn-light ms-2 mb-2  mb-md-0 btn-green  ">
                       Approved
                     </button>
                   </NavLink>
                   {/* btn4 */}
                   <NavLink to="/rejected">
                     {" "}
-                    <button className="btn btn-light ms-2">Rejected</button>
+                    <button className="btn btn-light ms-2 btn-green">
+                      Rejected
+                    </button>
                   </NavLink>
                 </div>
               </div>
             </div>
             {/* div grid banavo */}
 
-            <div className=" oreder-grid   mb-2 mt-2 ">
+            <div className=" oreder-grid gap-3  mb-2 mt-2 ">
               {/* item 1 */}
 
               <div className="item d-flex  " onClick={handleShow}>
@@ -126,7 +134,7 @@ const LeaveRequest = () => {
                     <li className="li-item">End Date : 11-09-2023</li>
                     <li className="li-item">Reason : asdfg sdfghj dfghj </li>
                   </ul>
-                  <img className="circle-icon" src={red} alt="nayan"></img>
+                  <img className="circle-icon" src={green} alt="nayan"></img>
                 </div>
               </div>
 
@@ -202,7 +210,7 @@ const LeaveRequest = () => {
                     <li className="li-item">End Date : 11-09-2023</li>
                     <li className="li-item">Reason : asdfg sdfghj dfghj </li>
                   </ul>
-                  <img className="circle-icon" src={red} alt="nayan"></img>
+                  <img className="circle-icon" src={green} alt="nayan"></img>
                 </div>
               </div>
 
@@ -221,7 +229,7 @@ const LeaveRequest = () => {
                     <li className="li-item">End Date : 11-09-2023</li>
                     <li className="li-item">Reason : asdfg sdfghj dfghj </li>
                   </ul>
-                  <img className="circle-icon" src={red} alt="nayan"></img>
+                  <img className="circle-icon" src={green} alt="nayan"></img>
                 </div>
               </div>
 
@@ -325,16 +333,16 @@ const LeaveRequest = () => {
       </div>
 
       <Modal show={show} backdrop="static" onHide={handleClose} centered>
-        <Modal.Header closeButton>Modal heading :</Modal.Header>
+        <Modal.Header closeButton>leave status :</Modal.Header>
         <Modal.Body className="model--body">
           {" "}
           <div>
-            <input type="radio" name="click"></input>
+            <input type="radio" name="click" className="p-3"></input>
             Approved
           </div>
           <div>
             {" "}
-            <input type="radio" name="click"></input>
+            <input type="radio" name="click" className="p-3"></input>
             Rejected
           </div>
         </Modal.Body>

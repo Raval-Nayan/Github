@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
 }
-li{
+li {
   margin: 2px 0px;
 }
 
@@ -20,8 +20,8 @@ li{
 
 .delete-icon {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 10px;
+  right: 10px;
   color: #3b968a;
 }
 

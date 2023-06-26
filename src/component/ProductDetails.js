@@ -60,149 +60,192 @@ const ProductDetails = () => {
           {/* div grid banavo */}
 
           <div className="color-white">
-            <div className="row gx-0">
-              <div className="col-md-5 col-12  me-auto d-md-flex product--box justy-content-center mb-3">
-                <img
-                  className="img-fluid me-md-2 img-position"
-                  src={user}
-                  alt="nayan"
-                ></img>
-                <div className="icon-delete-position">
-                  <ul>
-                    <li>Name : asdfgh</li>
-                    <li>Product Code : rtx34</li>
-                    <li>Available Stock : 1234</li>
-                    <li>Minimum Stock : 25</li>
-                    <li>Minimum Price : ₹ 19980</li>
-                    <li>Description : loremloremloremlorem</li>
-                  </ul>
+            <div className="row gx-0 gap-4 justify-content-center">
+              {/* box 1 */}
+              <div className="col-md-5 col-12  mb-3">
+                <div className="d-md-flex product--box  icon-delete-position justy-content-center">
+                  <div>
+                    <img
+                      className="img-fluid me-md-2"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="">
+                    <ul>
+                      <li>Name : asdfgh</li>
+                      <li>Product Code : rtx34</li>
+                      <li>Available Stock : 1234</li>
+                      <li>Minimum Stock : 25</li>
+                      <li>Minimum Price : ₹ 19980</li>
+                      <li>Description : loremloremloremlorem</li>
+                    </ul>
 
-                  <i class="fa-solid fa-trash delete-icon"></i>
+                    <NavLink>
+                      <button className="btn btn-primary w-100">
+                        {" "}
+                        Delete Product
+                      </button>
+                    </NavLink>
+                  </div>
 
-                  <NavLink>
-                    <button className="btn btn-primary   ">
-                      {" "}
-                      Delete Product
-                    </button>
-                  </NavLink>
+                  <i class="fa-solid fa-trash delete-icon "></i>
                 </div>
               </div>
-              <div className="col-md-5 col-12 d-md-flex product--box justy-content-center mb-3">
-                <img className="img-fluid me-md-2" src={user} alt="nayan"></img>
-                <div className="icon-delete-position">
-                  <ul>
-                    <li>Name : asdfgh</li>
-                    <li>Product Code : rtx34</li>
-                    <li>Available Stock : 1234</li>
-                    <li>Minimum Stock : 25</li>
-                    <li>Minimum Price : ₹ 19980</li>
-                    <li>Description : loremloremloremlorem</li>
-                  </ul>
 
-                  <i class="fa-solid fa-trash delete-icon"></i>
+              {/* box2 */}
+              <div className="col-md-5 col-12  mb-3">
+                <div className="d-md-flex product--box  icon-delete-position justy-content-center">
+                  <div>
+                    <img
+                      className="img-fluid me-md-2"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="">
+                    <ul>
+                      <li>Name : asdfgh</li>
+                      <li>Product Code : rtx34</li>
+                      <li>Available Stock : 1234</li>
+                      <li>Minimum Stock : 25</li>
+                      <li>Minimum Price : ₹ 19980</li>
+                      <li>Description : loremloremloremlorem</li>
+                    </ul>
 
-                  <NavLink>
-                    <button className="btn btn-primary ">
-                      {" "}
-                      Delete Product
-                    </button>
-                  </NavLink>
+                    <NavLink>
+                      <button className="btn btn-primary w-100">
+                        {" "}
+                        Delete Product
+                      </button>
+                    </NavLink>
+                  </div>
+
+                  <i class="fa-solid fa-trash delete-icon "></i>
                 </div>
               </div>
-              <div className="col-md-5 col-12  me-auto d-md-flex product--box justy-content-center mb-3">
-                <img
-                  className="img-fluid me-md-2 img-position"
-                  src={user}
-                  alt="nayan"
-                ></img>
-                <div className="icon-delete-position">
-                  <ul>
-                    <li>Name : asdfgh</li>
-                    <li>Product Code : rtx34</li>
-                    <li>Available Stock : 1234</li>
-                    <li>Minimum Stock : 25</li>
-                    <li>Minimum Price : ₹ 19980</li>
-                    <li>Description : loremloremloremlorem</li>
-                  </ul>
+              {/* box3 */}
+              <div className="col-md-5 col-12  mb-3">
+                <div className="d-md-flex product--box  icon-delete-position justy-content-center">
+                  <div>
+                    <img
+                      className="img-fluid me-md-2"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="">
+                    <ul>
+                      <li>Name : asdfgh</li>
+                      <li>Product Code : rtx34</li>
+                      <li>Available Stock : 1234</li>
+                      <li>Minimum Stock : 25</li>
+                      <li>Minimum Price : ₹ 19980</li>
+                      <li>Description : loremloremloremlorem</li>
+                    </ul>
 
-                  <i class="fa-solid fa-trash delete-icon"></i>
+                    <NavLink>
+                      <button className="btn btn-primary w-100">
+                        {" "}
+                        Delete Product
+                      </button>
+                    </NavLink>
+                  </div>
 
-                  <NavLink>
-                    <button className="btn btn-primary  ">
-                      {" "}
-                      Delete Product
-                    </button>
-                  </NavLink>
+                  <i class="fa-solid fa-trash delete-icon "></i>
                 </div>
               </div>
-              <div className="col-md-5 col-12 d-md-flex product--box justy-content-center mb-3">
-                <img className="img-fluid me-md-2" src={user} alt="nayan"></img>
-                <div className="icon-delete-position">
-                  <ul>
-                    <li>Name : asdfgh</li>
-                    <li>Product Code : rtx34</li>
-                    <li>Available Stock : 1234</li>
-                    <li>Minimum Stock : 25</li>
-                    <li>Minimum Price : ₹ 19980</li>
-                    <li>Description : loremloremloremlorem</li>
-                  </ul>
+              {/* box4 */}
+              <div className="col-md-5 col-12  mb-3">
+                <div className="d-md-flex product--box  icon-delete-position justy-content-center">
+                  <div>
+                    <img
+                      className="img-fluid me-md-2"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="">
+                    <ul>
+                      <li>Name : asdfgh</li>
+                      <li>Product Code : rtx34</li>
+                      <li>Available Stock : 1234</li>
+                      <li>Minimum Stock : 25</li>
+                      <li>Minimum Price : ₹ 19980</li>
+                      <li>Description : loremloremloremlorem</li>
+                    </ul>
 
-                  <i class="fa-solid fa-trash delete-icon"></i>
+                    <NavLink>
+                      <button className="btn btn-primary w-100">
+                        {" "}
+                        Delete Product
+                      </button>
+                    </NavLink>
+                  </div>
 
-                  <NavLink>
-                    <button className="btn btn-primary ">
-                      {" "}
-                      Delete Product
-                    </button>
-                  </NavLink>
+                  <i class="fa-solid fa-trash delete-icon "></i>
                 </div>
               </div>
-              <div className="col-md-5 col-12  me-auto d-md-flex product--box justy-content-center mb-3">
-                <img
-                  className="img-fluid me-md-2 img-position"
-                  src={user}
-                  alt="nayan"
-                ></img>
-                <div className="icon-delete-position">
-                  <ul>
-                    <li>Name : asdfgh</li>
-                    <li>Product Code : rtx34</li>
-                    <li>Available Stock : 1234</li>
-                    <li>Minimum Stock : 25</li>
-                    <li>Minimum Price : ₹ 19980</li>
-                    <li>Description : loremloremloremlorem</li>
-                  </ul>
+              {/* box 5 */}
+              <div className="col-md-5 col-12  mb-3">
+                <div className="d-md-flex product--box  icon-delete-position justy-content-center">
+                  <div>
+                    <img
+                      className="img-fluid me-md-2"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="">
+                    <ul>
+                      <li>Name : asdfgh</li>
+                      <li>Product Code : rtx34</li>
+                      <li>Available Stock : 1234</li>
+                      <li>Minimum Stock : 25</li>
+                      <li>Minimum Price : ₹ 19980</li>
+                      <li>Description : loremloremloremlorem</li>
+                    </ul>
 
-                  <i class="fa-solid fa-trash delete-icon"></i>
+                    <NavLink>
+                      <button className="btn btn-primary w-100">
+                        {" "}
+                        Delete Product
+                      </button>
+                    </NavLink>
+                  </div>
 
-                  <NavLink>
-                    <button className="btn btn-primary  ">
-                      {" "}
-                      Delete Product
-                    </button>
-                  </NavLink>
+                  <i class="fa-solid fa-trash delete-icon "></i>
                 </div>
               </div>
-              <div className="col-md-5 col-12 d-md-flex product--box justy-content-center mb-3">
-                <img className="img-fluid me-md-2" src={user} alt="nayan"></img>
-                <div className="icon-delete-position">
-                  <ul>
-                    <li>Name : asdfgh</li>
-                    <li>Product Code : rtx34</li>
-                    <li>Available Stock : 1234</li>
-                    <li>Minimum Stock : 25</li>
-                    <li>Minimum Price : ₹ 19980</li>
-                    <li>Description : loremloremloremlorem</li>
-                  </ul>
+              {/* box 6 */}
+              <div className="col-md-5 col-12  mb-3">
+                <div className="d-md-flex product--box  icon-delete-position justy-content-center">
+                  <div>
+                    <img
+                      className="img-fluid me-md-2"
+                      src={user}
+                      alt="nayan"
+                    ></img>
+                  </div>
+                  <div className="">
+                    <ul>
+                      <li>Name : asdfgh</li>
+                      <li>Product Code : rtx34</li>
+                      <li>Available Stock : 1234</li>
+                      <li>Minimum Stock : 25</li>
+                      <li>Minimum Price : ₹ 19980</li>
+                      <li>Description : loremloremloremlorem</li>
+                    </ul>
 
-                  <i class="fa-solid fa-trash delete-icon"></i>
+                    <NavLink>
+                      <button className="btn btn-primary w-100">
+                        {" "}
+                        Delete Product
+                      </button>
+                    </NavLink>
+                  </div>
 
-                  <NavLink>
-                    <button className="btn btn-primary ">
-                      {" "}
-                      Delete Product
-                    </button>
-                  </NavLink>
+                  <i class="fa-solid fa-trash delete-icon "></i>
                 </div>
               </div>
             </div>

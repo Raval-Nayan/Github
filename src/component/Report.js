@@ -70,7 +70,7 @@ const Report = () => {
                     >
                       <Form.Control
                         type="Date"
-                        placeholder="Password"
+                        placeholder=""
                         className="color-dates"
                       />
                     </FloatingLabel>
@@ -82,7 +82,7 @@ const Report = () => {
                     >
                       <Form.Control
                         type="Date"
-                        placeholder="Password"
+                        placeholder="."
                         className="color-dates"
                       />
                     </FloatingLabel>

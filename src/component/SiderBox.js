@@ -23,8 +23,8 @@ const SiderBox = () => {
         {/* ul,li flex-column */}
         <ul className="d-flex flex-column  ">
           <li className="uls-style gx-0">
-            <NavLink to="/" className="nav-link  ">
-              <button className="btn icon  d-md-flex  w-100">
+            <NavLink to="/dashbord" className="nav-link  ">
+              <button className="btn btn-color icon  d-md-flex  w-100">
                 <i className="fa-solid fa-house mt-1"></i>
                 <span className=" li-text ms-md-4">Home</span>
               </button>

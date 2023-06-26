@@ -9,6 +9,8 @@ import "../css/dashbord.css";
 import "../css/order.css";
 import "../css/addproduct.css";
 // import { NavLink } from "react-bootstrap";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
 
 const AddProduct = () => {
   return (
@@ -69,53 +71,95 @@ const AddProduct = () => {
                   </div>
 
                   <form>
-                    <input
-                      type="text"
-                      placeholder="  Product Name"
-                      className="inputdesign mt-2 w-100  productname-color "
-                    ></input>
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Product Name"
+                      className="me-5  my-md-0 w-100"
+                    >
+                      <Form.Control
+                        type="text"
+                        placeholder="."
+                        className=""
+                        style={{ backgroundColor: "#D3E0FF " }}
+                      />
+                    </FloatingLabel>
 
-                    <input
-                      type="number"
-                      placeholder=" Product Code"
-                      className="inputdesign mt-2 w-100"
-                    ></input>
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Product Code"
+                      className="me-5  my-2 w-100 "
+                    >
+                      <Form.Control
+                        type="text"
+                        placeholder="."
+                        className="height-input"
+                      />
+                    </FloatingLabel>
 
-                    <input
-                      type="number"
-                      placeholder="  Product Price"
-                      className="inputdesign mt-2 w-100"
-                    ></input>
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Product Price"
+                      className="me-5  my-2 w-100 "
+                    >
+                      <Form.Control
+                        type="number"
+                        placeholder="."
+                        className="height-input"
+                      />
+                    </FloatingLabel>
                   </form>
                 </div>
-                <div className="col-md-4 col-10  mt-md-5 me-md-5">
+                <div className="col-md-4 col-10  mt-md-5 me-md-4 me-0">
                   <div className="phone-design d-flex flex-column me-md-auto    my-md-5 ">
-                    <input
-                      type="number"
-                      placeholder="  Minimum Selling Price"
-                      className="inputdesign mt-2"
-                    ></input>
-                    <input
-                      type="number"
-                      placeholder="  Product Stock"
-                      className="inputdesign mt-2"
-                    ></input>
-                    <input
-                      type="number"
-                      placeholder=" Minimum Stock"
-                      className="inputdesign mt-2"
-                    ></input>
-                    <textarea
-                      className="mt-2 text-area"
-                      id="story"
-                      name="story"
-                      rows="5"
-                      cols="33"
-                      placeholder="  Description :"
-                    ></textarea>
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label=" Minimum Selling Price"
+                      className="me-5  my-1 w-100 "
+                    >
+                      <Form.Control
+                        type="number"
+                        placeholder="."
+                        className="height-input"
+                      />
+                    </FloatingLabel>
+
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label=" Product Stock"
+                      className="me-5  my-1 w-100 "
+                    >
+                      <Form.Control
+                        type="number"
+                        placeholder="."
+                        className="height-input"
+                      />
+                    </FloatingLabel>
+
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="  Minimum Stock"
+                      className="me-5  my-1 w-100 "
+                    >
+                      <Form.Control
+                        type="number"
+                        placeholder="."
+                        className="height-input"
+                      />
+                    </FloatingLabel>
+
+                    <FloatingLabel
+                      controlId="floatingTextarea2"
+                      label="Description :"
+                    >
+                      <Form.Control
+                        as="textarea"
+                        placeholder="."
+                        style={{ height: "100px" }}
+                      />
+                    </FloatingLabel>
                     <NavLink to="/productdetails">
                       <button
-                        className="btn btn-sucess mt-5 w-100 mb-3"
+                        className="btn btn-sucess mt-4 w-100 mb-3"
                         style={{ color: "white " }}
                       >
                         <span style={{ color: "white", fontFamily: "Poppins" }}>

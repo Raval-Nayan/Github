@@ -83,19 +83,25 @@ const ChatBox = () => {
                           Hiii, I'm good.
                         </p>
                       </div>
-                      <img
-                        src={cd}
-                        alt="avatar 1"
-                        style={{ width: "45px", height: "100%" }}
-                      />
+                      <div className="cd-posi">
+                        <img
+                          src={cd}
+                          alt="avatar 1"
+                          style={{ width: "45px", height: "100%" }}
+                        />
+                        <span className="cd-absu">CD</span>
+                      </div>
                     </div>
 
                     <div className="d-flex flex-row justify-content-start mb-4">
-                      <img
-                        src={we}
-                        alt="avatar 1"
-                        style={{ width: "45px", height: "100%" }}
-                      />
+                      <div className="we-position">
+                        <img
+                          src={we}
+                          alt="avatar 1"
+                          style={{ width: "45px", height: "100%" }}
+                        />
+                        <span className="we-absu">WE</span>
+                      </div>
                       <div>
                         <p
                           className="small p-2 ms-3 mb-1 rounded-3 bg-color2"
@@ -104,24 +110,24 @@ const ChatBox = () => {
                           Okay
                         </p>
 
-                        <p className="small ms-3 mb-3 rounded-3 text-muted">
+                        {/* <p className="small ms-3 mb-3 rounded-3 text-muted">
                           00:07
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
                   <div className="card-footer text-muted d-flex justify-content-start align-items-center p-3">
                     <input
                       type="text"
-                      className="form-control form-control-lg"
+                      className="form-control form-control-lg input-msg"
                       id="exampleFormControlInput1"
                       placeholder="Type message"
                     />
 
                     <NavLink className="ms-3">
-                      <button className="btn btn-primary d-flex ">
-                        <span className="me-2">SEND</span>{" "}
-                        <i className="fas fa-paper-plane"></i>
+                      <button className="btn btn-primary w-100 d-flex ">
+                        SEND
+                        <i className="fas fa-paper-plane ms-1"></i>
                       </button>
                     </NavLink>
                   </div>

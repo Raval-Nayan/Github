@@ -1,3 +1,7 @@
+.input#floatingPassword {
+  height: 20px !important;
+}
+
 .uplode-back-color {
   background-image: url("../img/Rectangle\ 50.png");
   background-size: cover;

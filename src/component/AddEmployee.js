@@ -7,6 +7,8 @@ import user from "../img/user.png";
 import { NavLink } from "react-router-dom";
 import "../css/dashbord.css";
 import "../css/order.css";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
 // import { NavLink } from "react-bootstrap";
 
 const AddEmployee = () => {
@@ -70,17 +72,32 @@ const AddEmployee = () => {
                         </h6>
                       </div>
                     </div>
-                    <input
-                      type="text"
-                      className="form-control "
-                      placeholder="Employee Name"
-                    ></input>
 
-                    <input
-                      type="text"
-                      placeholder="Employee Designation"
-                      className="inputdesign mt-2"
-                    ></input>
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Employee Name"
+                      className="me-5  my-md-0 w-100"
+                    >
+                      <Form.Control
+                        type="text"
+                        placeholder="."
+                        className=""
+                        style={{ backgroundColor: "#D3E0FF " }}
+                      />
+                    </FloatingLabel>
+
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Employee Designation"
+                      className=" me-5 color-dates my-md-0 w-100"
+                    >
+                      <Form.Control
+                        type="text"
+                        placeholder="."
+                        className="my-2"
+                      />
+                    </FloatingLabel>
+
                     <div className="">
                       <input
                         type="date"
@@ -93,37 +110,80 @@ const AddEmployee = () => {
                 </div>
                 <div className="col-md-4 col-10 me-md-5">
                   <div className="phone-design d-flex flex-column me-md-auto    my-md-5 ">
-                    <input
-                      type="text"
-                      placeholder="Address"
-                      className="inputdesign mt-2"
-                    ></input>
-                    <input
-                      type="emial"
-                      placeholder="Email Id"
-                      className="inputdesign mt-2"
-                    ></input>
-                    <input
-                      type="number"
-                      placeholder="Contact Number"
-                      className="inputdesign mt-2"
-                    ></input>
-                    <input
-                      type="text"
-                      placeholder="Education"
-                      className="inputdesign mt-2"
-                    ></input>
-                    <div className="ms-5">
-                      <input
-                        type="password"
-                        className="form-control mt-2 w-75"
-                        placeholder="password"
-                      ></input>
-                      <input
-                        type="password"
-                        className="form-control mt-2 w-75 "
-                        placeholder="Re-password"
-                      ></input>
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Address"
+                      className="me-2 my-1  my-md-0 w-100"
+                    >
+                      <Form.Control type="text" placeholder="." className="" />
+                    </FloatingLabel>
+
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Email"
+                      className="me-2 my-1 my-md-0 w-100"
+                    >
+                      <Form.Control
+                        type="email"
+                        placeholder="."
+                        className="my-1"
+                      />
+                    </FloatingLabel>
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Contact Number"
+                      className="me-2 my-1  my-md-0 w-100"
+                    >
+                      <Form.Control
+                        type="number"
+                        placeholder="."
+                        className="my-1"
+                      />
+                    </FloatingLabel>
+                    <FloatingLabel
+                      controlId="floatingPassword"
+                      label="Education"
+                      className="me-2 my-1 my-md-0 w-100"
+                    >
+                      <Form.Control
+                        type="text"
+                        placeholder="."
+                        className="my-2"
+                      />
+                    </FloatingLabel>
+                    <div className=" ">
+                      <div className="eye-emp-postion">
+                        <FloatingLabel
+                          controlId="floatingPassword"
+                          label="Password"
+                          className=""
+                        >
+                          <Form.Control
+                            type="Password"
+                            placeholder="."
+                            className="my-1 lable-pass"
+                            style={{ backgroundColor: "#3E5673" }}
+                          />
+                        </FloatingLabel>
+
+                        <i className="fa-regular fa-eye-slash eye-set"></i>
+                      </div>
+                      <div className="eye-emp-postion">
+                        <FloatingLabel
+                          controlId="floatingPassword"
+                          label="Re-Password"
+                          className=""
+                        >
+                          <Form.Control
+                            type="Password"
+                            placeholder="."
+                            className="my-1"
+                            style={{ backgroundColor: "#3E5673" }}
+                          />
+                        </FloatingLabel>
+
+                        <i className="fa-regular fa-eye-slash eye-set"></i>
+                      </div>
                     </div>
                     <NavLink to="/empprofile">
                       <button

@@ -7,9 +7,9 @@ const OrderPro = () => {
     <>
       <div className="order-product-card">
         {/* row1 */}
-        <div className="row  justify-content-center  gap-3  ms  mt-3">
+        <div className="row  justify-content-center  gap-3  ">
           <div className="col-md-5  col-sm-7 color-innnn me-md-5 mb-4 mb-md-0 ">
-            <div className="row ">
+            <div className="row  ">
               <div className="col-lg-5 col-12  ">
                 {" "}
                 <img className="img-fluid" src={image} alt="nayan"></img>

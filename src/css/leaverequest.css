@@ -48,7 +48,10 @@
   color: white !important;
 }
 
-
+.btn-green {
+  background-color: #71c1ad !important;
+  color: white !important;
+}
 
 .btn-light:active {
   background-color: #091f57 !important;

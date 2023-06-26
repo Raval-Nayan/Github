@@ -1,6 +1,44 @@
 .bg-color {
   background-color: #3b968a !important;
 }
+.cd-absu {
+  position: absolute;
+
+  color: white;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  align-items: center;
+}
+.we-position {
+  position: relative !important;
+}
+
+.we-absu {
+  position: absolute;
+  color: white;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+  align-items: center;
+}
+.input-msg {
+  border: 2px solid black !important;
+}
+
+.cd-posi {
+  position: relative;
+}
 
 .bg-color2 {
   background-color: #0c1947;

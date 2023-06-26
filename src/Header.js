@@ -2,6 +2,7 @@ import React from "react";
 import "./css/header.css";
 
 import { Navbar, Nav } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
 function Nav1() {
   return (
@@ -9,31 +10,31 @@ function Nav1() {
       {/* navbar */}
       <Navbar expand="lg" className=" border-bottom-3 h-box">
         <div className="container-fluid">
-          <Navbar.Brand href="#" className="brand w-50">
+          <NavLink to="/" className="brand w-50 nav-link">
             <span className="care-fore-head "> CARE FOR EACH</span>
-          </Navbar.Brand>
+          </NavLink>
           <Navbar.Toggle aria-controls="navbarNavAltMarkup" />
           <Navbar.Collapse id="navbarNavAltMarkup">
             <Nav className="navbar-nav  align-items-center space">
-              <Nav.Link to="#" className="me-3  ">
+              <NavLink to="/" className="me-3 nav-link ">
                 <span className="li-text" style={{ display: "block" }}>
                   Home
                 </span>
-              </Nav.Link>
-              <Nav.Link href="#" className=" ">
+              </NavLink>
+              <NavLink to="/contact" className="nav-link ">
                 <span className="li-text " style={{ display: "block" }}>
                   Contact us
                 </span>
-              </Nav.Link>
+              </NavLink>
 
-              <Nav.Link href="#" className=" w-60">
+              <NavLink to="/dashbord" className=" w-60">
                 <button
                   className="btn btn-primary    "
                   style={{ width: "130px" }}
                 >
                   Log in
                 </button>
-              </Nav.Link>
+              </NavLink>
             </Nav>
           </Navbar.Collapse>
         </div>
