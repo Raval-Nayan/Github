@@ -37,7 +37,7 @@ const AddEmployee = () => {
               >
                 Add Employee
               </h2>
-              <div className="d-md-flex  w-25  ">
+              <div className="d-flex width----drop ">
                 {/* btn 1  */}
 
                 <select className=" select-box w-100 h-50">
@@ -47,7 +47,7 @@ const AddEmployee = () => {
                   <option className="option-box">Today</option>
                 </select>
 
-                <select className=" select-box ms-md-2 w-100 h-50">
+                <select className=" select-box ms-2 w-100 h-50">
                   <option className="option-box">abc</option>
                   <option className="option-box">def</option>
                   <option className="option-box">ghi</option>
@@ -90,6 +90,7 @@ const AddEmployee = () => {
                       controlId="floatingPassword"
                       label="Employee Designation"
                       className=" me-5 color-dates my-md-0 w-100"
+                      style={{ fontSize: "12px" }}
                     >
                       <Form.Control
                         type="text"

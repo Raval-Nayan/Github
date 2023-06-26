@@ -60,9 +60,9 @@ const ProductDetails = () => {
           {/* div grid banavo */}
 
           <div className="color-white">
-            <div className="row gx-0 gap-4 justify-content-center">
+            <div className="row gx-0 gap-3 justify-content-center">
               {/* box 1 */}
-              <div className="col-md-5 col-12  mb-3">
+              <div className="col-md-5 col-12  ">
                 <div className="d-md-flex product--box  icon-delete-position justy-content-center">
                   <div>
                     <img
@@ -94,7 +94,7 @@ const ProductDetails = () => {
               </div>
 
               {/* box2 */}
-              <div className="col-md-5 col-12  mb-3">
+              <div className="col-md-5 col-12  ">
                 <div className="d-md-flex product--box  icon-delete-position justy-content-center">
                   <div>
                     <img
@@ -125,7 +125,7 @@ const ProductDetails = () => {
                 </div>
               </div>
               {/* box3 */}
-              <div className="col-md-5 col-12  mb-3">
+              <div className="col-md-5 col-12  ">
                 <div className="d-md-flex product--box  icon-delete-position justy-content-center">
                   <div>
                     <img
@@ -156,7 +156,7 @@ const ProductDetails = () => {
                 </div>
               </div>
               {/* box4 */}
-              <div className="col-md-5 col-12  mb-3">
+              <div className="col-md-5 col-12  ">
                 <div className="d-md-flex product--box  icon-delete-position justy-content-center">
                   <div>
                     <img

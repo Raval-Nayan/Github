@@ -59,8 +59,8 @@ const VisitorDetails = () => {
             {/* div grid banavo */}
 
             <div className="color-white p-5">
-              <div className="row part-2 p-md-5">
-                <div className="col-md-5 mt-4 ">
+              <div className="row part-2 p-lg-5">
+                <div className="col-lg-5 mt-4 ">
                   <div className="text-center">
                     {" "}
                     <img className="img-fluid " src={user} alt="nayan"></img>
@@ -107,7 +107,7 @@ const VisitorDetails = () => {
                     </FloatingLabel>
                   </form>
                 </div>
-                <div className="col-md-5 mt-lg-5 ">
+                <div className="col-lg-5 mt-lg-5 ">
                   <FloatingLabel
                     controlId="floatingInput"
                     label="date"

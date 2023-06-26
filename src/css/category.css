@@ -81,6 +81,14 @@ h5 {
   .side-button {
     width: 40px;
   }
+  .add-btn-category {
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+
+    background-color: #091f57 !important;
+    color: white !important;
+  }
 
   .category-box-white {
     padding: 0px;

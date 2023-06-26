@@ -38,20 +38,20 @@ const AddNewCategory = () => {
 
             <div className="category-box-white">
               <div className="row justify-content-center ">
-                <div className="col-ms-10 col-12  category-name  mt-3">
-                  <h5 className="m-0 ms-2">Category Name</h5>
-                  <h5 className="m-0 me-2">GST %</h5>
+                <div className="col-ms-10 col-12  category-name  mt-1">
+                  <h5 className="m-0 ms-1">Category Name</h5>
+                  <h5 className="m-0 me-1">GST %</h5>
                 </div>
               </div>
 
               <div className="m-4">
                 <div className="row justify-content-center ">
                   <div className="col-sm-9 m-3  addcategory">
-                    <div className="col-sm-8 m-auto mt-2">
+                    <div className="col-sm-8 m-auto mt-1">
                       <FloatingLabel
                         controlId="floatingInput"
                         label="Enter Category Name "
-                        className="my-3  "
+                        className="my-2  "
                       >
                         <Form.Control
                           type="text"
@@ -64,7 +64,7 @@ const AddNewCategory = () => {
                       <FloatingLabel
                         controlId="floatingInput"
                         label="ADD GST % "
-                        className="my-3  "
+                        className="my-1  "
                       >
                         <Form.Control
                           type="text"
