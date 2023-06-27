@@ -55,7 +55,7 @@ const Section = () => {
                 <div className="width-part">
                   <img className=" img-fluid " src={img3} alt="nayan"></img>{" "}
                 </div>
-                <div className="part">
+                <div className="width-part">
                   <h5 className=" text-section">Employee</h5>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const Section = () => {
           <NavLink to="/visitor" className="nav-link">
             <div className="boxs-style">
               <div className="section-item-flex">
-                <div className="part">
+                <div className="width-part">
                   <img className="img-fluid" src={img4} alt="nayan"></img>
                 </div>
                 <div className="width-part">
