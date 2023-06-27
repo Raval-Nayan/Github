@@ -119,7 +119,10 @@ const SiderBox = () => {
               <button className="btn icon btn-color   d-md-flex w-100">
                 <i className="fa-regular fa-folder-open mt-1 "></i>
 
-                <span className="li-text  ms-md-3"> sub Category</span>
+                <span className="li-text  ms-md-3" style={{ fontSize: "12px" }}>
+                  {" "}
+                  sub Category
+                </span>
               </button>
             </NavLink>{" "}
           </li>
@@ -129,7 +132,9 @@ const SiderBox = () => {
             <NavLink to="/leaverequest" className="nav-link">
               <button className="btn icon btn-color   d-md-flex w-100">
                 <i className="fa-regular fa-folder-open mt-1 "></i>
-                <span className="li-text  ms-md-3">Leave request</span>
+                <span className="li-text  ms-md-3" style={{ fontSize: "12px" }}>
+                  Leave request
+                </span>
               </button>
             </NavLink>{" "}
           </li>
