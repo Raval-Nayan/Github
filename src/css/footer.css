@@ -94,6 +94,9 @@ p {
     font-family: "Poppins";
     margin-top: 10px;
   }
+  .footer-text-care {
+    font-size: 0.5rem;
+  }
 }
 
 @media (max-width: 570px) {
