@@ -108,7 +108,11 @@ h5 {
     text-align: center !important;
     margin: auto !important;
   }
-
+  .width-part {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
   .boxs-style {
     padding: 2px;
   }
