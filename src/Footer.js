@@ -44,7 +44,7 @@ const Footer = () => {
           </ul>
 
           <img
-            className="img-fluid"
+            className=""
             src={vactor}
             alt="nayan"
             style={{ width: "100vw" }}
